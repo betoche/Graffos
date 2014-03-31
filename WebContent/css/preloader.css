@@ -1,0 +1,173 @@
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color:#0173bc;
+	z-index:9999;
+	color: #fff;
+}
+/*container*/
+.container_preloader {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width:150px;
+	height: 139px;
+}
+.container_preloader > div{
+	margin: 0 auto;
+}
+
+.grafito_preloader{
+	width: 105px;
+	height: 102px;
+	background-image: url('../images/graffito-pet.png');
+	background-repeat: none;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+
+/*text*/
+.container_preloader .loading_text{
+	font-family: 'ostrich';
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-animation: loading_text 1s infinite; /* Safari 4+ */
+	-moz-animation:    loading_text 1s infinite; /* Fx 5+ */
+	-o-animation:      loading_text 1s infinite; /* Opera 12+ */
+	animation:         loading_text 1s infinite; /* IE 10+ */
+}
+@-webkit-keyframes loading_text {
+	0%   { opacity: 0; }
+	50% { opacity: 1; }
+	100%   { opacity: 0; }
+}
+@-moz-keyframes loading_text {
+	0%   { -moz-opacity: 0; }
+	50% { -moz-opacity: 1; }
+	100%   { -moz-opacity: 0; }
+}
+@-o-keyframes loading_text {
+	0%   {  opacity: 0; }
+	50% {  opacity: 1; }
+	100%   {  opacity: 0; }
+}
+@keyframes loading_text {
+	0%   { opacity: 0; }
+	50% { opacity: 1; }
+	100%   { opacity: 0; }
+}
+
+@-ms-keyframes loading_text {
+	0%   { filter: alpha(opacity=0); opacity: 0; }
+	50% { filter: alpha(opacity=100); opacity: 1; }
+	100%   { filter: alpha(opacity=0); opacity: 0; }
+}
+
+
+@media (min-width: 900px), (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	
+	.container_preloader {
+		height: 250px;
+	}
+	
+	.container_preloader .spinner {
+		/*margin-bottom: 0px;*/
+		height: 40px;
+		width: 40px;
+		/*background-image: none;*/
+		-webkit-animation: rotate 2.0s infinite linear;
+		animation: rotate 2.0s infinite linear;
+		position: relative;
+		text-align: center;
+	}
+
+	.dot1, .dot2 {
+		width: 60%;
+		height: 60%;
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		background-color: #fff;
+		border-radius: 100%;
+		-webkit-animation: bounce 2.0s infinite ease-in-out;
+		animation: bounce 2.0s infinite ease-in-out;
+	}
+
+	.dot2 {
+		top: auto;
+		bottom: 0px;
+		-webkit-animation-delay: -1.0s;
+		animation-delay: -1.0s;
+	}
+
+	@-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg) }}
+	@keyframes rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+	@-webkit-keyframes bounce {
+		0%, 100% { -webkit-transform: scale(0.0) }
+		50% { -webkit-transform: scale(1.0) }
+	}
+
+	@keyframes bounce {
+		0%, 100% { 
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+		} 50% { 
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		}
+	}
+	.grafito_preloader{
+		width: 150px;
+		height: 171px;
+		background-image: url('../images/graffito-pet_sm.svg');
+		-webkit-animation: grafito 0.4s ease-in; /* Safari 4+ */
+		-moz-animation:    grafito 0.6s ease-in; /* Fx 5+ */
+		-o-animation:      grafito 0.4s ease-in; /* Opera 12+ */
+		animation:         grafito 0.6s ease-in; /* IE 10+ */
+	}
+	@-webkit-keyframes grafito {
+		0%   { -webkit-transform: scale(0); opacity: 0; }
+		90%   { -webkit-transform: scale(1.2); }
+		100% { -webkit-transform: scale(1); opacity: 1; }
+	}
+	@-moz-keyframes grafito {
+		0%   { -moz-transform: scale(0); -moz-opacity: 0; }
+		90%   { -moz-transform: scale(1.2); }
+		100% { -moz-transform: scale(1); -moz-opacity: 1; }
+	}
+	@-o-keyframes grafito {
+		0%   { -o-transform: scale(0); opacity: 0; }
+		90%   { -o-transform: scale(1.2); }
+		100% { -o-transform: scale(1); opacity: 1; }
+	}
+	@keyframes grafito {
+		0%   { transform: scale(0); opacity: 0; }
+		90%   { transform: scale(1.2); }
+		100% { transform: scale(1); opacity: 1; }
+	}
+
+	@-ms-keyframes grafito {
+		0%   { -ms-transform: scale(0); filter: alpha(opacity=0); opacity: 0; }
+		90%   { -ms-transform: scale1.2); }
+		100% { -ms-transform: scale(1); filter: alpha(opacity=100); opacity: 1; }
+	}
+
+	/*text*/
+	.container_preloader .loading_text{
+		margin-top: 0px;
+	}
+}

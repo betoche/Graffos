@@ -1,0 +1,57 @@
+/*defaults*/
+/*logo&Pet*/
+/*pet*/
+.header .pet{
+	display: inline-block;
+}
+.header .pet  > div{
+	position: absolute;
+	left: 15px;
+	width: 66px;
+	height: 57px;
+	background-image: url('../images/graffito-pet_sm.png');
+	background-repeat: no-repeat;
+	top:0;
+}
+/*logo*/
+.header .logo_container{
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+/*fixed div*/
+/*socialnetwork*/
+.socialnetwork a{
+	width: 18%;
+}
+
+
+/*general styles*/
+/*title padifico*/
+.normal_size{
+	font-size: 14px;
+	line-height: auto;
+}
+.title.museo{
+	font-size: 50px;
+	line-height: 45px;
+}
+.title.pacifico{
+	font-size: 35px;
+	line-height: 40px;
+}
+.title{
+	padding: 10px;
+}
+.description{
+	line-height: 20px;
+	padding: 10px;
+	text-align: justify;
+	font-size: 14px
+}
+/*welcome description*/
+.hello .description{
+	font-size: 18px;
+	line-height: 20px;
+}

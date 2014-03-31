@@ -1,0 +1,18 @@
+/*header*/
+.header{
+	text-align: left;
+}
+.header > div{
+	width: auto;
+}
+.header .logo_container{
+	text-align: left;
+	margin-left: 80px;
+}
+
+
+/*social network*/
+/*fixed*/
+.socialnetwork a {
+	max-width: 80px;
+}

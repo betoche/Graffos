@@ -1,0 +1,24 @@
+.cms .middle_container > .middle_cell{
+	padding: 20px 0px 90px;
+}
+
+/*title*/
+.title.museo {
+	font-size: 65px;
+	line-height: 60px;
+}
+
+/*icons*/
+.icons_cms > div{
+	width: 50px;
+	height: 50px;
+}
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms_landscape.png');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms_landscape.png');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms_landscape.png');
+}

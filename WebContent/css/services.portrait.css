@@ -1,0 +1,55 @@
+/*ux/ui*/
+
+
+
+.cms .title, .cms .description{
+	z-index: 1;
+	position: relative;
+}
+.cms .middle_container > .middle_cell{
+	padding: 40px 0px 80px;
+}
+
+/*background*/
+.bck_img.bck_hand:before{
+	background-image: url('../images/bck_cms_portrait.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: right bottom;
+	max-width: 240px;
+	max-height: 359px;
+	bottom: 35px;
+	top: auto;
+	left: auto;
+	right: 0;
+	z-index: 1;
+}
+
+
+/*icons*/
+.icons_cms{
+	padding: 30px 0px;
+}
+.icons_cms > div{
+	width: 40px;
+	height: 40px;
+	margin: 0px 5px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms_portrait.png');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms_portrait.png');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms_portrait.png');
+}

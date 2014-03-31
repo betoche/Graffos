@@ -1,0 +1,16 @@
+.cms .middle_container > .middle_cell {
+	padding: 20px 0px 50px;
+}
+
+.title.museo {
+	margin-top: -50px;
+}
+
+/*background*/
+.bck_img.bck_hand:before{
+	background-image: url('../images/bck_cms_web.png');/*change*/
+	/*background size*/
+	max-width: 400px;
+	max-height: 492px;
+	bottom: 0px;
+}

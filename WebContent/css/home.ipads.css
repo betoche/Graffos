@@ -1,0 +1,43 @@
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 80%;
+}
+.hello .description{
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/*mision*/
+.mision > div > div {
+	min-width: 290px;
+}
+
+/*about us*/
+.about_container .question_container > div{
+	min-width: 270px;
+}
+
+/*images*/
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	/*background size*/
+	background-image: url('../images/bck_graffito_ipad.png');
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+	max-width: 550px;
+	height: 604px;
+	bottom: auto;
+}
+
+/*about*/
+.body .about_container{
+	background-image: url('../images/bck_about_ipad.jpg');
+}
+
+/*founders*/
+.bck_img.bck_founders{
+	background-image: url('../images/bck_founders_ipad.jpg');
+}

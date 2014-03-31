@@ -1,0 +1,120 @@
+/*default*/
+input[type*="text"],input[type*="textarea"],input[type*="date"],input[type*="text"],input[type*="password"],textarea,input[type*="email"]{
+	/*transition*/
+	-moz-transition: all 0.3s ease !important;
+	-webkit-transition: all 0.3s ease !important;
+	-o-transition: all 0.3s ease !important;
+	transition: all 0.3s ease !important;
+}
+body,html,.container{
+	height: auto;
+}
+
+
+/*center page*/
+/*vertical align*/
+.container,.subscribe{
+	display: block;
+    margin: 0 auto;
+}
+/*cell*/
+.middle_cell,.subscribe > div{
+	display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*title*/
+.title{
+	text-align: left;
+}
+
+
+/*container*/
+.container{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+	width: 200px;
+}
+
+
+/*footer*/
+.footer{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+/*transitions*/
+.pet .clouds,.pet .body_pet{
+	/*transition*/
+	-moz-transition: all 0.3s ease !important;
+	-webkit-transition: all 0.3s ease !important;
+	-o-transition: all 0.3s ease !important;
+	transition: all 0.3s ease !important;
+}
+.pet .clouds:after{
+	left: 16px;
+	bottom: 16px;
+}
+.pet .clouds{
+	top: -50px;
+	right: -70px;
+	visibility: hidden;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	width: 130px;
+	height: 130px;
+	font-size: 15px;
+	padding: 35px 47px;
+}
+.pet:hover .clouds{
+	top: -80px;
+	visibility: visible;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+
+
+/*pet body*/
+.pet:hover .body_pet{
+	/*rotation*/
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+}
+/*pet*/
+.middle_cell  > .pet{
+	margin-top: 74px;
+}
+
+
+.subscribe{
+	width: 500px;
+	margin: 0;
+	display: inline-block;
+}
+
+
+/*size*/
+.pet .body_pet{
+	width: 200px;
+	height: 195px;
+}
+.pet .feet_pet{
+	width: 200px;
+	height: 64px;
+}
+.logo{
+	width: 200px;
+	height: 69px;
+}

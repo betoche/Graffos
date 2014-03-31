@@ -1,0 +1,67 @@
+/*home*/
+.lines{
+    display: inline-block;
+    width: 3px;
+    text-align: right;
+    position: relative;
+    vertical-align: bottom;
+}
+.lines > div{
+    -moz-transform: rotate(47deg);
+    -webkit-transform: rotate(47deg);
+    -o-transform: rotate(47deg);
+    -ms-transform: rotate(47deg);
+    transform: rotate(47deg);
+    border-right: 1px solid #fff;
+    position: absolute;
+}
+
+
+/*height and position*/
+
+/*mision*/
+.home .mision .lines.first{
+    float: left;
+}
+.home .mision .lines.first > div{
+    height: 200px;
+    top: -26px;
+    left: -10px;
+}
+.home .mision .lines.second{
+    float: left;
+    margin-left: 7px;
+}
+.home .mision .lines.second > div{
+    height: 120px;
+    top: -15px;
+    left: 25px;
+}
+
+/*founders*/
+.home .founders .lines > div{
+    height: 450px;
+    bottom: 0px;
+    left: 100px
+}
+.home .founders .lines{
+    position: absolute;
+}
+
+
+/*services*/
+/*cms*/
+.cms .lines{
+    position: absolute;
+}
+.cms .lines.bottom_line{
+    right: 0;
+}
+.cms .lines.top_line > div{
+    height: 160px;
+    top: -20px;
+    left: 50px;
+}
+.cms .lines.bottom_line > div{
+    display: none;
+}

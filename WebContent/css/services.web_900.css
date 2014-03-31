@@ -1,0 +1,12 @@
+.cms .content_cms{
+	padding-bottom: 60px;
+}
+/*background*/
+.bck_img.bck_hand:before{
+	background-image: url('../images/bck_cms_web.png');/*change*/
+	/*background size*/
+	max-width: 300px;
+	max-height: 369px;
+	right: -20px;
+	bottom: 35px;
+}

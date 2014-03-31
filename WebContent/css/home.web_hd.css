@@ -1,0 +1,70 @@
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 70%;
+	min-width: 550px;
+	max-width: 700px;
+}
+
+
+/*mision*/
+.mision > div > div{
+	width: 40%;
+	min-width: 400px;
+}
+
+
+/*about*/
+.about_container .question_container > div{
+	width: 40%;
+	min-width: 400px;
+}
+
+
+.about_container .question_container{
+	padding: 20px 140px;
+}
+
+
+/*founders*/
+.body > .founders{
+	padding: 40px;
+}
+
+
+/*lets share*/
+.body > div.last_div{
+	padding: 50px 20px 0px;
+}
+
+
+/*footer*/
+.social_contact > .container_social_contact{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.container_social_contact .title.pacifico {
+	font-size: 51px;
+	line-height: 56px;
+}
+
+
+/*images*/
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	/*background size*/
+	background-image: url('../images/bck_graffito_web_hd.png');
+	max-width: 1300px;
+	height: 1448px;
+}
+/*about*/
+.body .about_container{
+	background-image: url('../images/bck_about_webhd.jpg');
+}
+
+/*founders*/
+.bck_img.bck_founders{
+	background-image: url('../images/bck_founders_webhd.jpg');
+}

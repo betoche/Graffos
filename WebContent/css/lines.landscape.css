@@ -1,0 +1,33 @@
+/*height and position*/
+
+/*mision*/
+.home .mision .lines.first > div{
+	height: 230px;
+    top: -121px;
+    left: 23px;
+}
+.home .mision .lines.second > div{
+	height: 150px;
+    top: -110px;
+    left: 58px;
+}
+
+/*founders*/
+.home .founders .lines > div{
+    height: 500px;
+    left: 140px;
+    bottom: -116px
+}
+
+/*cms*/
+.cms .lines.top_line > div{
+    height: 200px;
+    top: -20px;
+    left: 60px;
+}
+.cms .lines.bottom_line > div{
+	height: 200px;
+	bottom: -60px;
+	right: 60px;
+    display: block;
+}

@@ -1,0 +1,24 @@
+.content_cms{
+	width: 80%;
+	max-width: 350px;
+}
+
+.title.museo {
+	font-size: 80px;
+	line-height: 70px;
+}
+
+/*icons*/
+.icons_cms > div {
+	width: 80px;
+	height: 80px;
+}
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms_ipad.png');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms_ipad.png');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms_ipad.png');
+}
