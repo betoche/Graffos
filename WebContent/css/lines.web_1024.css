@@ -1,0 +1,12 @@
+/*services*/
+/*ux/ui*/
+.ux_ui .lines.top_line > div {
+	height: 400px;
+	top: -250px;
+	left: 50px;
+}
+.ux_ui .lines.bottom_line > div {
+	height: 400px;
+	top: -190px;
+	right: 10px;
+}

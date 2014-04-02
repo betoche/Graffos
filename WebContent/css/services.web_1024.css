@@ -1,3 +1,4 @@
+/*cms*/
 .cms .middle_container > .middle_cell {
 	padding: 20px 0px 50px;
 }
@@ -13,4 +14,13 @@
 	max-width: 400px;
 	max-height: 492px;
 	bottom: 0px;
+}
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_web_1024.jpg');
+}
+.ux_ui .title.museo {
+	font-size: 100px;
+	line-height: 90px;
 }

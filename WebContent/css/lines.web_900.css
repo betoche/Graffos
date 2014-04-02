@@ -15,7 +15,7 @@
 /*founders*/
 .home .founders .lines > div{
     left: 217px;
-    bottom: -160px; 
+    bottom: -160px;
 }
 
 /*cms*/
@@ -28,4 +28,16 @@
 	height: 450px;
 	bottom: -150px;
 	right: -50px;
+}
+
+/*ux/ui*/
+.ux_ui .lines.top_line > div{
+	height: 350px;
+	top: -190px;
+	left: 10px;
+}
+.ux_ui .lines.bottom_line > div {
+	height: 350px;
+	top: -140px;
+	right: 30px;
 }
