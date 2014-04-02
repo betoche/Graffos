@@ -3,3 +3,8 @@
 	margin: 0 auto;
 	position: relative;
 }
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_landscape_480.jpg');
+}

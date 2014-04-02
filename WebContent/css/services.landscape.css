@@ -1,3 +1,4 @@
+/*cms*/
 .cms .middle_container > .middle_cell{
 	padding: 20px 0px 90px;
 }
@@ -21,4 +22,9 @@
 }
 .icons_cms > .down{
 	background-image: url('../images/ico_down_cms_landscape.png');
+}
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_landscape.jpg');
 }

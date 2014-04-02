@@ -28,3 +28,9 @@
     bottom: -60px;
     right: 50px;
 }
+
+/*ux/ui*/
+.ux_ui .lines.bottom_line > div{
+    top: -80px;
+    right: 50px
+}

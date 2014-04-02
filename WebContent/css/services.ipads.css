@@ -1,6 +1,9 @@
+.cms .content_cms{
+	max-width: 350px;
+}
+/*cms*/
 .content_cms{
 	width: 80%;
-	max-width: 350px;
 }
 
 .title.museo {
@@ -21,4 +24,17 @@
 }
 .icons_cms > .down{
 	background-image: url('../images/ico_down_cms_ipad.png');
+}
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_ipad.jpg');
+}
+.ux_ui .description{
+	width: 70%;
+	margin: 0 0 0 auto;
+}
+.ux_ui .content_cms{
+	width: 90%;
+	max-width: 480px;
 }
