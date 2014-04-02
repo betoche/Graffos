@@ -24,15 +24,15 @@
 	height: 20px;
 }
 .ux_ui .lines.top_line > div{
-	height: 300px;
-	top: -165px;
+	height: 350px;
+	top: -200px;
 	left: 20px;
 }
 .ux_ui .lines.bottom_line{
 	height: 70px;
 }
 .ux_ui .lines.bottom_line > div {
-	height: 300px;
-	top: -100px;
-	right: 60px;
+	height: 350px;
+	top: -70px;
+	right: 110px;
 }

@@ -5,6 +5,9 @@
 }
 
 /*ux/ui*/
+.ux_ui .content_cms{
+	width: 100%;
+}
 .bck_img.ux_ui:before{
 	background-image: url('../images/bck_ux_ui_landscape_480.jpg');
 }

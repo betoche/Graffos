@@ -30,7 +30,15 @@
 }
 
 /*ux/ui*/
+.ux_ui .lines.top_line{
+    height: 0px;
+}
+.ux_ui .lines.top_line > div{
+    height: 300px;
+    top: -175px;
+    left: 0px;
+}
 .ux_ui .lines.bottom_line > div{
-    top: -80px;
-    right: 50px
+    top: -70px;
+    right: 120px
 }

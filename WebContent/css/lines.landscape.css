@@ -35,18 +35,18 @@
 
 /*ux/ui*/
 .ux_ui .lines.top_line{
-    height: 80px;
+    height: 20px;
 }
 .ux_ui .lines.top_line > div{
     height: 250px;
-    top: -120px;
-    left: 70px
+    top: -145px;
+    left: 20px
 }
 .ux_ui .lines.bottom_line{
     right: 0;
 }
 .ux_ui .lines.bottom_line > div{
-    height: 250px;
-    top: -50px;
-    right: 70px
+    height: 350px;
+    top: -70px;
+    right: 120px;
 }
