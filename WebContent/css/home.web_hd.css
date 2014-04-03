@@ -1,9 +1,11 @@
-/*about*/
-.body .about_container{
-	background-image: url('../images/bck_about_webhd.jpg');
-}
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*about*/
+	.body .about_container{
+		background-image: url('../images/bck_about_webhd.jpg');
+	}
 
-/*founders*/
-.bck_img.bck_founders{
-	background-image: url('../images/bck_founders_webhd.jpg');
+	/*founders*/
+	.bck_img.bck_founders{
+		background-image: url('../images/bck_founders_webhd.jpg');
+	}
 }
