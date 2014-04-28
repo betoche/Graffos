@@ -2,7 +2,7 @@
 .header{
 	text-align: left;
 }
-.header > div{
+.container_header > div{
 	width: auto;
 }
 .header .logo_container{
@@ -15,4 +15,10 @@
 /*fixed*/
 .socialnetwork a {
 	max-width: 80px;
+}
+
+
+/*copyright*/
+.copyright{
+	text-align: right;
 }

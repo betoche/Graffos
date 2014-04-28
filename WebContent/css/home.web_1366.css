@@ -17,14 +17,19 @@
 	line-height: 70px;
 }
 
+
+/*our mission*/
+.mision > div{
+	max-width: 1069px;
+	margin: 0 auto;
+}
+
 /*images*/
 /*welcome*/
 /*background*/
 .bck_img.bck_graffito:before{
-	/*background size*/
-	background-image: url('../images/bck_graffito_web_1366.png');
-	max-width: 937px;
-	height: 1044px;
+	top: -100px;
+	max-width: 75%;
 }
 /*about*/
 .body .about_container{
@@ -32,6 +37,6 @@
 }
 
 /*founders*/
-.bck_img.bck_founders{
+.bck_founders{
 	background-image: url('../images/bck_founders_web1366.jpg');
 }

@@ -18,6 +18,18 @@
 	font-size: 35px;
 }
 
+/*founders*/
+.bck_founders{
+	background-image: url('../images/bck_founders_smportrait.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background size*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 /*circle*/
 .about_container .question_container .first_line{
 	position: relative;
@@ -41,92 +53,4 @@
 /*margin-top*/
 .about_container .question_container > .little_words{
 	margin-top: 15px;
-}
-
-
-/*footer*/
-/*meet up/share/chat*/
-.social_contact{
-	background: url('../images/pattern_share.png');
-	color: #fff;
-}
-/*circle*/
-.social_contact > .container_social_contact{
-	width: 160px;
-	height: 160px;
-	margin: 0 auto;
-}
-/*circles*/
-.circle{
-	background-image: url('../images/circle_sm.png');
-	/*background size*/
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: top center;
-}
-/*title*/
-.social_contact .title{
-	padding: 0px 0px 5px;
-}
-
-/*links*/
-.social_contact .icon_social a{
-	margin: 0px 5px;
-	font-size: 11px;
-	width: 30px;
-	vertical-align: top;
-}
-/*icons*/
-.social_contact .icon_social a:before{
-	content: "";
-	display: block;
-	width: 20px;
-	height: 19px;
-	margin: 0 auto 5px;
-	/*background size*/
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: top center;
-}
-.social_contact .icon_social .meet_up:before{
-	background-image: url('../images/meet_up_icon.png'); 
-}
-.social_contact .icon_social .chat:before{
-	background-image: url('../images/chat_icon.png'); 
-}
-.social_contact .icon_social .share:before{
-	background-image: url('../images/share_icon.png'); 
-}
-/*font-size*/
-.container_social_contact .title.pacifico {
-	font-size: 35px;
-	line-height: 40px;
-}
-
-
-/*plugins*/
-.share_plugins{
-	padding: 10px;
-}
-.social_contact .share_plugins{
-	margin-top: 15px;
-}
-
-
-/*copyright*/
-.copyright{
-	font-size: 10px;
-	color: #fff;
-	filter: alpha(opacity=50); 
-	-moz-opacity: 0.5; 
-	opacity: 0.5; 
-	text-align: center;
-	padding: 20px;
-	font-family: arial;
 }

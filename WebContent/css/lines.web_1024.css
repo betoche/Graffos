@@ -1,4 +1,42 @@
 /*services*/
+/*design*/
+.design .lines.top_line > div {
+	height: 400px;
+	left: -20px;
+	top: -130px;
+}
+.design .lines.bottom_line > div {
+	top: -120px;
+	right: 50px;
+	height: 400px;
+}
+/*text*/
+.design .lines.bottom_line {
+	margin-top: -10px;
+}
+.design .lines.bottom_line {
+	right: -50px;
+}
+.design .icon_element {
+	margin-top: 15px;
+}
+.design .icon_element .shape1 {
+	width: 60%;
+	max-width: 523px;
+}
+
+
+/*brand*/
+.brand .lines.top_line{
+	height: 20px;
+}
+.brand .lines.top_line > div {
+	height: 450px;
+	top: -300px;
+	left: 80px;
+}
+
+
 /*ux/ui*/
 .ux_ui .lines.top_line > div {
 	height: 400px;

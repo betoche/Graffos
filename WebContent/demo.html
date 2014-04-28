@@ -8,9 +8,11 @@
         <!-- <meta charset="utf-8"> -->
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
         <!-- detecting devices/removing zoom -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"/>
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+
 		 <!-- jquery librery -->
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<!-- preloader -->
@@ -110,7 +112,9 @@
 				});
 			});
 		</script>
+	
 	</head>
+
 	<body class="home">
 		<!-- preloader -->
 		<div id="preloader">
@@ -124,19 +128,22 @@
 				<div class="loading_text">Loading...</div>
 			</div>
 		</div>
+		
 		<div id="page">
 			<!-- header -->
 			<div id="header">
-				<div class="header inline_div">
-					<!-- pet -->
-					<div class="pet">
-						<div>
-							<div class="body_g"></div>
-							<div class="feet_g"></div>
+				<div class="header">
+					<div class="container_header inline_div">
+						<!-- pet -->
+						<div class="pet">
+							<div>
+								<div class="body_g"></div>
+								<div class="feet_g"></div>
+							</div>
 						</div>
+						<!-- logo -->
+						<div class="logo_container"><a href="index.html" class="logo"></a></div>
 					</div>
-					<!-- logo -->
-					<div class="logo_container"><a href="index.html" class="logo"></a></div>
 				</div>
 			</div>
 			<nav id="menu-right">
@@ -163,23 +170,25 @@
 				<div>
 					<a href="#menu-right" class="button" id="button_menu"><img src="images/menu_icon.png" alt="menu"></a>
 				</div>
-				<div class="hidden menu_container" id="menu">
-					<!-- categories -->
-					<div class="categories selected" id="categories">
-						<a class="services icon_menu">	services
-						</a>
-						<a href="" class="work icon_menu">works</a>
-						<a href="" class="about icon_menu">About us</a>
-						<a href="" class="news icon_menu">News</a>
-						<a href="" class="contact icon_menu">Contact us</a>
-						<!-- subcategories web -->
-						<div class="subcategories_web">
-							<div class="services_submenu cuts">
-								<a href="" class="left_bullet">design</a>
-								<a href="" class="left_bullet">Branding</a>
-								<a href="" class="left_bullet">web development</a>
-								<a href="" class="left_bullet">UI/UX</a>
-								<a href="cms.html" class="left_bullet">CMS</a>
+				<div class="menuweb_container">
+					<div class="hidden menu_container" id="menu">
+						<!-- categories -->
+						<div class="categories selected" id="categories">
+							<a class="services icon_menu">	services
+							</a>
+							<a href="" class="work icon_menu">works</a>
+							<a href="" class="about icon_menu">About us</a>
+							<a href="" class="news icon_menu">News</a>
+							<a href="" class="contact icon_menu">Contact us</a>
+							<!-- subcategories web -->
+							<div class="subcategories_web">
+								<div class="services_submenu cuts">
+									<a href="" class="left_bullet">design</a>
+									<a href="" class="left_bullet">Branding</a>
+									<a href="" class="left_bullet">web development</a>
+									<a href="" class="left_bullet">UI/UX</a>
+									<a href="cms.html" class="left_bullet">CMS</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -310,7 +319,7 @@
 					<div class="circle middle_container container_social_contact">
 						<div class="middle_cell">
 							<div class="title pacifico white_c yellow_c">
-								let's...
+								let's
 							</div>
 							<div class="icon_social">
 								<a href="" class="meet_up">meet up</a>
@@ -340,10 +349,10 @@
 					<div class="down_icon"></div>
 				</div>
 				<div class="socialnetwork">
-					<a href="#"><img src="images/fb_icon.png" alt="Facebook"></a>
-					<a href="#"><img src="images/tw_icon.png" alt="Twitter"></a>
-					<a href="#"><img src="images/intg_icon.png" alt="Instagram"></a>
-					<a href="#"><img src="images/in_icon.png" alt="Linkedin"></a>
+					<a href="#" class="facebook_icon"><img src="images/fb_icon.png" alt="Facebook"></a>
+					<a href="#" class="twitter_icon"><img src="images/tw_icon.png" alt="Twitter"></a>
+					<a href="#" class="instagram_icon"><img src="images/intg_icon.png" alt="Instagram"></a>
+					<a href="#" class="linkedin_icon"><img src="images/in_icon.png" alt="Linkedin"></a>
 				</div>
 			</div>
 		</div>

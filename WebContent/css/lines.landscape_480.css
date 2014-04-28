@@ -17,6 +17,59 @@
     left: 205px;
 }
 
+
+/*design*/
+.design .lines.bottom_line{
+    right: -20px;
+}
+.design .lines.top_line > div{
+    height: 300px;
+    left: 60px;
+    top: -150px;
+}
+.design .lines.bottom_line > div{
+    top: -20px;
+    right: 70px;
+}
+
+
+/*ux/ui - brand*/
+.ux_ui .lines.top_line{
+    height: 0px;
+}
+.brand .lines.top_line{
+    height: 10px;
+}
+.ux_ui .lines.top_line > div{
+    height: 300px;
+    top: -175px;
+    left: 0px;
+}
+/*brand*/
+.brand .lines.top_line > div{
+    height: 300px;
+    top: -175px;
+    left: 30px;
+}
+@media only screen and (min-width: 400px){
+    .brand .lines.top_line > div{
+        left: 20px;
+    }
+}
+@media only screen and (min-width: 450px){
+    .brand .lines.top_line > div{
+        left: 5px;
+    }
+}
+
+
+
+.ux_ui .lines.bottom_line > div{
+    top: -70px;
+    right: 120px
+}
+
+
 /*cms*/
 .cms .lines.top_line > div{
 	height: 250px;
@@ -27,18 +80,4 @@
     height: 250px;
     bottom: -60px;
     right: 50px;
-}
-
-/*ux/ui*/
-.ux_ui .lines.top_line{
-    height: 0px;
-}
-.ux_ui .lines.top_line > div{
-    height: 300px;
-    top: -175px;
-    left: 0px;
-}
-.ux_ui .lines.bottom_line > div{
-    top: -70px;
-    right: 120px
 }

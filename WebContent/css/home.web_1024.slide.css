@@ -1,7 +1,13 @@
 /*founders*/
 .founders .title{
 	font-size: 40px;
-	padding: 0px 40px;
+	padding: 0px 40px 0px 210px;
+	max-width: 1349px;
+	margin: 0 auto;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .founders .title div{
 	padding: 20px;
@@ -10,6 +16,7 @@
 .pictures .description_pic {
 	padding-top: 40px;
 }
+
 
 /*images*/
 /*roberto pic*/

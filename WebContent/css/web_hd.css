@@ -41,4 +41,67 @@
 		height: 37px;
 		margin-left: 10px; 
 	}
+
+
+	/*menu*/
+	.menu .services:after, .mm-menu .services:after{
+		background-image: url('../images/services.svg');
+	}
+	.menu .work:after, .mm-menu .work:after{
+		background-image: url('../images/works.svg');
+	}
+	.menu .about:after, .mm-menu .about:after{
+		background-image: url('../images/aboutus.svg');
+	}
+	.menu .news:after, .mm-menu .news:after{
+		background-image: url('../images/news.svg');
+	}
+	.menu .contact:after, .mm-menu .contact:after{
+		background-image: url('../images/send.svg');
+	}
+
+
+	/*socialnetwork*/
+	/*icons*/
+	.socialnetwork a{
+		padding: 8px;
+		position: relative;
+	}
+	.socialnetwork img{
+		display: none;
+	}
+	.socialnetwork a:after{
+		content: "";
+		margin: 0 auto;
+		display: block;
+		/*background size*/
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	/*background*/
+	.socialnetwork .facebook_icon:after{
+		background-image: url('../images/fb_icon.svg');
+	}
+	.socialnetwork .twitter_icon:after{
+		background-image: url('../images/tw_icon.svg');
+	}
+	.socialnetwork .instagram_icon:after{
+		background-image: url('../images/instagram_icon.svg');
+	}
+	.socialnetwork .linkedin_icon:after{
+		background-image: url('../images/linkedin_icon.svg');
+	}
+
+
+	/*circles*/
+	.about_container .question_container .first_line:before{
+		background: #fff;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
 }

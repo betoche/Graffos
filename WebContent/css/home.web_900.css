@@ -53,28 +53,29 @@
 }
 
 
-/*copyright*/
-.copyright{
-	text-align: right;
-}
-
-
 /*images*/
 /*welcome*/
 /*background*/
 .bck_img.bck_graffito:before{
 	/*background size*/
-	background-image: url('../images/bck_graffito_web_900.png');
-	background-position: right top;
-	max-width: 700px;
-	height: 815px;
+	background-image: url('../images/graffito-pet_sm.svg');
+	width: 100%;
+	max-width: 90%;
+	top: -5%;
+	/*background size*/
+	-webkit-background-size: 120%;
+	-moz-background-size: 120%;
+	-o-background-size: 120%;
+	background-size: 120%;
 }
+
+
 /*about*/
 .body .about_container{
 	background-image: url('../images/bck_about_web900.jpg');
 }
 
 /*founders*/
-.bck_img.bck_founders{
+.bck_founders{
 	background-image: url('../images/bck_founders_web900.jpg');
 }

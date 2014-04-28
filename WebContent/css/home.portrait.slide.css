@@ -122,20 +122,6 @@ Pagination Styles
 
 
 /*styles*/
-/*founders*/
-/*container*/
-.bck_founders{
-	background-image: url('../images/bck_founders_smportrait.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	/*background size*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
 /*body*/
 /*founders*/
 .body > .founders{

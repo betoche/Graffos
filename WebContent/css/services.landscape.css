@@ -1,3 +1,60 @@
+/*design*/
+.design .icon_element{
+	margin-top: 35px;
+}
+
+
+/*brand content*/
+/*container*/
+.body .brand_content .brand_container > div{
+	padding: 30px 10px 10px;
+}
+/*title*/
+.brand_content .title.museo{
+	font-size: 30px;
+	line-height: 32px;
+}
+/*icons width*/
+.brand_content .sample .steps .color_text > div {
+	width: 130px;
+}
+.brand_content .sample .color_text label {
+	display: inline-block;
+}
+/*icons sample*/
+.brand_content .sample .steps > div{
+	text-align: left;
+}
+.brand_content .sample .steps > .color_text{
+	text-align: center;
+}
+/*logotype*/
+.brand_content .logotype_graffos{
+	width: 230px;
+	height: 80px;
+}
+
+
+/*ux/ui - brand*/
+.ux_ui .description,.brand .description{
+	width: 70%;
+	margin: 0 0 0 auto;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	max-width: 300px;
+}
+/*background*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_landscape.jpg');
+}
+/*brand*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_landscape.jpg');
+}
+
+
 /*cms*/
 .cms .middle_container > .middle_cell{
 	padding: 20px 0px 90px;
@@ -22,18 +79,4 @@
 }
 .icons_cms > .down{
 	background-image: url('../images/ico_down_cms_landscape.png');
-}
-
-/*ux/ui*/
-.ux_ui .description{
-	width: 70%;
-	margin: 0 0 0 auto;
-	/*box-sizing*/
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	max-width: 300px;
-}
-.bck_img.ux_ui:before{
-	background-image: url('../images/bck_ux_ui_landscape.jpg');
 }

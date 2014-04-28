@@ -19,28 +19,8 @@
 	width: 40%;
 	min-width: 400px;
 }
-
-
 .about_container .question_container{
 	padding: 20px 140px;
-}
-
-
-/*lets share*/
-.body > div.last_div{
-	padding: 50px 20px 0px;
-}
-
-
-/*footer*/
-.social_contact > .container_social_contact{
-	width: 200px;
-	height: 200px;
-	margin: 0 auto;
-}
-.container_social_contact .title.pacifico {
-	font-size: 51px;
-	line-height: 56px;
 }
 
 
@@ -49,9 +29,9 @@
 /*background*/
 .bck_img.bck_graffito:before{
 	/*background size*/
-	background-image: url('../images/bck_graffito_web_1024.png');
-	max-width: 756px;
-	height: 877px;
+	background-image: url('../images/graffito-pet_sm.svg');
+	top: -50px;
+	max-width: 80%;
 }
 /*about*/
 .body .about_container{
@@ -59,6 +39,14 @@
 }
 
 /*founders*/
-.bck_img.bck_founders{
+.bck_founders{
 	background-image: url('../images/bck_founders_web1024.jpg');
+}
+
+/*circles*/
+.about_container .question_container .first_line:before{
+	background: #fff;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
 }

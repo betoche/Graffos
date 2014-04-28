@@ -17,6 +17,15 @@
 	font-size: 43px;
 	line-height: 50px;
 }
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*home*/
+	/*background graffos pet*/
+	.bck_img.bck_graffito:before{
+		background-image: url('../images/graffito-pet_sm.svg');
+		/*background position*/
+		background-position: 60% 0%;
+	}
+}
 .bck_img.bck_graffito:before{
 	/*background size*/
 	background-image: url('../images/bck_graffito_sm_480.png');
@@ -64,6 +73,6 @@
 }
 
 /*founders*/
-.bck_img.bck_founders{
+.bck_founders{
 	background-image: url('../images/bck_founders_smlandscape_480.jpg');
 }

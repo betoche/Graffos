@@ -22,14 +22,20 @@
 /*welcome*/
 /*background*/
 .bck_img.bck_graffito:before{
-	/*background size*/
-	background-image: url('../images/bck_graffito_ipad.png');
 	filter: alpha(opacity=20);
 	-moz-opacity: 0.2;
 	opacity: 0.2;
-	max-width: 550px;
-	height: 604px;
 	bottom: auto;
+	background-image: url('../images/graffito-pet_sm.svg');
+	background-position: top left;
+	width: 100%;
+	max-width: 100%;
+	height: 300%;
+	/*background size*/
+	-webkit-background-size: 130%;
+	-moz-background-size: 130%;
+	-o-background-size: 130%;
+	background-size: 130%;
 }
 
 /*about*/
@@ -38,6 +44,6 @@
 }
 
 /*founders*/
-.bck_img.bck_founders{
+.bck_founders{
 	background-image: url('../images/bck_founders_ipad.jpg');
 }

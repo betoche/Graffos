@@ -19,6 +19,87 @@
     bottom: -116px
 }
 
+
+/*design*/
+.design .lines.top_line > div{
+    height: 250px;
+    left: 70px;
+    top: -140px;
+}
+.design .lines.bottom_line > div{
+    top: -35px;
+    right: 80px;
+    height: 250px;
+}
+/*text*/
+.design .lines.bottom_line{
+    margin-top: 10px;
+}
+.design .lines.bottom_line .take_a_look{
+    font-size: 27px;
+}
+.design .lines.bottom_line .take_a_look span{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    padding: 24px 0px;
+}
+.design .lines.bottom_line .take_a_look span:before,
+.design .lines.bottom_line .take_a_look span:after{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    /*background size*/
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.design .lines.bottom_line .take_a_look span:before{
+    left: -30px;
+    bottom:-50px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/circle_white.png');
+}
+.design .lines.bottom_line .take_a_look span:after{
+    left: -15px;
+    bottom:-55px;
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/circle_design.png');
+}
+
+
+/*ux/ui - brand*/
+.ux_ui .lines.top_line{
+    height: 20px;
+}
+.brand .lines.top_line{
+    height: 30px;
+}
+/*ux ui*/
+.ux_ui .lines.top_line > div{
+    height: 250px;
+    top: -145px;
+    left: 20px
+}
+/*brand*/
+.brand .lines.top_line > div{
+    height: 280px;
+    top: -170px;
+    left: 50px  
+}
+.ux_ui .lines.bottom_line{
+    right: 0;
+}
+.ux_ui .lines.bottom_line > div{
+    height: 350px;
+    top: -70px;
+    right: 120px;
+}
+
+
 /*cms*/
 .cms .lines.top_line > div{
     height: 200px;
@@ -30,23 +111,4 @@
 	bottom: -60px;
 	right: 60px;
     display: block;
-}
-
-
-/*ux/ui*/
-.ux_ui .lines.top_line{
-    height: 20px;
-}
-.ux_ui .lines.top_line > div{
-    height: 250px;
-    top: -145px;
-    left: 20px
-}
-.ux_ui .lines.bottom_line{
-    right: 0;
-}
-.ux_ui .lines.bottom_line > div{
-    height: 350px;
-    top: -70px;
-    right: 120px;
 }

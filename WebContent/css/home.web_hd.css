@@ -3,9 +3,15 @@
 	.body .about_container{
 		background-image: url('../images/bck_about_webhd.jpg');
 	}
+	.about_container .question_container .first_line:before{
+		background: #fff;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
 
 	/*founders*/
-	.bck_img.bck_founders{
+	.bck_founders{
 		background-image: url('../images/bck_founders_webhd.jpg');
 	}
 }

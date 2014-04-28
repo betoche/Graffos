@@ -1,7 +1,30 @@
-/*cms*/
-.cms .content_cms{
-	padding-bottom: 60px;
+/*design*/
+/*description*/
+.design .description > span {
+	font-size: 25px;
 }
+.design .description > span > span{
+	line-height: 34px;
+}
+
+/*brand content*/
+/*title*/
+.brand_content .title.museo{
+	margin: auto;
+	font-size: 38px;
+	line-height: 40px;
+}
+
+/*ux/ui - brand*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_web_900.jpg');
+}
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_web_900.jpg');
+}
+
+
+/*cms*/
 /*background*/
 .bck_img.bck_hand:before{
 	background-image: url('../images/bck_cms_web.png');/*change*/
@@ -10,9 +33,4 @@
 	max-height: 369px;
 	right: -20px;
 	bottom: 35px;
-}
-
-/*ux/ui*/
-.bck_img.ux_ui:before{
-	background-image: url('../images/bck_ux_ui_web_900.jpg');
 }

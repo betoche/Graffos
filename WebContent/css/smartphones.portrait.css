@@ -37,7 +37,7 @@
 
 /*logo&Pet*/
 /*pet*/
-.header > div{
+.container_header > div{
 	width: 50%;
 	position: relative;
 	/*box-sizing*/
@@ -80,8 +80,8 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .intro > .middle_container{
-		padding-top: 10px; 
-		padding-bottom: 30px 
+	padding-top: 10px; 
+	padding-bottom: 30px ;
 }
 
 
@@ -92,12 +92,14 @@
 	left: 0;
 	width: 100%;
 	z-index: 99;
+	-webkit-backface-visibility: hidden;/*very important - android old versions*/
 }
 
 /*socialnetwork*/
 .socialnetwork{
 	padding: 10px;
 	text-align: center;
+	height: 39px;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -108,7 +110,7 @@
 .home .socialnetwork{
 	background: #572b70;
 }
-.services .socialnetwork{
+.socialnetwork{
 	background: #1B1B1B;
 }
 /*cms*/
@@ -129,6 +131,15 @@
 	width: 100%;
 	max-width: 22px;
 }
+.socialnetwork a:after{
+	width: 22px;
+	height: 19px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 
 /*scroll text*/
 .scrolling_circle{
@@ -293,4 +304,96 @@
 /*welcome description*/
 .hello .description{
 	text-align: left;
+}
+
+.bck_img .title,.bck_img .description{
+	z-index: 1;
+	position: relative;
+}
+
+/*footer*/
+/*meet up/share/chat*/
+.social_contact{
+	background: url('../images/pattern_share.png');
+	color: #fff;
+}
+/*circle*/
+.social_contact > .container_social_contact{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+/*circles*/
+.circle{
+	background-image: url('../images/circle_sm.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+/*title*/
+.social_contact .title{
+	padding: 0px 0px 5px;
+}
+
+/*links*/
+.social_contact .icon_social a{
+	margin: 0px 5px;
+	font-size: 11px;
+	width: 30px;
+	vertical-align: top;
+}
+/*icons*/
+.social_contact .icon_social a:before{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 19px;
+	margin: 0 auto 5px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.social_contact .icon_social .meet_up:before{
+	background-image: url('../images/meet_up_icon.png'); 
+}
+.social_contact .icon_social .chat:before{
+	background-image: url('../images/chat_icon.png'); 
+}
+.social_contact .icon_social .share:before{
+	background-image: url('../images/share_icon.png'); 
+}
+/*font-size*/
+.container_social_contact .title.pacifico {
+	font-size: 35px;
+	line-height: 40px;
+}
+
+
+/*plugins*/
+.share_plugins{
+	padding: 10px;
+}
+.social_contact .share_plugins{
+	margin-top: 15px;
+}
+
+
+/*copyright*/
+.copyright{
+	font-size: 10px;
+	color: #fff;
+	filter: alpha(opacity=50); 
+	-moz-opacity: 0.5; 
+	opacity: 0.5; 
+	text-align: center;
+	padding: 20px;
+	font-family: arial;
 }

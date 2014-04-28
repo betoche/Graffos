@@ -7,20 +7,36 @@
 }
 
 
-/*cms*/
-.cms .lines.top_line > div{
+/*design*/
+.design .lines.bottom_line > div{
+	top: -60px;
+	right: 100px;
 	height: 350px;
-	top: -40px;
-	left: -10px;
-}
-.cms .lines.bottom_line > div{
-	height: 350px;
-	bottom: -80px;
-	right: -50px;
 }
 
-/*ux/ui*/
-.ux_ui .lines.top_line {
+
+/*ux/ui - brand*/
+/*brand*/
+.brand .lines.top_line {
+	height: 40px;
+}
+.brand .lines.top_line > div{
+	height: 400px;
+	top: -230px;
+	left: 50px;	
+}
+@media only screen and (min-width: 550px){
+	.brand .lines.top_line > div{
+		left: 40px;	
+	}	
+}
+@media only screen and (min-width: 600px){
+	.brand .lines.top_line > div{
+		left: 20px;	
+	}
+}
+/*ux ui*/
+.ux_ui .lines.top_line{
 	height: 20px;
 }
 .ux_ui .lines.top_line > div{
@@ -35,4 +51,17 @@
 	height: 350px;
 	top: -70px;
 	right: 110px;
+}
+
+
+/*cms*/
+.cms .lines.top_line > div{
+	height: 350px;
+	top: -40px;
+	left: -10px;
+}
+.cms .lines.bottom_line > div{
+	height: 350px;
+	bottom: -80px;
+	right: -50px;
 }
