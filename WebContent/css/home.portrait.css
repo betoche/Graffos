@@ -11,11 +11,15 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+.body .about_container .blink_t{
+	display: none;
+}
 
 /*question*/
 .about_container .question_container{
 	padding: 20px 34px 20px;
 	font-size: 35px;
+	line-height: 30px;
 }
 
 /*founders*/

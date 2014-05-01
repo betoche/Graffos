@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
-    <head>
+    <head class="no-skrollr">
  		<title>Graffos</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
@@ -13,7 +13,7 @@
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
 
-		 <!-- jquery librery -->
+		<!-- jquery librery -->
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<!-- preloader -->
 		<link rel="stylesheet" type="text/css" href="css/preloader.css" />
@@ -101,6 +101,7 @@
 					classes		: 'mm-black',
 					dragOpen	: true,
 					searchfield	: true,
+					zposition : 'front',
 					labels		: {
 						fixed		: !$.mmenu.support.touch
 					},
@@ -115,7 +116,7 @@
 	
 	</head>
 
-	<body class="home">
+	<body class="home" id="skrollr-body">
 		<!-- preloader -->
 		<div id="preloader">
 			<div class="container_preloader">
@@ -165,7 +166,7 @@
 				</ul>
 			</nav>
 			<!-- menu -->
-			<div class="menu trans menu_transition">
+			<div class="menu trans menu_transition"  data-0="" data-1200="">
 				<!-- button -->
 				<div>
 					<a href="#menu-right" class="button" id="button_menu"><img src="images/menu_icon.png" alt="menu"></a>
@@ -174,8 +175,7 @@
 					<div class="hidden menu_container" id="menu">
 						<!-- categories -->
 						<div class="categories selected" id="categories">
-							<a class="services icon_menu">	services
-							</a>
+							<a class="services icon_menu">services</a>
 							<a href="" class="work icon_menu">works</a>
 							<a href="" class="about icon_menu">About us</a>
 							<a href="" class="news icon_menu">News</a>
@@ -200,8 +200,8 @@
 			<div class="body intro h100">
 
 				<!-- presentation -->
-				<div class="middle_container purple_degrade_bk h100 w100 bck_img bck_graffito hello">
-					<div class="middle_cell front_section">
+				<div class="middle_container purple_degrade_bk h100 w100 bck_img bck_graffito hello" >
+					<div class="middle_cell front_section" >
 						<div class="title pacifico blue_c trans opacity " id="trans">
 							We are Graffos!
 						</div>
@@ -213,17 +213,17 @@
 
 				<!-- mision -->
 				<div class="purple_bk mision">
-					<div class="front_section">
-						<div class="title pacifico align_right inline_div">
+ 					<div class="front_section" data-0="" data-80="">
+						<div class="title pacifico align_right inline_div mision_an">
 							<div class="lines first">
-								<div></div>
+								<div class="trans"></div>
 							</div>
 							<div class="lines second">
-								<div></div>
+								<div class="trans"></div>
 							</div>
-							Our Mission
+							<span class="trans">Our Mission</span>
 						</div>
-						<div class="description normal_size">
+						<div class="description normal_size trans_i">
 							We are structured to collaborate closely with our clients. Through activities like hands-on design studios and product immersion, we learn your business and undercover new opportunities.
 							<br/><br/>
 							From designing and developing products and services that market themselves, to creating new businesses, to disruptive branding and marketing, we deliver bespoke innovation through the phased process of Imagine, Make & Grow-which motivates us to not only imagine things, but to make things real while constantly looking to evolve and improve on what we make.
@@ -232,23 +232,23 @@
 				</div>
 
 				<!-- about us -->
-				<div class="about_container front_section">
+				<div class="about_container front_section trans_about">
 					<div>
-						<div class="question_container ostrich yellow_c black_bk_60">
-							<div class="first_line">Would you like to know more</div>
-							<div class="bolder little_words">about us?</div>
+						<div class="question_container ostrich yellow_c black_bk_60"  data-0="" data-550="">
+							<div class="first_line"><span class="trans typing">Would you like to know more</span></div>
+							<div class="bolder little_words"><span class="trans typing s_t">about us?<label class="blink_t">|</label></span></div>
 						</div>
 					</div>
 				</div>
 
 				<!-- founders -->
-				<div class="founders ostrich bck_img bck_founders front_section">
+				<div class="founders ostrich bck_img bck_founders front_section" data-0="" data-800="" id="founders">
 					<div>
 						<div class="title front_section">
-							<div class="label yellow_bk_80">Meet our founders, partners & team leaders.</div>
+							<div class="label yellow_bk_80 trans_i">Meet our founders, partners & team leaders.</div>
 						</div>
 						<div class="lines first">
-							<div></div>
+							<div class="trans"></div>
 						</div>
 						<div class="pictures front_section">
 							
@@ -355,6 +355,14 @@
 					<a href="#" class="linkedin_icon"><img src="images/in_icon.png" alt="Linkedin"></a>
 				</div>
 			</div>
+
+
+			<script type="text/javascript" src="js/skrollr.min.js"></script>
+			<script type="text/javascript">
+			skrollr.init({
+				forceHeight: false
+			});
+			</script>
 		</div>
 	</body>
 </html>
