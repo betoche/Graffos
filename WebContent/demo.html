@@ -1,368 +1,106 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
-    <head class="no-skrollr">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
  		<title>Graffos</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
         <!-- meta ie compatibility -->
         <!-- <meta charset="utf-8"> -->
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
         <!-- detecting devices/removing zoom -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/preloader.css" /> -->
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-
-		<!-- jquery librery -->
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<!-- preloader -->
-		<link rel="stylesheet" type="text/css" href="css/preloader.css" />
-		<script src="js/preloader.js"></script>
-		
-		
 		<!-- css -->
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/under_construction.default.css" />
+		<link rel="stylesheet" type="text/css" href="css/under_construction.fonts.css" />
+		
 		<!-- screens -->
-		<!-- Smartphones (portrait) -->
-		<link rel="stylesheet" href="css/smartphones.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
-		<link rel="stylesheet" href="css/home.portrait.slide.css" type="text/css" media="only screen and (min-width : 240px)"/>
-		<!-- decoration lines -->
-		<link rel="stylesheet" href="css/lines.portrait.css" media="only screen and (min-width : 240px)"/>
-		
-		<!-- smartphone (landscape 360)-->
-		<link rel="stylesheet" href="css/smartphones.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
-		<link rel="stylesheet" href="css/home.landscape.slide.css" type="text/css" media="only screen and (min-width : 320px)"/>
-		<!-- decoration lines -->
-		<link rel="stylesheet" href="css/lines.landscape.css" media="only screen and (min-width : 320px)"/>
+		<!-- Smartphones (portrait 240 - 320) -->
+		<link rel="stylesheet" href="css/under_construction.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
 
-		<!-- smartphone (landscape 480)-->
-		<link rel="stylesheet" href="css/smartphones.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
-		<link rel="stylesheet" href="css/home.landscape_480.slide.css" type="text/css" media="only screen and (min-width : 361px)"/>
-		<!-- decoration lines -->
-		<link rel="stylesheet" href="css/lines.landscape_480.css" media="only screen and (min-width : 361px)"/>
+		<!-- smartphone (landscape 360 - 321)-->
+		<!-- <link rel="stylesheet" href="css/smartphones.landscape.css" type="text/css" media="only screen and (min-width : 321px)"/> -->
 
-		<!-- ipad -->
-		<link rel="stylesheet" href="css/ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
-		<!-- decoration lines -->
-		<link rel="stylesheet" href="css/lines.ipads.css" media="only screen and (min-width : 481px)"/>
+		<!-- smartphone (480 - 361) -->
+		<link rel="stylesheet" href="css/under_construction.landscape.480.css" type="text/css" media="only screen and (min-width : 361px)"/>
 
-		<!-- web 900-->
-		<link rel="stylesheet" href="css/web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
-		<link rel="stylesheet" href="css/home.web_900.slide.css" type="text/css" media="only screen and (min-width : 701px)"/>
-		<!-- decoration lines -->
-		<link rel="stylesheet" href="css/lines.web_900.css" media="only screen and (min-width : 701px)"/>
-		
-		<!-- web 1024-->
-		<link rel="stylesheet" href="css/web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
-		<link rel="stylesheet" href="css/home.web_1024.transitions.css" type="text/css" media="only screen and (min-width : 901px)"/> 
-		<script type="text/javascript" src="js/content_loaded_transitions.js"></script>
-		<link rel="stylesheet" href="css/home.web_1024.slide.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- ipad (481 - 700) -->
+		<!-- <link rel="stylesheet" href="css/ipad.css" type="text/css" media="only screen and (min-width : 481px)"/> -->
 
-		<!-- web 1366-->
-		<link rel="stylesheet" href="css/home.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+		<!-- web (900 - 701) -->
+		<!-- <link rel="stylesheet" href="css/web.900.css" type="text/css" media="only screen and (min-width : 701px)"/> -->
 
-		<!-- web hd-->
-		<link rel="stylesheet" href="css/web_hd.css" type="text/css"/>
-		<!-- home -->
-		<link rel="stylesheet" href="css/home.web_hd.css" type="text/css"/>
+		<!-- web (1024 - 901) -->
+		<link rel="stylesheet" href="css/under_construction.1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+
+		<!-- web (1366 - 1024) -->
+		<link rel="stylesheet" href="css/under_construction.1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+
+		<!-- web (HD - 1366) -->
+		<!-- <link rel="stylesheet" href="css/web.hd.css" type="text/css" media="only screen and (min-width : 1367px)"/> -->
+
+		<!-- hacks -->
 		<!--[if lte IE 8]>
 		<link rel="stylesheet" href="css/web_ie.css" type="text/css" media="screen"/>
 		<![endif]-->
 
 		<!-- js -->
-
-		<!-- show/hide -->
-		<script type="text/javascript" src="js/show_hide.js"></script>
-
-		<!-- menu -->
-		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css"/>
-		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
-		<script type="text/javascript">
-			//	The menu on the right
-			$(function() {
-
-				var $menu = $('nav#menu-right');
-
-				$menu.mmenu({
-					position	: 'right',
-					classes		: 'mm-black',
-					dragOpen	: true,
-					searchfield	: true,
-					zposition : 'front',
-					labels		: {
-						fixed		: !$.mmenu.support.touch
-					},
-					header		: {
-						add			: true,
-						update		: true,
-						title		: 'Home'
-					}
-				});
-			});
-		</script>
-	
-	</head>
-
-	<body class="home" id="skrollr-body">
-		<!-- preloader -->
-		<div id="preloader">
-			<div class="container_preloader">
-				<div class="spinner">
-					<div class="dot1"></div>
-					<div class="dot2"></div>
-				</div>
-				<div class="grafito_preloader">
-				</div>
-				<div class="loading_text">Loading...</div>
-			</div>
-		</div>
 		
-		<div id="page">
-			<!-- header -->
-			<div id="header">
-				<div class="header">
-					<div class="container_header inline_div">
-						<!-- pet -->
-						<div class="pet">
-							<div>
-								<div class="body_g"></div>
-								<div class="feet_g"></div>
-							</div>
-						</div>
-						<!-- logo -->
-						<div class="logo_container"><a href="index.html" class="logo"></a></div>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="middle_cell">
+				<div class="pet">
+					<div class="clouds ruda">
+						be<br/>back<br/>Soon
 					</div>
+					<div class="body_pet">
+					</div>
+					<div class="feet_pet"></div>
 				</div>
+				<div class="logo"></div>
 			</div>
-			<nav id="menu-right">
-				<ul>
-					<li class="services icon_menu">
-						<span>Services</span>
-						<ul>
-							<li><a href="" class="left_bullet">design</a></li>
-							<li><a href="" class="left_bullet">Branding</a></li>
-							<li><a href="" class="left_bullet">web development</a></li>
-							<li><a href="" class="left_bullet">UI/UX</a></li>
-							<li><a href="cms.html" class="left_bullet">CMS</a></li>
-						</ul>
-					</li>
-					<li class="work icon_menu"><a href="">works</a></li>
-					<li class="about icon_menu"><a href="">About us</a></li>
-					<li class="news icon_menu"><a href="">News</a></li>
-					<li class="contact icon_menu"><a href="">Contact us</a></li>
-				</ul>
-			</nav>
-			<!-- menu -->
-			<div class="menu trans menu_transition"  data-0="" data-1200="">
-				<!-- button -->
-				<div>
-					<a href="#menu-right" class="button" id="button_menu"><img src="images/menu_icon.png" alt="menu"></a>
-				</div>
-				<div class="menuweb_container">
-					<div class="hidden menu_container" id="menu">
-						<!-- categories -->
-						<div class="categories selected" id="categories">
-							<a class="services icon_menu">services</a>
-							<a href="" class="work icon_menu">works</a>
-							<a href="" class="about icon_menu">About us</a>
-							<a href="" class="news icon_menu">News</a>
-							<a href="" class="contact icon_menu">Contact us</a>
-							<!-- subcategories web -->
-							<div class="subcategories_web">
-								<div class="services_submenu cuts">
-									<a href="" class="left_bullet">design</a>
-									<a href="" class="left_bullet">Branding</a>
-									<a href="" class="left_bullet">web development</a>
-									<a href="" class="left_bullet">UI/UX</a>
-									<a href="cms.html" class="left_bullet">CMS</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- body -->
-			<div class="body intro h100">
-
-				<!-- presentation -->
-				<div class="middle_container purple_degrade_bk h100 w100 bck_img bck_graffito hello" >
-					<div class="middle_cell front_section" >
-						<div class="title pacifico blue_c trans opacity " id="trans">
-							We are Graffos!
-						</div>
-						<div class="description trans opacity delay2">
-							A small, passionate &amp; dedicated team. Below are a handful of the latest examples that showcase the wide array of our work.
-						</div>
-					</div>
-				</div>
-
-				<!-- mision -->
-				<div class="purple_bk mision">
- 					<div class="front_section" data-0="" data-80="">
-						<div class="title pacifico align_right inline_div mision_an">
-							<div class="lines first">
-								<div class="trans"></div>
-							</div>
-							<div class="lines second">
-								<div class="trans"></div>
-							</div>
-							<span class="trans">Our Mission</span>
-						</div>
-						<div class="description normal_size trans_i">
-							We are structured to collaborate closely with our clients. Through activities like hands-on design studios and product immersion, we learn your business and undercover new opportunities.
-							<br/><br/>
-							From designing and developing products and services that market themselves, to creating new businesses, to disruptive branding and marketing, we deliver bespoke innovation through the phased process of Imagine, Make & Grow-which motivates us to not only imagine things, but to make things real while constantly looking to evolve and improve on what we make.
-						</div>
-					</div>
-				</div>
-
-				<!-- about us -->
-				<div class="about_container front_section trans_about">
-					<div>
-						<div class="question_container ostrich yellow_c black_bk_60"  data-0="" data-550="">
-							<div class="first_line"><span class="trans typing">Would you like to know more</span></div>
-							<div class="bolder little_words"><span class="trans typing s_t">about us?<label class="blink_t">|</label></span></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- founders -->
-				<div class="founders ostrich bck_img bck_founders front_section" data-0="" data-800="" id="founders">
-					<div>
-						<div class="title front_section">
-							<div class="label yellow_bk_80 trans_i">Meet our founders, partners & team leaders.</div>
-						</div>
-						<div class="lines first">
-							<div class="trans"></div>
-						</div>
-						<div class="pictures front_section">
-							
-							
-							<div class="device">
-								<a class="arrow-left" href="#"></a>
-								<a class="arrow-right" href="#"></a>
-								<div class="swiper-container">
-									<div class="swiper-wrapper">
-										<!-- roberto -->
-										<div class="swiper-slide roberto">
-											<div class="black_c pic_n_description">
-												<div class="pic">
-													<div class="roberto_preview"></div>
-												</div>
-												<div class="description_pic">
-													<div class="name">Roberto Hernandez</div>
-													<div class="range">Co-founder, Designer and Creative Director</div>
-												</div>
-											</div>
-										</div>
-										<!-- betoche -->
-										<div class="swiper-slide lesther">
-											<div class="black_c pic_n_description">
-												<div class="pic">
-													<div class="lesther_preview"></div>
-												</div>
-												<div class="description_pic">
-													<div class="name">Lesther Morales</div>
-													<div class="range">Co-Founder, Designer and Technical Director</div>
-												</div>
-											</div>
-										</div>
-										<!-- lesther -->
-										<div class="swiper-slide betoche">
-											<div class="black_c pic_n_description">
-												<div class="pic">
-													<div class="betoche_preview"></div>
-												</div>
-												<div class="description_pic">
-													<div class="name">betoche</div>
-													<div class="range">Co-Founder, Designer and Technical Director</div>
-												</div>
-											</div>
-										</div>
-										<!-- lesther -->
-										<div class="swiper-slide gerald">
-											<div class="black_c pic_n_description">
-												<div class="pic">
-													<div class="gerald_preview"></div>
-												</div>
-												<div class="description_pic">
-													<div class="name">gerald</div>
-													<div class="range">Co-Founder, Designer and Technical Director</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<script src="js/idangerous.swiper-2.1.min.js"></script>
-							<script src="js/slide_options.js"></script> 
-						</div>
-					</div>
-				</div>
-				<!-- meet up/share/chat -->
-				<div class="social_contact align_center last_div">
-					<div class="circle middle_container container_social_contact">
-						<div class="middle_cell">
-							<div class="title pacifico white_c yellow_c">
-								let's
-							</div>
-							<div class="icon_social">
-								<a href="" class="meet_up">meet up</a>
-								<a href="#share_plugins" onclick="javascript:unhide('share_plugins')" class="share">share</a>
-								<a href="" class="chat">chat</a>
-							</div>
-						</div>
-					</div>
-					<!-- waiting social networks for plugins -->
-					<div class="share_plugins hidden" id="share_plugins">
-						<div class="google">
-						</div>
-						<div class="facebook">
-						</div>
-					</div>
-					<div class="copyright">
-						Nicaragua. Graffos &copy; 2014
-					</div>
-				</div>
-			</div>
-
-			<!-- fixed divs -->
-			<div class="fixed arial mm-fixed-bottom">
-				<div class="scrolling_circle ss-pika circle">
-					<div class="keep">keep</div>
-					<div class="scrolling">scrolling</div>
-					<div class="down_icon"></div>
-				</div>
-				<div class="socialnetwork">
-					<a href="#" class="facebook_icon"><img src="images/fb_icon.png" alt="Facebook"></a>
-					<a href="#" class="twitter_icon"><img src="images/tw_icon.png" alt="Twitter"></a>
-					<a href="#" class="instagram_icon"><img src="images/intg_icon.png" alt="Instagram"></a>
-					<a href="#" class="linkedin_icon"><img src="images/in_icon.png" alt="Linkedin"></a>
-				</div>
-			</div>
-
-
-			<script type="text/javascript" src="js/skrollr.min.js"></script>
-			<script type="text/javascript">
-			skrollr.init({
-				forceHeight: false
-			});
-			</script>
 		</div>
+		<div class="subscribe">
+			<div>
+				<div class="title">
+					<div class="header black">
+						<div>
+							<div>..</div>Want to know what we offer before launching?
+						</div>
+					</div>
+					<div class="ruda">Subscribe by entering your e-mail below or contact us at <a class="link" href="mailto:info@graffos.net">info@graffos.net</a></div>
+					<div class="email" >
+						<form>
+							<input type="email" name="email" placeholder="youremail@mail.com"/>
+							<br/><br/>
+							<input type="submit" value="Subscribe" class="remove_button">
+						</form>
+					</div>
+				</div>
+				<div class="footer ruda" id="ruda">
+					Made in Nicaragua.  Graffos © 2014
+				</div>
+			</div>
+		</div>
+		<!--<script>
+			function hideAddressBar() {
+				console.log('holax');
+			  if(!window.location.hash)
+			  {
+			      if(document.height < window.outerHeight) {
+			          document.body.style.height = (window.outerHeight + 50) + 'px';
+			      }
+
+			      setTimeout( function(){ window.scrollTo(0, 1); }, 50 );
+			  }
+			}
+
+			window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddressBar(); } } );
+			window.addEventListener("orientationchange", hideAddressBar );
+		</script>-->
 	</body>
 </html>

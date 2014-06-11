@@ -29,8 +29,8 @@
 .bck_img.bck_hand:before{
 	background-image: url('../images/bck_cms_web.png');/*change*/
 	/*background size*/
-	max-width: 300px;
-	max-height: 369px;
-	right: -20px;
-	bottom: 35px;
+	-webkit-background-size: 300px 369px;
+	-moz-background-size: 300px 369px;
+	-o-background-size: 300px 369px;
+	background-size: 300px 369px;
 }

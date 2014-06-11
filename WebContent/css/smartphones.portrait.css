@@ -226,34 +226,37 @@
 	display: none;
 }
 /*icons*/
-.menu .icon_menu:after{
+.icon_menu:after{
 	content: "";
 	width: 23px;
-	display: inline-block;
+	height: 22px;
 	vertical-align: middle;
-	margin-left: 20px;
 	/*background size*/
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	display: inline-block;
 }
 /*icons/services,work,about,news,contact*/
-.menu .services:after,.mm-menu .services:after{
+.icon_menu.services:after{
 	background-image: url('../images/services_icon.png');
 }
-.menu .work:after,.mm-menu .work:after{
+.icon_menu.work:after{
 	background-image: url('../images/works_icon.png');
 }
-.menu .about:after,.mm-menu .about:after{
+.icon_menu.about:after{
 	background-image: url('../images/about_icon.png');
 }
-.menu .news:after,.mm-menu .news:after{
+.icon_menu.news:after{
 	background-image: url('../images/news_icon.png');
 }
-.menu .contact:after,.mm-menu .contact:after{
+.icon_menu.contact:after{
 	background-image: url('../images/contact_icon.png');
+}
+.icon_menu.home:after{
+	background-image: url('../images/home_icon.png');
 }
 
 /*subcategories/bullet*/
@@ -396,4 +399,11 @@
 	text-align: center;
 	padding: 20px;
 	font-family: arial;
+}
+
+
+/*others*/
+/*animations*/
+.blink_t{
+	display: none;
 }

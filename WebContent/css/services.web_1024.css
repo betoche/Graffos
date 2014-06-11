@@ -1,3 +1,69 @@
+/*hover menu*/
+/*design*/
+.services .menu .menu_container .categories[style*="1"] .subcategories_web > div > a:hover{
+	background: #ff0097;
+}
+.services .menu .menu_container .categories[style*="2"] .subcategories_web > div > a:hover{
+	background: #ff0000;
+}
+.services .menu .menu_container .categories[style*="3"] .subcategories_web > div > a:hover{
+	background: #4a4a4a;
+}
+.services .menu .menu_container .categories[style*="4"] .subcategories_web > div > a:hover{
+	background: #7400ca;
+}
+.services .menu .menu_container .categories[style*="5"] .subcategories_web > div > a:hover{
+	background: #fa5c12;
+}
+/*colors*/
+.services .menu .categories[style*="1"] > *:hover{
+	color: rgba(255,255,255,0.5);	
+}
+.services .menu .categories[style*="2"] > *:hover{
+	color: rgba(255,255,255,0.5);	
+}
+.services .menu .categories[style*="3"] > *:hover{
+	color: rgba(255,255,255,0.5);	
+}
+.services .menu .categories[style*="4"] > *:hover{
+	color: rgba(255,255,255,0.5);	
+}
+.services .menu .categories[style*="5"] > *:hover{
+	color: rgba(255,255,255,0.5);	
+}
+
+
+/*design*/
+/*title*/
+.design .title{
+	padding: 0;
+}
+.design .title_shape span.trans{
+	height: 85px;
+}
+/*pat*/
+.design .title_shape:before{
+	background-position: 295px 0px;
+}
+/*icons*/
+.design .icon_element .book{
+	background-image: url('../images/notebook_icon.svg');
+}
+.design .icon_element .pen{
+	background-image: url('../images/pen_icon.svg');
+}
+.design .icon_element .phone{
+	background-image: url('../images/phone_icon.svg');
+}
+.design .icon_element .comp{
+	background-image: url('../images/monitor_icon.svg');
+}
+/*content*/
+.brand_content .sample .graffos_branding > .result .pic{
+	background-image: url('../images/graffito-pet_sm.svg');
+}
+
+
 /*ux/ui - brand*/
 .bck_img.ux_ui:before{
 	background-image: url('../images/bck_ux_ui_web_1024.jpg');
@@ -9,6 +75,24 @@
 .ux_ui .title.museo,.brand .title.museo {
 	font-size: 100px;
 	line-height: 90px;
+}
+.design .lines.bottom_line .take_a_look span{
+	background: #fef200;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+.design .lines.bottom_line .take_a_look span:before{
+	background: #fff;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+.design .lines.bottom_line .take_a_look span:after{
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	background: url('../images/pat_grid.png');
 }
 
 
@@ -39,6 +123,9 @@
 .brand_content .logotype .patt_container{
 	padding: 20px;
 }
+.brand_content .logotype_graffos{
+	background-image: url('../images/graffos_logo.svg');
+}
 
 
 /*cms*/
@@ -54,7 +141,21 @@
 .bck_img.bck_hand:before{
 	background-image: url('../images/bck_cms_web.png');/*change*/
 	/*background size*/
-	max-width: 400px;
-	max-height: 492px;
-	bottom: 0px;
+	/*background size*/
+	-webkit-background-size: 400px 492px;
+	-moz-background-size: 400px 492px;
+	-o-background-size: 400px 492px;
+	background-size: 400px 492px;
+}
+
+
+/*cms*/
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms.svg');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms.svg');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms.svg');
 }

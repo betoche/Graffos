@@ -58,6 +58,7 @@
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
+	background-position: center center;
 }
 .design .icon_element .book{
 	background-image: url('../images/notebook_icon.png');
@@ -113,10 +114,10 @@
 	background-repeat: no-repeat;
 	background-position: top left;
 	/*background size*/
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin: 5px auto 0px;
 }
 /*inspiration*/
@@ -138,10 +139,10 @@
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	/*background size*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
 	background-image: url('../images/graffito-pet.png');
 }
 /*colors*/
@@ -240,13 +241,13 @@
 .bck_img.bck_hand:before{
 	background-image: url('../images/bck_cms_portrait.png');
 	/*background size*/
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
+	-webkit-background-size: 240px 359px;
+	-moz-background-size:  240px 359px;
+	-o-background-size:  240px 359px;
+	background-size:  240px 359px;
 	background-position: right bottom;
-	max-width: 240px;
-	max-height: 359px;
+	width: 100%;
+	height: 100%;
 	bottom: 0px;
 	top: auto;
 	left: auto;

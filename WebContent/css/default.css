@@ -314,3 +314,8 @@ input{
 	background-color: #CA1C1C;
 	color: #FFF;
 }
+
+/*bugg menu*/
+.ui-page{
+    height: 100%;
+}

@@ -44,19 +44,19 @@
 
 
 	/*menu*/
-	.menu .services:after, .mm-menu .services:after{
+	.icon_menu.services:after{
 		background-image: url('../images/services.svg');
 	}
-	.menu .work:after, .mm-menu .work:after{
+	.icon_menu.work:after{
 		background-image: url('../images/works.svg');
 	}
-	.menu .about:after, .mm-menu .about:after{
+	.icon_menu.about:after{
 		background-image: url('../images/aboutus.svg');
 	}
-	.menu .news:after, .mm-menu .news:after{
+	.icon_menu.news:after{
 		background-image: url('../images/news.svg');
 	}
-	.menu .contact:after, .mm-menu .contact:after{
+	.icon_menu.contact:after{
 		background-image: url('../images/send.svg');
 	}
 
@@ -103,5 +103,15 @@
 		-webkit-border-radius: 200%;
 		-moz-border-radius: 200%;
 		border-radius: 200%;
+	}
+	/*footer*/
+	.social_contact .icon_social .meet_up:before {
+		background-image: url('../images/meet_up_icon.svg');
+	}
+	.social_contact .icon_social .share:before {
+		background-image: url('../images/share_icon.svg');
+	}
+	.social_contact .icon_social .chat:before{
+		background-image: url('../images/chat_icon.svg');
 	}
 }
