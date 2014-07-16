@@ -1,0 +1,68 @@
+/*design*/
+@media only screen and (min-width: 430px){
+	.design .icon_element{
+		margin-top: 7px;
+	}
+}
+
+
+/*brand content*/
+/*icons*/
+.brand_content .brand_container > div{
+	width: 95%;
+	margin: 5% 0 5% auto;
+	max-width: 630px;
+}
+.brand_content .sample .steps > div > div{
+    width: 25%;
+}
+.brand_content .sample .steps .pic, .brand_content .sample .steps .color > div > div{
+    width: 56px;
+    height: 56px;
+}
+.brand_content .sample .steps > div{
+    text-align: center;
+}
+/*460 to 480*/
+@media only screen and (min-width : 460px) {
+    .brand_content .sample .steps .pic, .brand_content .sample .steps .color > div > div{
+        width: 80px;
+        height: 80px;
+    }    
+}
+/*text*/
+.brand_content .sample .steps .color_text > div{
+    width: 50%;
+}
+/*logotype*/
+.brand_content .logotype_graffos{
+    width: 250px;
+    height: 85px;
+}
+.brand .content_cms{
+	width: 100%;
+}
+/*background*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_landscape_480.jpg');
+}
+
+
+/*ux/ui*/
+.ux_ui .content_cms{
+	width: 100%;
+}
+/*ux ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_landscape_480.jpg');
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+
+/*generals*/
+.content_cms{
+	width: 80%;
+	margin: 0 auto;
+}

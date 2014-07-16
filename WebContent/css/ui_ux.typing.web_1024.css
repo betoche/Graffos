@@ -1,0 +1,31 @@
+.back_transition{
+	top: auto;
+	height: 100%;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.simpleDiv1{
+	font-family: "Bitstream Vera Sans Mono", "Anonymous Pro", "Consolas", monospace;
+	font-size: 12px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.25);
+    letter-spacing: -0.01em;
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    opacity: 0.2;
+    /*box-sizing*/
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.simpleDiv1 pre{
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	padding: 15px;
+	bottom: 0;
+	position: absolute;
+	width: 800px;
+}

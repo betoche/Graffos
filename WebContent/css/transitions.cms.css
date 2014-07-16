@@ -1,269 +1,12 @@
-/*design*/
-.lines.top_line > .trans{
-	/*transition*/
-	-moz-transition: all 0.5s ease 0.2s;
-	-webkit-transition: all 0.5s ease 0.2s;
-	-o-transition: all 0.5s ease 0.2s;
-	transition: all 0.5s ease 0.2s;
-}
-.lines.bottom_line > .trans{
-	/*transition*/
-	-moz-transition: all 0.5s ease 0.4s;
-	-webkit-transition: all 0.5s ease 0.4s;
-	-o-transition: all 0.5s ease 0.4s;
-	transition: all 0.5s ease 0.4s;
-}
-.services .skrollable-between .lines.top_line .trans.reverse{
-	-webkit-animation-delay: 1s;
-	-moz-animation-delay: 1s;
-	-o-animation-delay: 1s;
-	animation-delay: 1s;
-}
-.services .skrollable-between .lines.bottom_line .trans.reverse{
-	-webkit-animation-delay: 0.8s;
-	-moz-animation-delay: 0.8s;
-	-o-animation-delay: 0.8s;
-	animation-delay: 0.8s;
-}
-/*title*/
-.design .title_shape:before{
-	/*transition*/
-	-moz-transition: all 0.5s ease 0.5s;
-	-webkit-transition: all 0.5s ease 0.5s;
-	-o-transition: all 0.5s ease 0.5s;
-	transition: all 0.5s ease 0.5s;
-}
-.skrollable-after.design .title_shape:before{
-	background-position: 0px 0px;
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	opacity: 0;
-}
-.skrollable-between.design .title_shape:before{
-	-webkit-animation-name: pat;
-	-moz-animation-name: pat;
-	-o-animation-name: pat;
-	animation-name: pat;
-	-webkit-animation-duration: 0.5s;
-	-moz-animation-duration: 0.5s;
-	-o-animation-duration: 0.5s;
-	animation-duration: 0.5s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-o-animation-delay: 2s;
-	animation-delay: 2s;
-	-webkit-animation-timing-function: ease;
-	-moz-animation-timing-function: ease;
-	-o-animation-timing-function: ease;
-	animation-timing-function: ease;
-	-webkit-animation-fill-mode: backwards;
-	-moz-animation-fill-mode: backwards;
-	-o-animation-fill-mode: backwards;
-	animation-fill-mode: backwards;
-}
-@-webkit-keyframes pat {
-	0%{background-position: 0px 0px;  -webkit-opacity: 0;}
-}
-@-moz-keyframes pat {
-	0%{background-position: 0px 0px;  -moz-opacity: 0;}
-}
-@-o-keyframes pat {
-	0%{background-position: 0px 0px; -o-opacity: 0;}
-}
-@keyframes pat {
-	0%{background-position: 0px 0px; opacity: 0;}
-}
-@-ms-keyframes pat {
-	0%{background-position: 0px 0px; filter: alpha(opacity=0); opacity: 0;}
-}
-/*shape & icons*/
-.icon_element{
-	height: 20px;
-}
-.icon_element .shape1{
-	/*transition*/
-	-moz-transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.skrollable-after .icon_element .shape1{
-	width: 0%;
-}
-.skrollable-between .icon_element .shape1{
-	-webkit-animation-name: shape_width;
-	-moz-animation-name: shape_width;
-	-o-animation-name: shape_width;
-	animation-name: shape_width;
-	-webkit-animation-delay: 1.4s;
-	-moz-animation-delay: 1.4s;
-	-o-animation-delay: 1.4s;
-	animation-delay: 1.4s;
-}
-@-webkit-keyframes shape_width {
-	0%{width: 0; height: 0;}
-	70%{width: 31px; height: 30px;}
-}
-@-moz-keyframes shape_width {
-	0%{width: 0; height: 0;}
-	70%{width: 31px; height: 30px;}
-}
-@-o-keyframes shape_width {
-	0%{width: 0; height: 0;}
-	70%{width: 31px; height: 30px;}
-}
-@keyframes shape_width {
-	0%{width: 0; height: 0;}
-	70%{width: 31px; height: 30px;}
-}
-@-ms-keyframes shape_width {
-	0%{width: 0; height: 0;}
-	70%{width: 31px; height: 30px;}
-}
-/*icons*/
-.skrollable-after .icon_element .icon{
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	opacity: 0;
-	/*transition*/
-	-moz-transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.skrollable-between .icon_element .icon{
-	-webkit-animation-name: shape_width;
-	-moz-animation-name: shape_width;
-	-o-animation-name: shape_width;
-	animation-name: shape_width;
-}
-.skrollable-between .icon_element .icon.d_1{
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-o-animation-delay: 2s;
-	animation-delay: 2s;
-}
-.skrollable-between .icon_element .icon.d_2{
-	-webkit-animation-delay: 2.1s;
-	-moz-animation-delay: 2.1s;
-	-o-animation-delay: 2.1s;
-	animation-delay: 2.1s;
-}
-.skrollable-between .icon_element .icon.d_3{
-	-webkit-animation-delay: 2.2s;
-	-moz-animation-delay: 2.2s;
-	-o-animation-delay: 2.2s;
-	animation-delay: 2.2s;
-}
-.skrollable-between .icon_element .icon.d_4{
-	-webkit-animation-delay: 2.3s;
-	-moz-animation-delay: 2.3s;
-	-o-animation-delay: 2.3s;
-	animation-delay: 2.3s;
-}
-/*bubble*/
-.skrollable-between.design .lines.bottom_line .take_a_look span:before{
-	/*transition*/
-	-moz-animation: bubble_s 0.3s ease 2.3s backwards;
-	-webkit-animation: bubble_s 0.3s ease 2.3s backwards;
-	-o-animation: bubble_s 0.3s ease 2.3s backwards;
-	animation: bubble_s 0.3s ease 2.3s backwards;
-
-}
-.skrollable-between.design .lines.bottom_line .take_a_look span:after{
-	/*transition*/
-	-moz-animation: bubble_m 0.3s ease 2.5s backwards;
-	-webkit-animation: bubble_m 0.3s ease 2.5s backwards;
-	-o-animation: bubble_m 0.3s ease 2.5s backwards;
-	animation: bubble_m 0.3s ease 2.5s backwards;
-
-}
-.skrollable-after.design .lines.bottom_line .take_a_look span:before,
-.skrollable-after.design .lines.bottom_line .take_a_look span:after{
-	width: 0;
-	height: 0;
-}
-@-webkit-keyframes bubble_s {
-	0%{width: 0; height: 0;}
-	70%{width: 50px; height: 50px;}
-}
-@-moz-keyframes bubble_s {
-	0%{width: 0; height: 0;}
-	70%{width: 50px; height: 50px;}
-}
-@-o-keyframes bubble_s {
-	0%{width: 0; height: 0;}
-	70%{width: 50px; height: 50px;}
-}
-@keyframes bubble_s {
-	0%{width: 0; height: 0;}
-	70%{width: 50px; height: 50px;}
-}
-@-ms-keyframes bubble_s {
-	0%{width: 0; height: 0;}
-	70%{width: 50px; height: 50px;}
-}
-/*bubble m*/
-@-webkit-keyframes bubble_m {
-	0%{width: 0; height: 0;}
-	70%{width: 80px; height: 80px;}
-}
-@-moz-keyframes bubble_m {
-	0%{width: 0; height: 0;}
-	70%{width: 80px; height: 80px;}
-}
-@-o-keyframes bubble_m {
-	0%{width: 0; height: 0;}
-	70%{width: 80px; height: 80px;}
-}
-@keyframes bubble_m {
-	0%{width: 0; height: 0;}
-	70%{width: 80px; height: 80px;}
-}
-@-ms-keyframes bubble_m {
-	0%{width: 0; height: 0;}
-	70%{width: 80px; height: 80px;}
-}
-
-
-/*brand*/
-.brand.skrollable-after .lines.top_line > .trans,.brand.skrollable-after .lines.bottom_line > .trans{
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-o-animation-delay: 2s;
-	animation-delay: 2s;
-}
-.ux_ui.skrollable-between .lines.top_line > div,.ux_ui.skrollable-between .lines.bottom_line > div,
-.brand.skrollable-between .lines.top_line > div,.brand.skrollable-between .lines.bottom_line > div{
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	opacity: 0;
-	height: 0;
-}
-/*ux/ui*/
-.ux_ui.skrollable-after .trans.typing{
-		-webkit-animation-duration: 0.5s;
-	-moz-animation-duration: 0.5s;
-	-o-animation-duration: 0.5s;
-	animation-duration: 0.5s;
-}
-.ux_ui.skrollable-after .trans.typing.s_t{
-	-webkit-animation-delay: 1.1s;
-	-moz-animation-delay: 1.1s;
-	-o-animation-delay: 1.1s;
-	animation-delay: 1.1s;
-}
-
-
 /*cms*/
-.skrollable-after.cms .icons_cms{
+.skrollable-between.cms .icons_cms{
 	height: 140px;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
-.skrollable-between.cms .bubble_icon{
+.skrollable-after.cms .bubble_icon{
 	filter: alpha(opacity=0);
 	-moz-opacity: 0;
 	opacity: 0;
@@ -273,7 +16,7 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.skrollable-after.cms .bubble_icon{
+.skrollable-between.cms .bubble_icon{
 	-webkit-animation-name: bubble_cms;
 	-moz-animation-name: bubble_cms;
 	-o-animation-name: bubble_cms;
@@ -283,19 +26,19 @@
 	-o-animation-duration: 0.3s;
 	animation-duration: 0.3s;
 }
-.skrollable-after.cms .bubble_icon.user{
+.skrollable-between.cms .bubble_icon.user{
 	-webkit-animation-delay: 1.8s;
 	-moz-animation-delay: 1.8s;
 	-o-animation-delay: 1.8s;
 	animation-delay: 1.8s;
 }
-.skrollable-after.cms .bubble_icon.doc{
+.skrollable-between.cms .bubble_icon.doc{
 	-webkit-animation-delay: 1.9s;
 	-moz-animation-delay: 1.9s;
 	-o-animation-delay: 1.9s;
 	animation-delay: 1.9s;
 }
-.skrollable-after.cms .bubble_icon.down{
+.skrollable-between.cms .bubble_icon.down{
 	-webkit-animation-delay: 2s;
 	-moz-animation-delay: 2s;
 	-o-animation-delay: 2s;
@@ -334,7 +77,7 @@
 	top: 0;
 	left: 0;
 }
-.skrollable-between.cms .cms_title label{
+.skrollable-after.cms .cms_title label{
 	filter: alpha(opacity=0);
 	-moz-opacity: 0;
 	opacity: 0;
@@ -343,7 +86,7 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.skrollable-after.cms .cms_title label{
+.skrollable-between.cms .cms_title label{
 	-webkit-animation-name: cms_title;
 	-moz-animation-name: cms_title;
 	-o-animation-name: cms_title;

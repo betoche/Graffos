@@ -55,3 +55,6 @@
 .about_container .question_container > .little_words{
 	margin-top: 15px;
 }
+.intro > .middle_container{
+	overflow: inherit;
+}

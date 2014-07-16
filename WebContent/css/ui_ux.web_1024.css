@@ -1,0 +1,8 @@
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_web_1024.jpg');
+}
+.ux_ui .title.museo{
+	font-size: 100px;
+	line-height: 90px;
+}

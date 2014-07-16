@@ -1,0 +1,79 @@
+/*design*/
+/*background*/
+.design{
+	background: rgb(237,20,91);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZWQxNDViIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNjElIiBzdG9wLWNvbG9yPSIjZWMwMDhjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(45deg,  rgb(237,20,91) 0%, rgb(236,0,140) 61%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(237,20,91)), color-stop(61%,rgb(236,0,140)));
+	background: -webkit-linear-gradient(45deg,  rgb(237,20,91) 0%,rgb(236,0,140) 61%);
+	background: -o-linear-gradient(45deg,  rgb(237,20,91) 0%,rgb(236,0,140) 61%);
+	background: -ms-linear-gradient(45deg,  rgb(237,20,91) 0%,rgb(236,0,140) 61%);
+	background: linear-gradient(45deg,  rgb(237,20,91) 0%,rgb(236,0,140) 61%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed145b', endColorstr='#ec008c',GradientType=1 );
+	color: #fff;
+}
+/*title*/
+.design .description{
+	text-align: left;
+}
+/*text*/
+.design .description  > span{
+	background: #000;
+	padding: 5px;
+	display: inline;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+	font-size: 16px;
+}
+.design .description > span > span{
+	display: inline;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
+}
+/*icons*/
+.design .icon_element{
+	margin-top: 50px;
+}
+.design .icon_element > div{
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: inline-block;
+}
+.design .icon_element .shape1{
+	background-image: url('../images/shape_1.png');
+	width: 80px;
+	height: 20px;
+}
+.design .icon_element .book,.design .icon_element .pen,.design .icon_element .phone,
+.design .icon_element .comp{
+	width: 21px;
+	height: 20px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: center center;
+}
+.design .icon_element .book{
+	background-image: url('../images/notebook_icon.png');
+}
+.design .icon_element .pen{
+	background-image: url('../images/pen_icon.png');
+}
+.design .icon_element .phone{
+	background-image: url('../images/phone_icon.png');
+}
+.design .icon_element .comp{
+	background-image: url('../images/monitor_icon.png');
+}
+
+/*height*/
+.intro > .middle_container{
+	min-height: 460px;
+}

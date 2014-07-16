@@ -1,0 +1,24 @@
+/*cms*/
+.cms .middle_container > .middle_cell {
+	padding: 20px 0px 50px;
+}
+/*background*/
+.bck_img.bck_hand:before{
+	background-image: url('../images/bck_cms_web.png');/*change*/
+	/*background size*/
+	/*background size*/
+	-webkit-background-size: 400px 492px;
+	-moz-background-size: 400px 492px;
+	-o-background-size: 400px 492px;
+	background-size: 400px 492px;
+}
+/*icons*/
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms.svg');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms.svg');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms.svg');
+}

@@ -1,11 +1,72 @@
 /*header*/
 .header{
 	position: fixed;
+	backface-visibility: hidden;  /* W3C */
+	-webkit-backface-visibility: hidden; /* Safari & Chrome */
+	-moz-backface-visibility: hidden; /* Firefox */
+	-ms-backface-visibility: hidden; /* Internet Explorer */
+	-o-backface-visibility: hidden; /* Opera */
+}
+.header .logo_container .logo{
+	background: url('../images/graffoslogo_sm.svg') no-repeat;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	width: 93px;
+	height: 37px;
+	margin-left: 10px; 
 }
 
 .container_header{
 	max-width: 1366px;
 	margin: 0 auto;
+}
+.header .pet > div{
+	width: 66px;
+	height: 60px;
+	background-image: none;
+	background-color: #F2F2F2;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+.header .pet .body_g,.header .pet .feet_g{
+	left: 0;
+	right: 0;
+	top: 0px;
+	margin: auto;
+	width: 66px;
+	height: 54px;
+	position: absolute;
+	/*background size*/
+	-webkit-background-size: 85%;
+	-moz-background-size: 85%;
+	-o-background-size: 85%;
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.header .pet .body_g{
+	background-image: url('../images/graffito-pet_body.svg');
+}
+.header .pet .feet_g{
+	background-image: url('../images/graffito-pet_feet.svg');
+}
+.header .pet .body_g{
+	/*transition*/
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.header .pet:hover .body_g{
+	/*rotation*/
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
 }
 
 
@@ -33,6 +94,7 @@
 	width: 100%;
 	max-width: 1366px;
 	height: 0px;
+	-webkit-backface-visibility: hidden;
 }
 .menu .menuweb_container{
 	position: absolute;
@@ -212,11 +274,11 @@
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	/*transition*/
-	-moz-transition: all 0.3s ease !important;
-	-webkit-transition: all 0.3s ease !important;
-	-o-transition: all 0.3s ease !important;
-	transiti
-	on: all 0.3s ease !important;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	z-index: 1;
 }
 /*subcategories/bullet*/
 .subcategories_web .left_bullet:before{
@@ -389,4 +451,7 @@
 }
 .social_contact .icon_social .chat:before{
 	background-image: url('../images/chat_icon.svg');
+}
+.social_contact .icon_social a{
+	width: auto;
 }

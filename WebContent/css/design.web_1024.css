@@ -1,0 +1,48 @@
+/*design*/
+/*title*/
+.design .title{
+	padding: 0;
+}
+.design .title_shape span.trans{
+	height: 85px;
+}
+/*pat*/
+.design .title_shape:before{
+	background-position: 295px 0px;
+}
+/*icons*/
+.design .icon_element .book{
+	background-image: url('../images/notebook_icon.svg');
+}
+.design .icon_element .pen{
+	background-image: url('../images/pen_icon.svg');
+}
+.design .icon_element .phone{
+	background-image: url('../images/phone_icon.svg');
+}
+.design .icon_element .comp{
+	background-image: url('../images/monitor_icon.svg');
+}
+/*take a look*/
+.design .lines.bottom_line .take_a_look span{
+	background: #fef200;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+.design .lines.bottom_line .take_a_look span:before{
+	background: #fff;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+.design .lines.bottom_line .take_a_look span:after{
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	background: url('../images/pat_grid.png');
+}
+
+.design{
+	min-height: 630px;
+}

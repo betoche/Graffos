@@ -1,0 +1,49 @@
+/*design*/
+/*top*/
+.design .lines.top_line{
+    height: 20px;
+    display: block;
+}
+.design .lines.top_line > div{
+    height: 200px;
+    top: -100px;
+    left: 50px;
+}
+/*bottom*/
+.design .lines.bottom_line{
+    position: absolute;
+    right: 0;
+    width: auto;
+    margin-top: 20px;
+}
+.design .lines.bottom_line > div{
+    height: 200px;
+    top: -20px;
+    right: 60px;
+}
+/*take a look*/
+.design .lines.bottom_line .take_a_look{
+    font-family: 'ostrich';
+    font-size: 25px;
+    color: #fff;
+}
+.design .lines.bottom_line .take_a_look span{
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/under_construction_circle.png');
+    /*background size*/
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding: 17px 0px;
+    /*box-sizing*/
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}

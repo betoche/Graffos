@@ -41,6 +41,38 @@
 		height: 37px;
 		margin-left: 10px; 
 	}
+	/*pet*/
+	.header .pet > div{
+		width: 66px;
+		height: 60px;
+		background-image: none;
+		background-color: #F2F2F2;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
+	.header .pet .body_g,.header .pet .feet_g{
+		left: 0;
+		right: 0;
+		top: 0px;
+		margin: auto;
+		width: 66px;
+		height: 54px;
+		position: absolute;
+		/*background size*/
+		-webkit-background-size: 85%;
+		-moz-background-size: 85%;
+		-o-background-size: 85%;
+		background-size: 85%;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	.header .pet .body_g{
+		background-image: url('../images/graffito-pet_body.svg');
+	}
+	.header .pet .feet_g{
+		background-image: url('../images/graffito-pet_feet.svg');
+	}
 
 
 	/*menu*/

@@ -1,0 +1,96 @@
+/*design*/
+.design .content_cms{
+	max-width: 550px;
+}
+.design .description > span{
+	font-size: 20px;
+
+}
+.design .description > span{
+	line-height: 30px;
+}
+.design .icon_element .shape1{
+	width: 40%;
+	max-width: 523px;
+}
+/*shape title*/
+.design .title_shape:before{
+	content: "";
+	width: 100%;
+	height: 23px;
+	position: absolute;
+	background-image: url('../images/shape_2.png');
+	background-position: 275px 0px;
+	background-repeat: no-repeat;
+	bottom: 8px;
+}
+
+
+/*brand content*/
+.body .brand_content .brand_container > div{
+	padding: 30px;
+}
+.brand_content .sample .color > div,.brand_content .sample .graffos_branding > div{
+    max-width: 115px;
+}
+@media only screen and (min-width : 665px) {
+	.brand_content .sample .steps .color_text > div {
+		width: 130px;
+	}
+}
+/*brand*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_ipad.jpg');
+}
+.brand .description{
+	width: 70%;
+	margin: 0 0 0 auto;
+}
+.brand .content_cms{
+	width: 90%;
+	max-width: 480px;
+}
+
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_ipad.jpg');
+}
+.ux_ui .description{
+	width: 70%;
+	margin: 0 0 0 auto;
+}
+.ux_ui .content_cms{
+	width: 90%;
+	max-width: 480px;
+}
+
+
+/*cms*/
+.cms .content_cms{
+	max-width: 350px;
+}
+/*icons*/
+.icons_cms > div {
+	width: 80px;
+	height: 80px;
+}
+.icons_cms > .user{
+	background-image: url('../images/ico_user_cms_ipad.png');
+}
+.icons_cms > .doc{
+	background-image: url('../images/ico_doc_cms_ipad.png');
+}
+.icons_cms > .down{
+	background-image: url('../images/ico_down_cms_ipad.png');
+}
+
+
+/*generals*/
+.title.museo {
+	font-size: 80px;
+	line-height: 70px;
+}
+.content_cms{
+	width: 80%;
+}

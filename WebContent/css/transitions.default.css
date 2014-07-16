@@ -196,6 +196,57 @@
 
 
 /*menu*/
+#header .header .logo_container .logo{
+	/*transition*/
+	-moz-transition: all 0.3s ease 0.5s;
+	-webkit-transition: all 0.3s ease 0.5s;
+	-o-transition: all 0.3s ease 0.5s;
+	transition: all 0.3s ease 0.5s;
+}
+#header .header,#header .header .logo_container,#header.skrollable .pet,#header.skrollable .pet > div{
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#header .header{
+	height: auto;
+}
+#header.skrollable-after .header .logo_container .logo{
+	width: 120px;
+	height: 48px;
+}
+#header.skrollable-after .header .logo_container{
+	margin-left: 20px;
+}
+#header.skrollable .pet{
+	visibility: visible;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#header.skrollable-after .pet{
+	visibility: hidden;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+#header.skrollable .pet > div{
+	/*rotation*/
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+}
+#header.skrollable-after .pet > div{
+	/*rotation*/
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+}
+
 /*dark option*/
 .menu .categories > *{
 	/*transition*/

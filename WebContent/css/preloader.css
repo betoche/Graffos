@@ -9,6 +9,11 @@
 	background-color:#0173bc;
 	z-index:9999;
 	color: #fff;
+	backface-visibility: hidden;  /* W3C */
+	-webkit-backface-visibility: hidden; /* Safari & Chrome */
+	-moz-backface-visibility: hidden; /* Firefox */
+	-ms-backface-visibility: hidden; /* Internet Explorer */
+	-o-backface-visibility: hidden; /* Opera */
 }
 /*container*/
 .container_preloader {

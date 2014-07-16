@@ -1,0 +1,11 @@
+/*ux/ui*/
+.ux_ui .content_cms{
+	width: 100%;
+}
+/*ux ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_landscape_480.jpg');
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}

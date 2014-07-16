@@ -1,0 +1,24 @@
+/*brand content*/
+.body .brand_content .brand_container > div{
+	padding: 30px;
+}
+.brand_content .sample .color > div,.brand_content .sample .graffos_branding > div{
+    max-width: 115px;
+}
+@media only screen and (min-width : 665px) {
+	.brand_content .sample .steps .color_text > div {
+		width: 130px;
+	}
+}
+/*brand*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_ipad.jpg');
+}
+.brand .description{
+	width: 70%;
+	margin: 0 0 0 auto;
+}
+.brand .content_cms{
+	width: 90%;
+	max-width: 480px;
+}

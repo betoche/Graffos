@@ -1,0 +1,22 @@
+/*ux/ui*/
+.ux_ui{
+	background-color: #000;
+	color: #fff;
+}
+.bck_img.ux_ui:before{
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+.bck_img.ux_ui:before{
+	background-position: top center;
+}
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_portrait.jpg');
+}
+.intro > .middle_container{
+	overflow: inherit;
+}

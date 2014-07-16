@@ -1,23 +1,4 @@
 /*home*/
-.lines{
-    display: inline-block;
-    width: 3px;
-    text-align: right;
-    position: relative;
-    vertical-align: bottom;
-}
-.lines > div{
-    -moz-transform: rotate(47deg);
-    -webkit-transform: rotate(47deg);
-    -o-transform: rotate(47deg);
-    -ms-transform: rotate(47deg);
-    transform: rotate(47deg);
-    border-right: 1px solid #fff;
-    position: absolute;
-}
-
-
-/*home*/
 /*height and position*/
 /*mision*/
 .home .mision .lines.first{
@@ -57,9 +38,9 @@
     display: block;
 }
 .design .lines.top_line > div{
-    height: 200px;
-    top: -100px;
-    left: 50px;
+    height: 150px;
+    top: -50px;
+    left: 30px;
 }
 /*bottom*/
 .design .lines.bottom_line{
@@ -70,8 +51,8 @@
 }
 .design .lines.bottom_line > div{
     height: 200px;
-    top: -20px;
-    right: 60px;
+    top: -40px;
+    right: 70px;
 }
 /*take a look*/
 .design .lines.bottom_line .take_a_look{

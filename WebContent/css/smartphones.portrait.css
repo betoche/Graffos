@@ -21,7 +21,8 @@
 	width: 100%;
 	padding: 5px;
 	text-align: center;
-	background: url('../images/header_pattern.jpg');
+	/*background: url('../images/header_pattern.jpg');*/
+	background: #F2F2F2;
 	color: #fff;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -53,13 +54,14 @@
 	display: inline-block;
 	width: 100px;
 	height: 38px;
-	background: url('../images/graffoslogo_sm.png');
+	background-image: url('../images/graffoslogo_sm.png');
 	/*background size*/
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 
@@ -81,7 +83,8 @@
 }
 .intro > .middle_container{
 	padding-top: 10px; 
-	padding-bottom: 30px ;
+	padding-bottom: 30px;
+	overflow: hidden;
 }
 
 
@@ -92,7 +95,11 @@
 	left: 0;
 	width: 100%;
 	z-index: 99;
-	-webkit-backface-visibility: hidden;/*very important - android old versions*/
+	backface-visibility: hidden;  /* W3C */
+	-webkit-backface-visibility: hidden; /* Safari & Chrome */
+	-moz-backface-visibility: hidden; /* Firefox */
+	-ms-backface-visibility: hidden; /* Internet Explorer */
+	-o-backface-visibility: hidden; /* Opera */
 }
 
 /*socialnetwork*/
@@ -406,4 +413,27 @@
 /*animations*/
 .blink_t{
 	display: none;
+}
+
+/*animations*/
+.back_transition{
+	display: none;
+}
+
+/*lines*/
+.lines{
+    display: inline-block;
+    width: 3px;
+    text-align: right;
+    position: relative;
+    vertical-align: bottom;
+}
+.lines > div{
+    -moz-transform: rotate(47deg);
+    -webkit-transform: rotate(47deg);
+    -o-transform: rotate(47deg);
+    -ms-transform: rotate(47deg);
+    transform: rotate(47deg);
+    border-right: 1px solid #fff;
+    position: absolute;
 }

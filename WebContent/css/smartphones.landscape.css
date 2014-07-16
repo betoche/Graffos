@@ -10,6 +10,11 @@
 	width: 66px;
 	height: 57px;
 	background-image: url('../images/graffito-pet_sm.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	top:0;
 }

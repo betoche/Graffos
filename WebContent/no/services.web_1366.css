@@ -1,0 +1,79 @@
+/*design*/
+.design .title_shape:before{
+	background-position: 335px 0px;
+}
+
+
+/*brand content*/
+@media only screen and (min-width : 1070px) {
+	.brand_content .brand_container > div{
+		max-width: 975px;
+	}
+	/*description*/
+	.brand_content .sample > .description{
+		position: relative;
+	}
+	.brand_content .process .description{
+		padding: 10px;
+		width: 630px;
+	}
+	/*icons*/
+	.brand_content .steps{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.brand_content .logotype{
+		/*box-sizing*/
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		margin-top: 0px;
+		padding-top: 0px;
+		padding-left: 507px;
+		padding-right: 110px;
+		border-top: none;
+		text-align: right;
+		width: 100%;
+	}
+	.brand_content .logotype_graffos{
+		width: 100%;
+		max-width: 279px;
+		height: 100%;
+		background-position: center center;
+	}
+	.brand_content .patt_container{
+		height: 340px;
+	}
+}
+.body .brand_content{
+	padding-left: 0;
+}
+.body .brand_content .brand_container:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: -100%;
+	background: #fff;
+}
+/*brands*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_web_1366.jpg');
+}
+
+
+/*ux/ui*/
+.bck_img.ux_ui:before{
+	background-image: url('../images/bck_ux_ui_web_1366.jpg');
+}
+
+
+/*generals*/
+.title.museo {
+	font-size: 90px;
+}
