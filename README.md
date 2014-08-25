@@ -13,8 +13,8 @@ git push
   
 #####1.2. Database credemtials in openshift  
 ```  
-Root User: adminBUmPVRb  
-Root Password: wdeKh1BSavcT  
-Database Name: alberto  
-ssh 53fa8475500446fd6000049a@alberto-graffos.rhcloud.com  
+Root User: admin5y9r6C5  
+Root Password: mkPFQaXyKtIx  
+Database Name: graffos  
+ssh 53fa99ed5973ca4a5500015b@graffos-graffos.rhcloud.com  
 ```
