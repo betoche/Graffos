@@ -1,6 +1,8 @@
 Graffos
 =======
-www.openshift.com
+
+##### www.openshift.com
+
 
 git add .  
 git commit -m 'My changes'  
@@ -11,3 +13,5 @@ Database credemtials
 Root User: adminBUmPVRb  
 Root Password: wdeKh1BSavcT  
 Database Name: alberto
+
+
