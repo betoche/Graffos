@@ -4,6 +4,8 @@
   
 #####1.1. GitHub  
 ```
+git clone ssh://53fa99ed5973ca4a5500015b@graffos-graffos.rhcloud.com/~/git/graffos.git/  
+
 git add .  
 git commit -m 'My changes'  
 git push  
