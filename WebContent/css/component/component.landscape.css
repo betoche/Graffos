@@ -1,0 +1,23 @@
+.og-grid {
+	border: none;
+}
+.og-grid > li {
+	display: inline-block;
+	width: 50%; /*temporal*/
+	height: 200px;
+	border: none;
+}
+
+.og-grid li > a{
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+
+
+.og-grid > li{
+	max-height: 615px;
+}
+.og-grid > li > div{
+	max-height: 410px;
+}

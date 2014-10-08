@@ -1,0 +1,38 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_web_900.jpg');
+}
+/*text*/
+.branding_text{
+	height: 205px;
+	background-image: url('../../images/branding/branding_text.svg');
+}
+
+/*container intro*/
+.branding .middle_cell .container_intro{
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+/*line*/
+.diagonal_line{
+	width: 70%;
+}
+
+
+/*rocket*/
+.branding .rocket .skroll_rocket{
+	-moz-box-shadow:    0px -8px 0px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px -8px 0px 0px rgba(0,0,0,0.08);
+	box-shadow:         0px -8px 0px 0px rgba(0,0,0,0.08);
+}
+/*icon*/
+.branding .rocket{
+	padding: 70px 20px 150px;
+}
+.branding .rocket_icon_container{
+	margin: 0 auto 30px;
+}
+.branding .rocket_icon_container .icon_rocket{
+	background-image: url('../../images/branding/cohete_icon.svg');
+}

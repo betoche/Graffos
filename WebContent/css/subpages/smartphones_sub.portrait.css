@@ -1,0 +1,58 @@
+.header_sub{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	padding: 25px 20px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.header_sub > div{
+	display: inline-block;
+	margin-right: -3px;
+	vertical-align: middle;
+}
+.header_sub .logo_container{
+	width: 80%;
+}
+.header_sub .button_container{
+	width: 20%;
+	text-align: right;
+}
+.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
+	background-image: url('../../images/default/menu/menu_icon.png');
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 11px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: center center;
+}
+.exit_menu .button_menu:before{
+	content: "";
+	position: absolute;
+	right: 0;
+}
+.header_sub .logo{
+	width: 110px;
+	height: 47px;
+	background-image: url('../../images/default/logos_pet/graffos_logo.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*hidding web menu*/
+.header_sub > .menu_sub_container{
+	display: none;
+}

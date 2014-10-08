@@ -1,0 +1,50 @@
+/*title*/
+.title.museo {
+	margin-top: -50px;
+}
+
+/*menus*/
+/*hover menu*/
+/*design*/
+.services .menu .menu_container .pink_hover .subcategories_web > div > a:hover{
+	background: #ff0097;
+}
+.services .menu .menu_container .pink_hover.categories > a:hover{
+	color: #fef200;
+}
+
+.services .menu .menu_container .red_hover .subcategories_web > div > a:hover{
+	background: #ff0000;
+}
+.services .menu .menu_container .red_hover.categories > a:hover{
+	color: #747474;
+}
+
+
+.services .menu .menu_container .gray_hover .subcategories_web > div > a:hover{
+	background: #4a4a4a;
+}
+.services .menu .menu_container .gray_hover.categories > a:hover{
+	color:  #4a4a4a;
+}
+
+.services .menu .menu_container .purple_hover .subcategories_web > div > a:hover{
+	background: #7400ca;
+}
+.services .menu .menu_container .purple_hover.categories > a:hover{
+	color: #7400ca;
+}
+
+.services .menu .menu_container .orange_hover .subcategories_web > div > a:hover{
+	background: #fa5c12;
+}
+.services .menu .menu_container .orange_hover.categories > a:hover{
+	color: rgba(0,0,0,0.4);
+}
+
+
+/*back animation*/
+.back_transition{
+	display: block;
+	position:absolute !important;
+}

@@ -1,0 +1,99 @@
+/*header*/
+.header{
+	text-align: left;
+}
+.container_header > div{
+	width: auto;
+}
+.header .logo_container{
+	text-align: left;
+	margin-left: 80px;
+}
+
+
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 70%;
+}
+.hello .description{
+	font-size: 22px;
+	line-height: 25px;
+}
+/*description*/
+.hello .title.pacifico{
+	font-size: 50px;
+	line-height: 57px;
+}
+.title.pacifico{
+	font-size: 50px;
+	line-height: 57px;
+}
+
+
+/*mision*/
+.mision > div > div{
+	display: block;
+	width: 350px;
+	margin: 0  0 0 auto;
+}
+
+
+/*about*/
+.about_container .question_container{
+	/*padding: 20px 40px;*/
+}
+.about_container > div{
+	padding: 20px;
+}
+.about_container .question_container > div{
+	display: block;
+	width: 350px;
+	margin: 0  0 0 auto;
+	padding: 5px 10px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.about_container .question_container > .little_words{
+	margin-top: 0px;
+}
+/*bullet*/
+.about_container .question_container .first_line:before{
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: -27px;
+	width: 15px;
+	height: 15px;
+}
+
+
+/*images*/
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	/*background size*/
+	background-image: url('../../images/default/logos_pet/graffito-pet_sm.svg');
+	width: 100%;
+	max-width: 90%;
+	top: -5%;
+	/*background size*/
+	-webkit-background-size: 120%;
+	-moz-background-size: 120%;
+	-o-background-size: 120%;
+	background-size: 120%;
+}
+
+
+/*about*/
+.body .about_container{
+	background-image: url('../../images/home/bck_about_web900.jpg');
+}
+
+/*founders*/
+.bck_founders{
+	background-image: url('../../images/home/bck_founders_web900.jpg');
+}

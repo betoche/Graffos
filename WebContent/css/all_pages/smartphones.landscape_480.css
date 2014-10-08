@@ -1,0 +1,27 @@
+/*footer*/
+/*align*/
+.contact_section,.copyright_footer{
+	text-align: left;
+}
+
+/*icons*/
+.content_contact .icon_footer:before{
+	margin-right: 15px;
+	width: 15px;
+	height: 15px;
+}
+
+/*container*/
+.links_section > div,.content_contact > div{
+	margin: 2px 0px;
+}
+
+/*copyright*/
+.copyright_footer{
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+}
+.copyright_footer .logo_footer{
+	margin: 0px auto 5px;
+}

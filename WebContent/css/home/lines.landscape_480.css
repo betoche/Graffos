@@ -1,0 +1,18 @@
+/*height and position*/
+
+/*mision*/
+.home .mision .lines.first > div{
+    top: -111px;
+    left: 17px;
+}
+.home .mision .lines.second > div{
+    top: -100px;
+    left: 52px;
+}
+
+/*founders*/
+.home .founders .lines > div{
+    height: 600px;
+    bottom: -275px;
+    left: 120px;
+}

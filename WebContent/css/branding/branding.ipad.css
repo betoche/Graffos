@@ -1,0 +1,43 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_ipad.jpg');
+}
+/*text*/
+.branding_text{
+	background-position: bottom center;
+	height: 170px;
+}
+
+/*margin top intro*/
+.branding .middle_cell .container_intro{
+	padding-top: 0px;
+}
+
+/*line*/
+.diagonal_line{
+	width: 80%;
+    top: 95%;
+}
+
+
+/*rocket*/
+.branding .rocket{
+	padding: 50px 20px 100px;
+}
+.branding .rocket .container_rocket{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.branding .rocket .container_rocket > div{
+	line-height: 24px;
+	font-size: 16px;
+}
+/*icon*/
+.branding .rocket_icon_container{
+	width: 150px;
+	height: 80px;
+}
+.branding .rocket_icon_container .icon_rocket{
+	width: 80px;
+	height: 80px;
+}

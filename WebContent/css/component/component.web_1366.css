@@ -1,0 +1,11 @@
+/*container*/
+.og-grid{
+	width: 945px;
+}
+
+.og-grid > li{
+	height: 317px;
+}
+.og-grid > li > a{
+	height: 312px;
+}

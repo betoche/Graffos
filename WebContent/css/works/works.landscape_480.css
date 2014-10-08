@@ -1,0 +1,15 @@
+/*text intro*/
+.works_text {
+	height: 65px;
+	max-width: 210px;
+}
+
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_landscape_480.jpg');
+}
+
+/*bottom text*/
+.container_bottom_text:before{
+	border-width: 15px 12.5px 0 12.5px;
+}

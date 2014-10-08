@@ -1,0 +1,88 @@
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 90%;
+	margin: 0 auto;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.hello .description{
+	font-size: 20px;
+	line-height: 22px;
+}
+/*description*/
+.hello .title.pacifico{
+	font-size: 43px;
+	line-height: 50px;
+}
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*home*/
+	/*background graffos pet*/
+	.bck_img.bck_graffito:before{
+		background-image: url('../../images/default/logos_pet/graffito-pet_sm.svg');
+		/*background position*/
+		background-position: 60% 0%;
+	}
+}
+.bck_img.bck_graffito:before{
+	/*background size*/
+	background-image: url('../../images/home/bck_graffito_sm_480.png');
+	background-position: top right;
+	right: 0;
+	top: 0;
+	bottom: auto;
+	margin: auto;
+	left: auto;
+	max-width: 480px;
+	height: 665px;
+}
+
+/*mision*/
+.mision > div{
+	text-align: right;
+}
+.mision > div > div{
+	width: 60%;
+	display: inline-block;
+	min-width: 250px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*question*/
+.about_container .question_container{
+	text-align: right;
+}
+.about_container .question_container > div{
+	padding: 10px;
+	width: 60%;
+	text-align: left;
+	display: inline-block;
+	min-width: 250px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*about*/
+.body .about_container{
+	background-image: url('../../images/home/bck_about_smlandscape_480.jpg');
+}
+/*circle*/
+.about_container .question_container .first_line:before{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 0px;
+	margin-left: -20px;
+	top: 5px;
+}
+
+/*founders*/
+.bck_founders{
+	background-image: url('../../images/home/bck_founders_smlandscape_480.jpg');
+}

@@ -1,0 +1,13 @@
+body{
+	background-image: url('../../images/counter/back_360.jpg');
+}
+
+
+ul.countdown li span {
+	font-size: 35px;
+	line-height: 35px;
+}
+ul.countdown li.seperator {
+	font-size: 35px;
+	line-height: 35px;
+}

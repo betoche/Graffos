@@ -1,0 +1,110 @@
+/*social network*/
+/*fixed*/
+.socialnetwork a {
+	max-width: 80px;
+}
+
+
+/*copyright*/
+.body > div.last_div {
+	padding-bottom: 60px;
+}
+
+
+/*paddign top*/
+.intro > .middle_container{
+	padding-top: 40px;
+}
+
+
+/*footer*/
+/*colors hover*/
+/*links menu*/
+.footer .links_section div a{
+	color: rgba(255,255,255,0.3);
+}
+.footer .links_section a,.footer .links_section div,.title_footer,
+.footer .address,.footer .skype_footer,.content_contact .icon_footer:before{
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.sections_container .links_section_container:hover .links_section div a:hover,
+.sections_container .links_section_container:hover .links_section a:hover
+{
+	color: rgba(5,179,178,1);
+}
+.sections_container .links_section_container:hover .links_section div a{
+	color: rgba(255,255,255,0.5);
+}
+.sections_container .links_section_container:hover .links_section a,
+.sections_container .links_section_container:hover .links_section div{
+	color: rgba(255,255,255,0.7);
+}
+/*titles*/
+.sections_container > div:hover .title_footer{
+	color: rgba(255,255,255,1);
+}
+
+/*contact*/
+.footer .contact_section:hover .address{
+	color: rgba(255,255,255,1);
+}
+.footer .contact_section:hover .skype_footer{
+	color: rgba(255,255,255,0.5);
+}
+.content_contact .icon_footer:hover:before{
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+
+/*copyright*/
+.copyright_footer .logo_footer{
+	margin: 0px auto 5px;
+	width: 160px;
+	height: 68px;
+}
+.links_section div a{
+	font-size: 14px;
+}
+.sections_container > .links_section_container{
+	padding-right: 60px;
+}
+.sections_container > .contact_section{
+	padding-left: 60px;
+}
+.links_section > div, .content_contact > div{
+	margin: 5px 0px;
+}
+
+/*title*/
+.title_footer{
+	font-size: 20px;
+}
+
+/*icon*/
+.content_contact .address{
+	margin-bottom: 10px;
+}
+.content_contact .icon_footer:before{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+}
+.content_contact .phone_footer:before{
+	background-image: url('../../images/default/footer/icon_phone.svg');
+}
+.content_contact .mail_footer:before{
+	background-image: url('../../images/default/footer/icon_mail.svg');
+}
+.content_contact .skype_footer:before{
+	background-image: url('../../images/default/footer/icon_send.svg');
+}
+
+.copyright_footer .logo_footer{
+	background-image: url('../../images/default/logos_pet/graffos_logo.svg');
+}

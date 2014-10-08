@@ -1,0 +1,14 @@
+.back_transition{
+	display: block;
+	position:absolute;
+}
+.drawing_position{
+	left: 50%;
+	top:0;
+}
+@media only screen and (min-width : 1025px){
+
+	.drawing_position{
+		left: 53%;
+	}
+}

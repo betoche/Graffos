@@ -1,0 +1,99 @@
+.icon_container >  *{
+	/*transition*/
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.icon_container >  .scroll_down{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.icon_container:hover > .scroll_down{
+	top: 200px;
+	width: 30px;
+	height: 30px;
+}
+.icon_container:hover > .line_scroll{
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+/*scroll*/
+.delay3{
+	-webkit-animation-delay: 1.8s !important;
+	-moz-animation-delay: 1.8s !important;
+	-o-animation-delay: 1.8s !important;
+	animation-delay: 1.8s !important;
+}
+.delay4{
+	-webkit-animation-delay: 2.3s !important;
+	-moz-animation-delay: 2.3s !important;
+	-o-animation-delay: 2.3s !important;
+	animation-delay: 2.3s !important;
+}
+.crecer{
+	-webkit-animation-name: crecer;
+	-moz-animation-name: crecer;
+	-o-animation-name: crecer;
+	animatio-name: crecer;
+}
+@-webkit-keyframes crecer {
+	0%{ height: 0px}
+}
+@-moz-keyframes crecer {
+	0%{ height: 0px}
+}
+@-o-keyframes crecer {
+	0%{ height: 0px}
+}
+@keyframes crecer {
+	0%{ height: 0px}
+}
+@-ms-keyframes crecer {
+	0%{ height: 0px}
+}
+
+/*container height, blur*/
+/*intro blur*/
+.design.bck_img:before{
+	background-attachment: fixed;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.design{
+	/*transition*/
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+/*icon coffee*/
+.coffee_icon{
+	position: relative;
+}
+.coffee_icon:before{
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	display: block;
+	width: 12px;
+	height: 30px;
+	background-image: url('../../images/design/smoke.gif');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	left: 0;
+	right: 10px;
+	margin: 0 auto 5px;
+}

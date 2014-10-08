@@ -1,0 +1,42 @@
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 60%;
+}
+.hello .description{
+	font-size: 26px;
+	line-height: 29px;
+}
+/*description*/
+.hello .title.pacifico{
+	font-size: 63px;
+	line-height: 70px;
+}
+.title.pacifico{
+	font-size: 63px;
+	line-height: 70px;
+}
+
+
+/*our mission*/
+.mision > div{
+	max-width: 1069px;
+	margin: 0 auto;
+}
+
+/*images*/
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	top: -100px;
+	max-width: 75%;
+}
+/*about*/
+.body .about_container{
+	background-image: url('../../images/home/bck_about_web1366.jpg');
+}
+
+/*founders*/
+.bck_founders{
+	background-image: url('../../images/home/bck_founders_web1366.jpg');
+}

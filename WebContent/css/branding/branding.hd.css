@@ -1,0 +1,10 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	.bck_img.branding_image{
+		background-image: url('../../images/branding/bck_branding_web_hd.jpg');
+	}
+
+	/*icon*/
+	.branding .rocket_icon_container .icon_rocket{
+		background-image: url('../../images/branding/cohete_icon.svg');
+	}
+}

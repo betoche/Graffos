@@ -1,0 +1,4 @@
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_landscape.jpg');
+}

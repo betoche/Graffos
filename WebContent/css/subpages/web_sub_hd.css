@@ -1,0 +1,9 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*logo hd*/
+	.header_sub .logo{
+		background-image: url('../../images/default/logos_pet/graffos_logo.svg');
+	}
+	.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
+		background-image: url('../../images/default/menu/menu_icon.svg');
+	}
+}

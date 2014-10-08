@@ -1,0 +1,16 @@
+/*text intro*/
+.works_text{
+	height: 130px;
+	max-width: 400px;
+}
+
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_web_1366.jpg');
+}
+
+
+/*bottom text*/
+.container_bottom_text:before{
+	border-width: 20px 17.5px 0 17.5px;
+}

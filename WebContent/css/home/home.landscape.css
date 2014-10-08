@@ -1,0 +1,56 @@
+/*defaults*/
+/*logo&Pet*/
+/*pet*/
+.header .pet{
+	display: inline-block;
+}
+.header .pet  > div{
+	position: absolute;
+	left: 15px;
+	width: 66px;
+	height: 57px;
+	background-image: url('../../images/home/graffito-pet_sm.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0;
+}
+/*logo*/
+.header .logo_container{
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	/*background size*/
+	background-image: url('../../images/home/bck_graffito_sm.png');
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+	max-width: 360px;
+	height: 664px;
+}
+
+/*about*/
+.body .about_container{
+	background-image: url('../../images/home/bck_about_smlandscape.jpg');
+}
+
+/*question*/
+.about_container .question_container{
+	/*padding: 20px 50px 20px;*/
+}
+
+/*founders*/
+.body .about_container{
+	height: 220px;
+}
+.bck_founders{
+	background-image: url('../../images/home/bck_founders_smlandscape.jpg');
+}

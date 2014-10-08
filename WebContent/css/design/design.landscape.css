@@ -1,0 +1,18 @@
+/*background*/
+.bck_img.design:before{
+	background-image: url('../../images/design/bck_design_landscape.jpg');
+}
+
+/*notes*/
+.botton_notes{
+	background-image: url('../../images/design/bck_design_note_landscape.jpg');
+	font-size: 16px;
+}
+
+/*slide*/
+.title_slide{
+	font-size: 20px;
+}
+.swiper-slide .icon_slide_container > div{
+	font-size: 14px;
+}

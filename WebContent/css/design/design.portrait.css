@@ -1,0 +1,255 @@
+/*text*/
+.design_text{
+	width: 100%;
+	height: 76px;
+	background-image: url('../../images/design/design_text.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 180px;
+}
+
+/*background*/
+.bck_img.design:before{
+	background-image: url('../../images/design/bck_design_portrait.jpg');
+}
+
+.design .description{
+	color: #332e3c;
+	text-align: center;
+}
+
+/*scrolldown*/
+.icon_container{
+	width: 14px;
+	height: 14px;
+	position: relative;
+	margin: 20px auto 0px;
+}
+.icon_container > *{
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: #04b3b2;
+}
+.icon_container > .scroll_down{
+	width: 14px;
+	height: 14px;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	position: absolute;
+}
+.line_scroll{
+	width: 2px;
+	height: 1000px;
+}
+
+/*position z-index*/
+.slide_design{
+	position: relative;
+}
+.slide_design{
+	z-index: 3;
+}
+/*slide container*/
+.slide_design:before{
+	content: "";
+	position: absolute;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 7.5px 0 7.5px;
+	border-color: #04b3b3 transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #04b3b3 #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	z-index: 3;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+/*icon*/
+.coffee_icon{
+	margin: 0 auto;
+	width: 30px;
+	height: 42px;
+	background-image: url('../../images/design/coffee_icon.png');
+	/*background size*/
+	-webkit-background-size: 30px 42px;
+	-moz-background-size: 30px 42px;
+	-o-background-size: 30px 42px;
+	background-size: 30px 42px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+/*button*/
+.button_container{
+	margin-top: 20px;
+}
+
+/*container slide*/
+.design .slide_design{
+	padding: 20px 0px;
+	text-align: center;	
+}
+/*title*/
+.title_slide{
+	font-size: 16px;
+	padding: 20px;
+}
+/*slide*/
+/*icons*/
+.icon_design{
+	width: 40px;
+	height: 40px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*images*/
+/*slide 1*/
+.web_design{
+	background-image: url('../../images/design/icon_web_design.png');
+}
+.app_design{
+	background-image: url('../../images/design/icon_app_design.png');
+}
+.brochure{
+	background-image: url('../../images/design/icon_brochure.png');
+}
+.catalogues{
+	background-image: url('../../images/design/icon_catalogues.png');
+}
+.packaging{
+	background-image: url('../../images/design/icon_packaging.png');
+}
+.invitation{
+	background-image: url('../../images/design/icon_invitation.png');
+}
+.animation{
+	background-image: url('../../images/design/icon_animation.png');
+}
+.illustration{
+	background-image: url('../../images/design/icon_illustration.png');
+}
+/*slide 2*/
+.advertising{
+	background-image: url('../../images/design/coma.png');
+}
+.business_cards{
+	background-image: url('../../images/design/business_cards.png');
+}
+.corporate_guidelines{
+	background-image: url('../../images/design/corporate_guidelines.png');
+}
+.exhibition{
+	background-image: url('../../images/design/exhibition.png');
+}
+.flyers{
+	background-image: url('../../images/design/flyers.png');
+}
+.magazine{
+	background-image: url('../../images/design/magazine.png');
+}
+.newsletters{
+	background-image: url('../../images/design/newsletters.png');
+}
+.stationery{
+	background-image: url('../../images/design/stationery.png');
+}
+/*slide 3*/
+.anual_reports{
+	background-image: url('../../images/design/anual_reports.png');
+}
+.car{
+	background-image: url('../../images/design/car.png');
+}
+.covers{
+	background-image: url('../../images/design/covers.png');
+}
+.icons_design{
+	background-image: url('../../images/design/icons_design.png');
+}
+.postcards{
+	background-image: url('../../images/design/postcards.png');
+}
+.poster{
+	background-image: url('../../images/design/poster.png');
+}
+.shirts{
+	background-image: url('../../images/design/shirts.png');
+}
+.stickers{
+	background-image: url('../../images/design/stickers.png');
+}
+
+
+/*icon_slide_container*/
+.swiper-slide .icon_slide_container{
+	display: inline-block;
+	margin-right: -3px;
+	padding: 8px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.swiper-slide .icon_slide_container > div{
+	margin: 10px auto;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 12px;
+}
+/*responsive :P*/
+.swiper-slide .slide_width{
+	width: 75%;
+	margin: 0 auto;
+}
+.swiper-slide .icon_slide_container{
+	width: 50%;
+}
+
+
+/*notes bottom*/
+.botton_notes{
+	position: relative;
+	z-index: 2;
+}
+.body > .botton_notes{
+	padding: 80px 20px;
+}
+.botton_notes{
+	text-align: center;
+	background-color: #fff;
+	background-image: url('../../images/design/bck_design_note_portrait.jpg');
+	/*background size*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.botton_notes div{
+	line-height: 20px;
+	color: #342f3e;
+}
+.botton_notes .lighting{
+	text-transform: uppercase;
+	color: #04b3b2;
+}

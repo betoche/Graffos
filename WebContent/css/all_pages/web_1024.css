@@ -1,0 +1,175 @@
+/*menu*/
+/*container*/
+/*hidding mobile menu*/
+.ui-panel-dismiss{
+	display: none;
+}
+.ui-page{
+	outline: none;
+}
+#defaultpanel,.ui-loader {
+	display: none;
+}
+
+
+/*fixed div*/
+/*socialnetwork*/
+.fixed{
+	height: 222px;
+}
+.fixed .socialnetwork{
+	background: none;
+	position: absolute;
+	right: 45px;
+	z-index: 2;
+	height: auto;
+}
+.fixed{
+	width: 100%;
+	max-width: 1366px;
+	left: 0;
+	right: 0;
+	top: 90px;
+	bottom: auto;
+	margin: 0 auto;
+	height: 0px;
+}
+/*buttons*/
+.socialnetwork a{
+	display: block;
+	width: auto;
+	margin: 10px auto;
+	padding: 10px;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	width: 38px;
+	height: 38px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	overflow: hidden;
+	/*transition*/
+	-moz-transition: all 0.3s ease !important;
+	-webkit-transition: all 0.3s ease !important;
+	-o-transition: all 0.3s ease !important;
+	transition: all 0.3s ease !important;
+}
+.socialnetwork a:hover{
+	/*rotation*/
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+}
+.socialnetwork a:after{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+
+
+/*colors*/
+/*default*/
+.socialnetwork a{
+	background: rgba(0,0,0,0.1);
+}
+.socialnetwork a:hover{
+	background: rgba(0,0,0,0.4);
+}
+/*home*/
+.home .socialnetwork a{
+	background: rgba(119,8,121,0.5);
+}
+.home .socialnetwork a:hover{
+	background: rgba(119,8,121,1);
+}
+
+
+
+/*body*/
+.body > div{
+	padding: 40px 140px;
+}
+
+
+/*colors menu*/
+.home .menu .categories > *:hover{
+	color: #1cbbb4;
+}
+.home .menu .menu_container .subcategories_web > div > a:hover{
+	background: #1cbbb4;
+}
+
+/*lets share*/
+.body > div.last_div{
+	padding: 50px 20px 0px;
+}
+
+
+/*menu*/
+.icon_menu.services:after{
+	background-image: url('../../images/default/menu/services.svg');
+}
+.icon_menu.work:after{
+	background-image: url('../../images/default/menu/works.svg');
+}
+.icon_menu.about:after{
+	background-image: url('../../images/default/menu/aboutus.svg');
+}
+.icon_menu.news:after{
+	background-image: url('../../images/default/menu/news.svg');
+}
+.icon_menu.contact:after{
+	background-image: url('../../images/default/menu/send.svg');
+}
+.icon_menu.home:after{
+	background-image: url('../../images/default/menu/home.svg');
+}
+
+/*footer*/
+.circle{
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+}
+
+
+/*others*/
+/*animations*/
+.blink_t{
+	display: inline-block;
+}
+
+
+/*footer*/
+.footer_container{
+	padding: 10px 20px 50px;
+	max-width: 1000px;
+}
+.copyright_footer{
+	right: 0px;
+	bottom: 40px;
+}
+.copyright_footer .copyright_text{
+	font-size: 14px;
+	margin-top: -10px;
+}
+.copyright_footer .logo_footer{
+	margin: 0 auto;
+	width: 250px;
+	height: 107px;
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.3;
+	opacity: 0.3;
+	-webkit-background-size: 160px 68px;
+	-moz-background-size: 160px 68px;
+	-o-background-size: 160px 68px;
+	background-size: 160px 68px;
+}

@@ -1,0 +1,71 @@
+/*container*/
+.og-grid{
+	width: 750px;
+}
+
+/*label*/
+/*links*/
+.og-grid > li{
+	border: 3px solid #fff;
+	height: 248px;
+}
+.og-grid > li > a{
+	height: 243px;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+/*hover*/
+
+
+
+
+/*description*/
+.og-expander-inner{
+	padding: 40px 100px 40px;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+/*margin description*/
+.og-grid > li > div{
+	margin-top: 5px;
+}
+.og-expander{
+	background: #f3f3f3;
+}
+.og-grid > li.og-expanded,.og-grid > li[style*="height: 3"]
+,.og-grid > li[style*="height: 4"],.og-grid > li[style*="height: 5"]
+,.og-grid > li[style*="height: 6"],.og-grid > li[style*="height: 7"]
+,.og-grid > li[style*="height: 8"],.og-grid > li[style*="height: 9"]{
+	margin-bottom: 1px
+}
+
+
+.og-fullimg:after{
+	border-right: 1px solid #D2D2D2;
+	border-left: 1px solid #fff;
+}
+.og-details p{
+	border: none;
+	position: relative;
+}
+.og-details p:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 0px;
+	left: 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+
+.og-fullimg{
+	width: 55%;
+}
+.og-details{
+	width: 45%;
+}

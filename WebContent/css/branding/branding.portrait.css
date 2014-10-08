@@ -1,0 +1,105 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_portrait.jpg');
+	/*background size*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.bck_img.branding_image:before{
+	background: #590076;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU5MDA3NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjAwNmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #590076 0%, #ff006c 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#590076), color-stop(100%,#ff006c));
+	background: -webkit-linear-gradient(left,  #590076 0%,#ff006c 100%);
+	background: -o-linear-gradient(left,  #590076 0%,#ff006c 100%);
+	background: -ms-linear-gradient(left,  #590076 0%,#ff006c 100%);
+	background: linear-gradient(to right,  #590076 0%,#ff006c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590076', endColorstr='#ff006c',GradientType=1 );
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+}
+
+/*text*/
+.branding_text{
+	width: 100%;
+	height: 125px;
+	background-image: url('../../images/branding/branding_text.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0 0 auto auto;
+	max-width: 200px;
+	position: relative;
+}
+.branding .middle_cell .container_intro{
+	color: #fff;
+}
+
+
+/*rocket*/
+.branding .rocket .skroll_rocket_container{
+	bottom: 100%;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+.branding .rocket .skroll_rocket{
+	position: absolute;
+	top: 30px;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	background: #fff;
+}
+.branding .rocket{
+	position: relative;
+	padding: 50px 20px;
+	text-align: center;
+}
+.branding .rocket .container_rocket > div{
+	line-height: 22px;
+	color: #7D7D7D;
+}
+.branding .rocket .text_rocket span{
+	color: #000;
+}
+
+/*icon*/
+.branding .rocket_icon_container{
+	position: relative;
+	width: 65px;
+	height: 65px;
+	margin: 0 auto 20px;
+}
+.branding .rocket_icon_container .icon_rocket{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 65px;
+	height: 65px;
+	background-image: url('../../images/branding/cohete_icon.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}

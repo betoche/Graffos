@@ -1,0 +1,190 @@
+/*text intro*/
+.works_text {
+	width: 100%;
+	height: 56px;
+	background-image: url('../../images/works/works_text.png');
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 180px;
+}
+.works .description {
+	text-align: center;
+}
+.works .description .bolder{
+	font-size: 16px;
+	margin-bottom: 5px
+}
+
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_portrait.jpg');
+	background-position: center center;
+	filter: alpha(opacity=11);
+	-moz-opacity: 0.11;
+	opacity: 0.11;
+}
+
+
+/*icon*/
+@media screen and ( max-height: 380px ) {
+	.icon_container_small > div{
+		display: block;
+	}
+	.icon_container{
+		width: 0;
+		height: 0;
+	}
+	.icon_container > div{
+		display: none;
+	}
+}
+@media screen and ( min-height: 381px ) {
+	.icon_container > div{
+		display: block;
+	}
+	.icon_container_small > div{
+		display: none;
+	}
+	.icon_container_small{
+		width: 0;
+		height: 0;
+		margin: 0;
+	}
+}
+
+.works .icon_container_small{
+	position: relative;
+	margin: 20px auto 0px;
+}
+.works .icon_container_small .scroll_container_sm{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.works .icon_container,.works .icon_container_small{
+	width: 60px;
+	height: 60px;
+}
+.works .icon_container{
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.works .icon_container .scroll_down,
+.works .icon_container_small .scroll_down{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	overflow: hidden;
+	background-image: url('../../images/works/circle_white.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: 1;
+	
+}
+.works .icon_container .scroll_down:after,
+.works .icon_container_small .scroll_down:after{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	content: "";
+	background-image: url('../../images/works/mouse_icon.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 2;
+}
+
+/*gallery*/
+.og-grid li.nica_challenge > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_nica_challenge.jpg');
+}
+.og-grid li.eldon_villas > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_eldon_villas.jpg');
+}
+.og-grid li.loop_swoop > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_loop_swoop.jpg');
+}
+.og-grid li.ibericasa > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_ibericasa.jpg');
+}
+.og-grid li.sca > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_sca.jpg');
+}
+.og-grid li.graffos_cards > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_graffos_cards.jpg');
+}
+.og-grid li.ciaobella > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_ciaobella.jpg');
+}
+/*recent work & featured project*/
+.og-grid li.recent_work{
+	background-image: url('../../images/works/component/thumbs/thumbs_recent_work.jpg');
+}
+.og-grid li.featured_project{
+	background-image: url('../../images/works/component/thumbs/thumbs_featured_project.jpg');
+}
+
+
+/*text works*/
+.container_text_work{
+	margin: 0 auto;
+	padding: 50px 20px;
+	position: relative;
+	text-align: center;
+	line-height: 22px;
+	color: #7D7D7D;
+}
+.container_text_work:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	height: 0px;
+	border-bottom: 1px solid #C9C9C9;
+	max-width: 100px;
+}
+/*icon idea*/
+.work_icon{
+	margin: 0px auto 20px;
+	width: 65px;
+	height: 65px;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../../images/works/icon_idea.png');
+}
+
+/*bottom text*/

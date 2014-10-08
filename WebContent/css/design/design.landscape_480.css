@@ -1,0 +1,41 @@
+/*background*/
+.bck_img.design:before{
+	background-image: url('../../images/design/bck_design_landscape_480.jpg');
+}
+
+/*notes*/
+.botton_notes{
+	background-image: url('../../images/design/bck_design_note_landscape_480.jpg');
+}
+.body > .botton_notes{
+	padding: 110px 20px;
+}
+
+.design_text{
+	height: 90px;
+	max-width: 210px;
+}
+
+/*icon coffee*/
+.slide_design:before{
+	border-width: 15px 12.5px 0 12.5px;
+}
+
+/*slide*/
+.title_slide{
+	padding: 35px;
+}
+.swiper-slide .icon_slide_container{
+	width: 25%;
+}
+.swiper-slide .slide_width{
+	width: 90%;
+	max-width: 350px;
+}
+.swiper-slide .icon_slide_container > div{
+	font-size: 11px;
+}
+.icon_design{
+	width: 35px;
+	height: 35px;
+}

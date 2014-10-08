@@ -1,0 +1,8 @@
+/*Header*/
+.header_sub{
+	padding: 25px
+}
+.header_sub .logo{
+	width: 120px;
+	height: 51px;
+}

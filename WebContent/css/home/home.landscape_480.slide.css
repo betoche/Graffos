@@ -1,0 +1,47 @@
+.pictures{
+	margin-top: 20px;
+}
+.pictures .pic{
+	width: 200px;
+	height: 198px;
+}
+
+/*title*/
+.founders .title{
+	margin-bottom: 40px;
+}
+
+/*images*/
+/*roberto pic*/
+.pic_n_description .pic .roberto_preview{
+	background-image: url('../../images/home/preview_roberto_sm.landscape_480.png');
+}
+/*lesther pic*/
+.pic_n_description .pic .lesther_preview{
+	background-image: url('../../images/home/preview_lesther_sm.landscape_480.png');
+}
+/*betoche pic*/
+.pic_n_description .pic .betoche_preview{
+	background-image: url('../../images/home/preview_betoche_sm.landscape_480.png');
+}
+
+/*gerald pic*/
+.pic_n_description .pic .gerald_preview{
+	background-image: url('../../images/home/preview_gerald_sm.landscape_480.png');
+}
+
+
+/*navigation*/
+.pictures .device .arrow-left,.pictures .device .arrow-right{
+	width: 15px;
+	height: 30px;
+}
+/*left*/
+.pictures .device .arrow-left{
+	background: url('../../images/home/left_icon_landscape.png') no-repeat;
+	left: 30px;
+}
+.pictures .device .arrow-right{
+	background: url('../../images/home/right_icon_landscape.png') no-repeat;
+	right: 30px;
+}

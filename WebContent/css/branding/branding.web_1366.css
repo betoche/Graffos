@@ -1,0 +1,8 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_web_1366.jpg');
+}
+
+.diagonal_line{
+	width: 90%;
+}

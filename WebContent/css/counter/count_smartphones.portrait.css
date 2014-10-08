@@ -1,0 +1,143 @@
+body{
+	/*background size*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../../images/counter/back_320.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+}
+.container_countdown{
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.container_countdown > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+ul.countdown {
+	list-style: none;
+	margin: 5px 0px 40px;
+	padding: 0;
+	text-align: center;
+}
+ul.countdown li {
+	display: inline-block;
+}
+ul.countdown li span {
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 25px;
+}
+ul.countdown li.seperator {
+	font-size: 25px;
+	line-height: 25px;
+	vertical-align: top;
+	margin: 0px 10px;
+}
+ul.countdown li p {
+	font-weight: 300;
+	color: #000;
+	font-size: 12px;
+}
+
+.text_container{
+	text-align: center;
+	padding: 10px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.text_container .graffos{
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	width: 70px;
+	height: 68px;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 0 auto;
+	background-image: url('../../images/counter//graffito-pet.png');
+}
+.button_section{
+	font-size: 15px;
+	padding: 30px;
+	font-weight: 300;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.button_section > div{
+	max-width: 250px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.button_section input[type="email"]{
+	display: block;
+	width: 100%;
+	max-width: 350px;
+	margin: 0 auto 20px;
+}
+input.button{
+	border: none;
+	padding: 10px 30px;
+	background: #04b3b2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Roboto';
+	text-transform: capitalize;
+	cursor: pointer;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+input.button:hover{
+	background: #04D0D0;
+}
+
+
+.graffos_text{
+	display: none;
+}
+
+
+.intro{
+	text-align: center;
+	text-transform: lowercase;
+	color: #000;
+	padding: 30px 0px 0px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+
+.text_container .graffos:before{
+	content: "";
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	border: 1px solid #F3F3F3;
+	position: absolute;
+	left: -30px;
+	top: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0);
+	margin: auto;
+	z-index: -1;
+}

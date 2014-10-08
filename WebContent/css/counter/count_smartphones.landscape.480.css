@@ -1,0 +1,19 @@
+body{
+	background-image: url('../../images/counter/back_480.jpg');
+}
+
+
+.button_section{
+}
+
+.text_container .graffos{
+	width: 80px;
+	height: 78px;
+}
+
+.text_container .graffos:before{
+	content: "";
+	width: 130px;
+	height: 130px;
+	left: -30px;
+}

@@ -1,0 +1,32 @@
+body{
+	background-image: url('../../images/counter/back_700.jpg');
+}
+
+
+.text_container .graffos{
+	width: 90px;
+	height: 87px;
+}
+
+ul.countdown li span {
+	font-size: 50px;
+	line-height: 50px;
+}
+ul.countdown li.seperator {
+	font-size: 50px;
+	line-height: 50px;
+}
+ul.countdown li p {
+	font-size: 15px;
+}
+
+
+.text_container .graffos:before{
+	content: "";
+	width: 140px;
+	height: 140px;
+	left: -30px;
+}
+.intro{
+	font-size: 15px;
+}

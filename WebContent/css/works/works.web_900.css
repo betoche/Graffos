@@ -1,0 +1,24 @@
+/*text intro*/
+.works_text{
+	height: 110px;
+	max-width: 350px;
+	background-image: url('../../images/works/works_text.svg');
+}
+.works .description {
+	font-size: 18px;
+	line-height: 24px;
+}
+.works .description .bolder{
+	font-size: 18px;
+}
+
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_web_900.jpg');
+}
+
+
+/*text work*/
+.container_text_work{
+	padding: 70px 20px;
+}

@@ -1,0 +1,48 @@
+/*brand*/
+/*content*/
+.brand_content .sample .graffos_branding > .result .pic{
+	background-image: url('../images/graffito-pet_sm.svg');
+}
+/*background*/
+.bck_img.brand:before{
+	background-image: url('../images/bck_brand_web_1024.jpg');
+}
+.brand .title.museo {
+	font-size: 100px;
+	line-height: 90px;
+}
+/*brand content*/
+.body .brand_content{
+	padding-left: 210px;
+}
+.body .brand_content .brand_container{
+	max-width: 1366px;
+	position: relative;
+	margin: 0 auto;
+}
+.brand_content .brand_container > div{
+	max-width: 675px;
+	width: 100%;
+}
+/*container*/
+.brand_content  .description{
+	padding-right: 115px;
+}
+/*text*/
+.brand_content .sample .steps .color_text > div{
+	width: 120px;
+}
+.brand_content .sample .color_text div{
+	font-size: 9px;
+}
+.brand_content .logotype .patt_container{
+	padding: 20px;
+}
+.brand_content .logotype_graffos{
+	background-image: url('../images/graffos_logo.svg');
+}
+
+/*height*/
+.brand{
+	min-height: 620px;
+}

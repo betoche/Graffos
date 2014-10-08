@@ -1,0 +1,45 @@
+/*background*/
+.bck_img.design:before{
+	background-image: url('../../images/design/bck_design_web_1024.jpg');
+}
+.botton_notes{
+	background-image: url('../../images/design/bck_design_note_web_1024.jpg');
+}
+
+.icon_container{
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+}
+
+/*menu*/
+.design .menu_sub_container > *{
+	color: #696969;
+}
+.design #current_page{
+	color: #04b3b2;
+}
+.design .header_container_skroll a:hover,.design .menu_sub_container a:hover{
+	color: #04b3b2;
+}
+.design .menu_sub_container > *:hover > span{
+	color: #04b3b2;
+}
+/*skroll menu*/
+.design .menu_sub_container > div a:hover,.design #current_page #current_link,
+.design #current_page_skroll ~ div a:hover, .design #current_page_skroll ~ div a#current_link_skroll{
+	color: #04D2D2;
+}
+
+
+/*slide*/
+.icon_design{
+	width: 120px;
+	height: 120px;
+}
+.swiper-slide .slide_width{
+	width: 70%;
+	max-width: 530px;
+}

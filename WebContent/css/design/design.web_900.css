@@ -1,0 +1,164 @@
+/*background*/
+.bck_img.design:before{
+	background-image: url('../../images/design/bck_design_web_900.jpg');
+}
+
+.design .description{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.botton_notes{
+	background-image: url('../../images/design/bck_design_note_web_900.jpg');
+}
+.botton_notes div{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+/*text*/
+.design_text{
+	height: 140px;
+	max-width: 350px;
+}
+.design_text{
+	background-image: url('../../images/design/design_text.svg');
+}
+
+/*slide*/
+.title_slide{
+	font-size: 24px;
+}
+.swiper-slide .icon_slide_container > div{
+	font-size: 13px;
+}
+.swiper-slide .slide_width{
+	width: 70%;
+	max-width: 490px;
+}
+.icon_design{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	/*background size*/
+	-webkit-background-size: 0%;
+	-moz-background-size: 0%;
+	-o-background-size: 0%;
+	background-size: 0%;
+	background-position: center center;
+	-webkit-border-radius: 200%;
+	-moz-border-radius: 200%;
+	border-radius: 200%;
+	background-image: url('../../images/design/circle_blue.svg');
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.icon_slide_container:hover .icon_design{
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+.icon_design:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*background size*/
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-o-background-size: 50%;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+/*images*/
+/*slide 1*/
+.web_design:before{
+	background-image: url('../../images/design/icon_web_design.svg');
+}
+.app_design:before{
+	background-image: url('../../images/design/icon_app_design.svg');
+}
+.brochure:before{
+	background-image: url('../../images/design/icon_brochure.svg');
+}
+.catalogues:before{
+	background-image: url('../../images/design/icon_catalogues.svg');
+}
+.packaging:before{
+	background-image: url('../../images/design/icon_packaging.svg');
+}
+.invitation:before{
+	background-image: url('../../images/design/icon_invitation.svg');
+}
+.animation:before{
+	background-image: url('../../images/design/icon_animation.svg');
+}
+.illustration:before{
+	background-image: url('../../images/design/icon_illustration.svg');
+}
+/*slide 2*/
+.advertising:before{
+	background-image: url('../../images/design/coma.svg');
+}
+.business_cards:before{
+	background-image: url('../../images/design/business_cards.svg');
+}
+.corporate_guidelines:before{
+	background-image: url('../../images/design/corporate_guidelines.svg');
+}
+.exhibition:before{
+	background-image: url('../../images/design/exhibition.svg');
+}
+.flyers:before{
+	background-image: url('../../images/design/flyers.svg');
+}
+.magazine:before{
+	background-image: url('../../images/design/magazine.svg');
+}
+.newsletters:before{
+	background-image: url('../../images/design/newsletters.svg');
+}
+.stationery:before{
+	background-image: url('../../images/design/stationery.svg');
+}
+/*slide 3*/
+.anual_reports:before{
+	background-image: url('../../images/design/anual_reports.svg');
+}
+.car:before{
+	background-image: url('../../images/design/car.svg');
+}
+.covers:before{
+	background-image: url('../../images/design/covers.svg');
+}
+.icons_design:before{
+	background-image: url('../../images/design/icons_design.svg');
+}
+.postcards:before{
+	background-image: url('../../images/design/postcards.svg');
+}
+.poster:before{
+	background-image: url('../../images/design/poster.svg');
+}
+.shirts:before{
+	background-image: url('../../images/design/shirts.svg');
+}
+.stickers:before{
+	background-image: url('../../images/design/stickers.svg');
+}
+
+
+/*pagination*/
+.pagination {
+	padding: 50px 0px 50px;
+}

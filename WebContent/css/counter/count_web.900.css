@@ -1,0 +1,26 @@
+body{
+	background-image: url('../../images/counter/back_900.jpg');
+}
+
+
+ul.countdown li span {
+	font-size: 60px;
+	line-height: 60px;
+}
+ul.countdown li.seperator {
+	font-size: 60px;
+	line-height: 60px;
+}
+ul.countdown li p {
+	font-size: 18px;
+}
+.button_section > div{
+	max-width: none;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+
+.intro{
+	font-size: 18px;
+}

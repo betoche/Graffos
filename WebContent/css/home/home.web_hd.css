@@ -1,0 +1,69 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*default*/
+	/*logo*/
+	.header .logo_container .logo{
+		background-image: url('../../images/home/graffoslogo_sm.svg');
+	}
+	/*pet*/
+	.header .pet > div{
+		width: 66px;
+		height: 60px;
+		background-image: none;
+		background-color: #F2F2F2;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
+	.header .pet .body_g,.header .pet .feet_g{
+		left: 0;
+		right: 0;
+		top: 0px;
+		margin: auto;
+		width: 66px;
+		height: 54px;
+		position: absolute;
+		/*background size*/
+		-webkit-background-size: 85%;
+		-moz-background-size: 85%;
+		-o-background-size: 85%;
+		background-size: 85%;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	.header .pet .body_g{
+		background-image: url('../../images/default/logos_pet/graffito-pet_body.svg');
+	}
+	.header .pet .feet_g{
+		background-image: url('../../images/default/logos_pet/graffito-pet_feet.svg');
+	}
+	.header .pet .body_g{
+		/*transition*/
+		-moz-transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+	}
+	.header .pet:hover .body_g{
+		/*rotation*/
+		-webkit-transform: rotate(-30deg);
+		-moz-transform: rotate(-30deg);
+		-ms-transform: rotate(-30deg);
+		-o-transform: rotate(-30deg);
+	}
+
+	/*about*/
+	.body .about_container{
+		background-image: url('../../images/home/bck_about_webhd.jpg');
+	}
+	.about_container .question_container .first_line:before{
+		background: #fff;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
+
+	/*founders*/
+	.bck_founders{
+		background-image: url('../../images/home/bck_founders_webhd.jpg');
+	}
+}

@@ -1,0 +1,53 @@
+/*text intro*/
+.works_text{
+	height: 90px;
+	max-width: 280px;
+}
+
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_ipad.jpg');
+}
+
+
+/*gallery*/
+.og-grid li.nica_challenge > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_nica_challenge_ipads.jpg');
+}
+.og-grid li.eldon_villas > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_eldon_villas_ipads.jpg');
+}
+.og-grid li.loop_swoop > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_loop_swoop_ipads.jpg');
+}
+.og-grid li.ibericasa > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_ibericasa_ipads.jpg');
+}
+.og-grid li.sca > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_sca_ipads.jpg');
+}
+.og-grid li.graffos_cards > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_graffos_cards_ipads.jpg');
+}
+.og-grid li.ciaobella > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_ciaobella_ipads.jpg');
+}
+/*recent work & featured project*/
+.og-grid li.recent_work{
+	background-image: url('../../images/works/component/thumbs/thumbs_recent_work.svg');
+}
+.og-grid li.featured_project{
+	background-image: url('../../images/works/component/thumbs/thumbs_featured_project.svg');
+}
+
+/*text work*/
+.container_text_work{
+	max-width: 700px;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.work_icon{
+	width: 80px;
+	height: 80px;
+}

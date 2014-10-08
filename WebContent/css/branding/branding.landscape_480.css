@@ -1,0 +1,46 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_landscape_480.jpg');
+}
+/*text*/
+.branding_text{
+	width: 45%;
+	height: 125px;
+	margin: 0 auto 0 0;
+	max-width: none;
+}
+.branding .description{
+	width: 45%;
+	margin: 0 0 0 auto;
+}
+
+/*margin top intro*/
+.branding .middle_cell .container_intro{
+	padding-top: 40px;
+}
+
+/*line*/
+.diagonal_line{
+	width: 100%;
+    border-bottom: 1px solid #fff;
+	/*rotation*/
+	-webkit-transform: rotate(-40deg);
+	-moz-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+}
+
+
+/*rocket*/
+.branding .rocket .skroll_rocket,.branding .rocket .skroll_rocket_container{
+	width: 60px;
+	height: 60px;
+}
+.branding .rocket .skroll_rocket{
+	top: 40px;
+}

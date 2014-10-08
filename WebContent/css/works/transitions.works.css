@@ -1,0 +1,110 @@
+/*icon*/
+.works_image .icon_container,
+.works_image .icon_container_small{
+	-webkit-animation-name: mouse_container;
+	-moz-animation-name: mouse_container;
+	-o-animation-name: mouse_container;
+	animation-name: mouse_container;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+}
+/*opacity*/
+@-webkit-keyframes mouse_container {
+	0%   { -webkit-opacity: 0;}
+}
+@-moz-keyframes mouse_container {
+	0%   { -moz-opacity: 0;}
+}
+@-o-keyframes mouse_container {
+	0%   {  -o-opacity: 0;}
+}
+@keyframes mouse_container {
+	0%   { opacity: 0;}
+}
+@-ms-keyframes mouse_container {
+	0%   { filter: alpha(opacity=0); opacity: 0;}
+}
+.works_image .icon_container .scroll_down:after,
+.works_image .icon_container_small .scroll_down:after{
+	-webkit-animation: mouse 1.5s ease backwards 2.5s; /* Safari 4+ */
+	-moz-animation:    mouse 1.5s ease backwards 2.5s; /* Fx 5+ */
+	-o-animation:      mouse 1.5s ease backwards 2.5s; /* Opera 12+ */
+	animation:         mouse 1.5s ease backwards 2.5s; /* IE 10+ */
+}
+/*mouse*/
+@-webkit-keyframes mouse {
+	0%{ top:-450px; }
+	40%{ top: 20px; }
+	60%{ top: -5px; }
+	80%{ top: 8px; }
+}
+@-moz-keyframes mouse {
+	0%{ top:-450px; }
+	40%{ top: 20px; }
+	60%{ top: -5px; }
+	80%{ top: 8px; }
+}
+@-o-keyframes mouse {
+	0%{ top:-450px; }
+	40%{ top: 20px; }
+	60%{ top: -5px; }
+	80%{ top: 8px; }
+}
+@keyframes mouse {
+	0%{ top:-450px; }
+	40%{ top: 20px; }
+	60%{ top: -5px; }
+	80%{ top: 8px; }
+}
+@-ms-keyframes mouse {
+	0%{ top:-450px; }
+	40%{ top: 20px; }
+	60%{ top: -5px; }
+	80%{ top: 8px; }
+}
+.works_image .icon_container .scroll_down:after,
+.works_image .icon_container_small .scroll_down:after{
+	/*transition*/
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.works_image .icon_container .scroll_down,
+.works_image .icon_container_small .scroll_down{
+	/*transition*/
+	-moz-transition: all 0.4s ease 0.1s;
+	-webkit-transition: all 0.4s ease 0.1s;
+	-o-transition: all 0.4s ease 0.1s;
+	transition: all 0.4s ease 0.1s;
+}
+.works_image .icon_container:hover .scroll_down,
+.works_image .icon_container_small:hover .scroll_down{
+	top: 100px;
+}
+.works_image .icon_container:hover .scroll_down:after,
+.works_image .icon_container_small:hover .scroll_down:after{
+	top: 100px;
+}
+
+
+.works_image.bck_img:before{
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.works_image{
+	/*transition*/
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.bck_img.works_image:before{
+	background-attachment: fixed;
+}

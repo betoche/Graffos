@@ -1,0 +1,27 @@
+/*images*/
+.bck_img.works_image:before{
+	background-image: url('../../images/works/bck_works_web_1024.jpg');
+	background-position: center center;
+}
+
+/*icon*/
+.works .icon_container{
+	bottom: 20px;
+}
+
+/*menu*/
+.works #current_page{
+	color: #c4d92e;
+}
+.works .menu_sub_container a:hover,.works .header_container_skroll a:hover{
+	color: #c4d92e;
+}
+.works .menu_sub_container > *:hover > span{
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+}
+/*skroll menu*/
+.works #current_page_skroll ~ div a:hover{
+	color: #c4d92e;
+}

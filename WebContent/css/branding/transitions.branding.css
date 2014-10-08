@@ -1,0 +1,149 @@
+.delay3{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.aumentado_linea{
+	-webkit-animation-name: aumentado_linea;
+	-moz-animation-name: aumentado_linea;
+	-o-animation-name: aumentado_linea;
+	animatio-name: aumentado_linea;
+}
+@-webkit-keyframes aumentado_linea {
+	0%{ width: 0%}
+}
+@-moz-keyframes aumentado_linea {
+	0%{ width: 0%}
+}
+@-o-keyframes aumentado_linea {
+	0%{ width: 0%}
+}
+@keyframes aumentado_linea {
+	0%{ width: 0%}
+}
+@-ms-keyframes aumentado_linea {
+	0%{ width: 0%}
+}
+
+
+/*rocket*/
+/*circle rocket*/
+.branding .rocket.skrollable .skroll_rocket_container{
+	margin-bottom: 0;
+	-webkit-animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+	-webkit-animation-name: rocket_scroll;
+	-moz-animation-name: rocket_scroll;
+	-o-animation-name: rocket_scroll;
+	animatio-name: rocket_scroll;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: backwards;
+	/* Fx 5+ */
+	-moz-animation-duration: 0.5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: backwards;
+	/* Opera 12+ */
+	-o-animation-duration: 0.5s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: backwards;
+	/* IE 10+ */
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: backwards;
+}
+@-webkit-keyframes rocket_scroll {
+	0%{ opacity: 0; margin-bottom: -50px;}
+}
+@-moz-keyframes rocket_scroll {
+	0%{ -moz-opacity: 0; margin-bottom: -50px;}
+}
+@-o-keyframes rocket_scroll {
+	0%{ opacity: 0; margin-bottom: -50px;}
+}
+@keyframes rocket_scroll {
+	0%{ opacity: 0; margin-bottom: -50px;}
+}
+@-ms-keyframes rocket_scroll {
+	0%{ filter: alpha(opacity=0); margin-bottom: -50px;}
+}
+
+.rocket .skroll_rocket{
+	/*transition*/
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.rocket.skrollable-between .skroll_rocket{
+	top: 40px;
+}
+.rocket.skrollable-after .skroll_rocket{
+	top: 90px;
+}
+.rocket .skroll_rocket_container:hover .skroll_rocket{
+	top: 90px;
+}
+
+/*icon*/
+.rocket.skrollable .rocket_icon_container .icon_rocket{
+	background: none;
+}
+.rocket.skrollable .rocket_icon_container .icon_rocket:before{
+	content: "";
+	/*transition*/
+	-webkit-animation: rocket_icon 3s infinite ease;
+	-moz-animation: rocket_icon 3s infinite ease;
+	-o-animation: rocket_icon 3s infinite ease;
+	animatio: rocket_icon 3s infinite ease;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../images/branding/cohete_icon.svg');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@-webkit-keyframes rocket_icon{
+	0%{ top:-15px; }
+	50%{ top:15px; }
+}
+@-moz-keyframes rocket_icon{
+	0%{ top:-15px; }
+	50%{ top:15px; }
+}
+@-o-keyframes rocket_icon{
+	0%{ top:-15px; }
+	50%{ top:15px; }
+}
+@keyframes rocket_icon{
+	0%{ top:-15px; }
+	50%{ top:15px; }
+}
+@-ms-keyframes rocket_icon{
+	0%{ top:0px; }
+	50%{ top:30px; }
+}
+/*icon flying*/
+.rocket .rocket_icon_container .icon_rocket.skrollable{
+	/*transition*/
+	-moz-transition: all 2s ease;
+	-webkit-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+}
+.rocket .rocket_icon_container .icon_rocket.skrollable-after{
+	top: -1000px;
+	height:150px;
+	width:150px;
+}

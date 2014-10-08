@@ -1,0 +1,66 @@
+/*defaults*/
+/*logo&Pet*/
+/*pet*/
+.header .pet{
+	display: inline-block;
+}
+.header .pet > div{
+	width: 66px;
+	height: 66px;
+}
+/*logo*/
+.header .logo_container{
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+/*body*/
+/*welcome*/
+.hello > div > div{
+	width: 80%;
+}
+.hello .description{
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/*mision*/
+.mision > div > div {
+	min-width: 290px;
+}
+
+/*about us*/
+.about_container .question_container > div{
+	min-width: 290px;
+}
+
+/*images*/
+/*welcome*/
+/*background*/
+.bck_img.bck_graffito:before{
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	opacity: 0.2;
+	bottom: auto;
+	background-image: url('../../images/default/logos_pet/graffito-pet_sm.svg');
+	background-position: top left;
+	width: 100%;
+	max-width: 100%;
+	height: 300%;
+	/*background size*/
+	-webkit-background-size: 130%;
+	-moz-background-size: 130%;
+	-o-background-size: 130%;
+	background-size: 130%;
+}
+
+/*about*/
+.body .about_container{
+	background-image: url('../../images/home/bck_about_ipad.jpg');
+}
+
+/*founders*/
+.bck_founders{
+	background-image: url('../../images/home/bck_founders_ipad.jpg');
+}

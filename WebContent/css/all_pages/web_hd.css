@@ -1,0 +1,93 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*icon menu*/
+	.icon_menu.services:after{
+		background-image: url('../../images/default/menu/services.svg');
+	}
+	.icon_menu.work:after{
+		background-image: url('../../images/default/menu/works.svg');
+	}
+	.icon_menu.about:after{
+		background-image: url('../../images/default/menu/aboutus.svg');
+	}
+	.icon_menu.news:after{
+		background-image: url('../../images/default/menu/news.svg');
+	}
+	.icon_menu.contact:after{
+		background-image: url('../../images/default/menu/send.svg');
+	}
+
+	/*menu mobile*/
+	/*active menu*/
+	.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
+		background-image: url('../../images/default/menu/menu_icon.svg');
+	}
+
+
+	/*circles*/
+	.about_container .question_container .first_line:before{
+		background: #fff;
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
+	.circle{
+		-webkit-border-radius: 200%;
+		-moz-border-radius: 200%;
+		border-radius: 200%;
+	}
+
+
+	/*footer*/
+	/*icons*/
+	.content_contact .phone_footer:before{
+		background-image: url('../../images/default/footer/icon_phone.svg');
+	}
+	.content_contact .mail_footer:before{
+		background-image: url('../../images/default/footer/icon_mail.svg');
+	}
+	.content_contact .skype_footer:before{
+		background-image: url('../../images/default/footer/icon_send.svg');
+	}
+	/*logo*/
+	.copyright_footer .logo_footer{
+		background-image: url('../../images/default/logos_pet/graffos_logo.svg');
+	}
+
+	
+	/*socialnetwork*/
+	/*icons*/
+	.socialnetwork a{
+		position: relative;
+	}
+	.socialnetwork img{
+		display: none;
+	}
+	.socialnetwork a:after{
+		width: 22px;
+		height: 19px;
+		content: "";
+		margin: 0 auto;
+		display: block;
+		/*background size*/
+		/*background size*/
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	/*background*/
+	.socialnetwork .facebook_icon:after{
+		background-image: url('../../images/default/socialnetwork/fb_icon.svg');
+	}
+	.socialnetwork .twitter_icon:after{
+		background-image: url('../../images/default/socialnetwork/tw_icon.svg');
+	}
+	.socialnetwork .instagram_icon:after{
+		background-image: url('../../images/default/socialnetwork/instagram_icon.svg');
+	}
+	.socialnetwork .linkedin_icon:after{
+		background-image: url('../../images/default/socialnetwork/linkedin_icon.svg');
+	}
+}

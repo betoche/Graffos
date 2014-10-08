@@ -1,0 +1,15 @@
+.og-grid{
+	padding: 70px 0px;
+}
+.og-grid > li {
+	max-height: none;
+}
+
+.og-grid > li > div{
+	max-height: none;
+}
+
+
+.og-grid > li,.og-grid li > a{
+	height: 250px
+}

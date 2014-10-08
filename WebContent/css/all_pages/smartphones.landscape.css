@@ -1,0 +1,33 @@
+/*fixed div*/
+/*socialnetwork*/
+.socialnetwork a{
+	width: 18%;
+}
+
+/*general styles*/
+/*title padifico*/
+.normal_size{
+	font-size: 14px;
+	line-height: auto;
+}
+.title.museo{
+	font-size: 50px;
+	line-height: 45px;
+}
+.title.pacifico{
+	font-size: 35px;
+	line-height: 40px;
+}
+.title{
+	padding: 10px;
+}
+.description{
+	line-height: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+/*welcome description*/
+.hello .description{
+	font-size: 18px;
+	line-height: 20px;
+}

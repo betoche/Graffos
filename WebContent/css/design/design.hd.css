@@ -1,0 +1,110 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+
+	/*icons*/
+	/*slide 1*/
+	.web_design{
+		background-image: url('../../images/design/icon_web_design.svg');
+	}
+	.app_design{
+		background-image: url('../../images/design/icon_app_design.svg');
+	}
+	.brochure{
+		background-image: url('../../images/design/icon_brochure.svg');
+	}
+	.catalogues{
+		background-image: url('../../images/design/icon_catalogues.svg');
+	}
+	.packaging{
+		background-image: url('../../images/design/icon_packaging.svg');
+	}
+	.invitation{
+		background-image: url('../../images/design/icon_invitation.svg');
+	}
+	.animation{
+		background-image: url('../../images/design/icon_animation.svg');
+	}
+	.illustration{
+		background-image: url('../../images/design/icon_illustration.svg');
+	}
+	/*slide 2*/
+	.advertising{
+		background-image: url('../../images/design/coma.svg');
+	}
+	.business_cards{
+		background-image: url('../../images/design/business_cards.svg');
+	}
+	.corporate_guidelines{
+		background-image: url('../../images/design/corporate_guidelines.svg');
+	}
+	.exhibition{
+		background-image: url('../../images/design/exhibition.svg');
+	}
+	.flyers{
+		background-image: url('../../images/design/flyers.svg');
+	}
+	.magazine{
+		background-image: url('../../images/design/magazine.svg');
+	}
+	.newsletters{
+		background-image: url('../../images/design/newsletters.svg');
+	}
+	.stationery{
+		background-image: url('../../images/design/stationery.svg');
+	}
+	/*slide 3*/
+	.anual_reports{
+		background-image: url('../../images/design/anual_reports.svg');
+	}
+	.car{
+		background-image: url('../../images/design/car.svg');
+	}
+	.covers{
+		background-image: url('../../images/design/covers.svg');
+	}
+	.icons_design{
+		background-image: url('../../images/design/icons_design.svg');
+	}
+	.postcards{
+		background-image: url('../../images/design/postcards.svg');
+	}
+	.poster{
+		background-image: url('../../images/design/poster.svg');
+	}
+	.shirts{
+		background-image: url('../../images/design/shirts.svg');
+	}
+	.stickers{
+		background-image: url('../../images/design/stickers.svg');
+	}
+
+
+	/*coffee section*/
+	.botton_notes{
+		background-image: url('../../images/design/bck_design_note_hd.jpg');
+		background-position: center right;
+	}
+	/*coffee*/
+	.coffee_icon{
+		background-image: url('../../images/design/coffee_icon.svg');
+	}
+
+	/*text desing*/
+	/*text*/
+	.design_text{
+		background-image: url('../../images/design/design_text.svg');
+	}
+
+	/*circle hover*/
+	@media only screen and (min-width: 701px) {
+		.icon_design{
+			background-image: url('../../images/design/circle_blue.svg');
+		}
+	}
+
+	/*principal  images*/
+	@media only screen and (min-width: 240px) {
+		.bck_img.design:before{
+			background-image: url('../../images/design/bck_design_hd.jpg');
+		}
+	}
+}

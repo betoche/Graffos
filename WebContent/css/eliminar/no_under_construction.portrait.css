@@ -1,0 +1,147 @@
+/*default*/
+body,html,.container{
+	height: 100%;
+}
+
+
+/*center page*/
+/*vertical align*/
+.container{
+	display: table;
+    margin: 0 auto;
+}
+/*cell*/
+.middle_cell{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*title*/
+.title{
+	padding: 30px;
+}
+/*header*/
+.title .header{
+	font-size: 25px;
+	line-height: 30px;
+}
+.title .ruda{
+	font-size: 14px;
+	margin-top: 15px;
+	line-height: 20px; 
+}
+
+/*email*/
+.email{
+	margin-top: 25px;
+}
+.email input[type*="text"],.email input[type*="email"]{
+	width: 100%;
+	max-width: 320px;
+}
+
+
+/*container pet*/
+.container{
+	text-align: center;
+}
+.middle_cell > div{
+	margin: 10px auto;
+}
+
+
+
+/*pet*/
+.middle_cell  > .pet{
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
+}
+/*background*/
+/*cloud be back*/
+.pet .clouds:after{
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 0 0 10px;
+	border-color: transparent transparent transparent #fef100;
+	line-height: 0px;
+	_border-color: #000000 #000000 #000000 #fef100;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	left: 12px;
+	bottom: 12px;
+}
+.pet .clouds{
+	text-transform: capitalize;
+	color: #0072bb;
+	font-weight: bold;
+	text-align: left;
+	position: absolute;
+	top: -80px;
+	right: -40px;
+	background: url('../images/under_construction_circle.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	display: block;
+	padding: 25px 35px;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 100px;
+	height: 100px;
+}
+.pet .body_pet,.pet .feet_pet{
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+/*body*/
+.pet .body_pet{
+	background-image: url('../images/under_construction_graffito_body.png');
+	width: 150px;
+	height: 143px;
+
+}
+/*feet*/
+.pet .feet_pet{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	background-image: url('../images/under_construction_graffito_feet.png');
+	width: 150px;
+	height: 46px;
+}
+
+
+/*logo*/
+.logo{
+	width: 150px;
+	height: 52px;
+	background-image: url('../images/graffos_logo.png');
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+
+
+/*footer*/
+.footer{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	right: 20px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}

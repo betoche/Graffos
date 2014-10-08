@@ -1,0 +1,73 @@
+/* default */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, html, body { margin: 0; padding: 0; }
+fieldset, img { border: 0 }
+ol, ul, li { list-style: none }
+html,body { 
+	height: 100%;
+	position: relative;
+}
+html { margin: 0 auto; overflow: auto; }
+a { outline: 0; color: #19abba; text-decoration: none; }
+div img, div iframe, object, param, embed, div { vertical-align: top }
+a, img:active, input { outline: 0 }
+a, label { display: inline-block; vertical-align: middle; }
+input { vertical-align: middle }
+
+body{ font-family: 'Roboto', sans-serif; font-size:12px; background:#FFF; color:#000;}
+
+input[type*="text"],input[type*="textarea"],input[type*="date"],input[type*="text"],input[type*="password"],textarea,input[type*="email"]{
+	border: 1px solid #04b3b2;
+	padding: 15px 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: 'Roboto', sans-serif; font-weight: 300;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	background: rgba(255,255,255,0);
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+/*focus*/
+input[type*="text"]:focus,input[type*="textarea"]:focus,input[type*="date"]:focus,input[type*="text"]:focus,input[type*="[password]"]:focus,.bck_white input[type*="text"]:focus,.bck_white input[type*="textarea"]:focus,.bck_white input[type*="date"]:focus,.bck_white input[type*="text"]:focus,.bck_white input[type*="password"]:focus,textarea:focus,input[type*="email"]:focus
+{
+	background: rgba(255,255,255,1);
+	border: 1px solid #fff;
+}
+
+
+/*placeholder*/
+/*italic*/
+input::-webkit-input-placeholder { font-style:italic ; font-family: 'Roboto', sans-serif; font-weight: 300; color: #000;}
+input:-moz-placeholder { font-style:italic ; font-family: 'Roboto', sans-serif; font-weight: 300; color: #000;}
+input::-moz-placeholder { font-style:italic ; font-family: 'Roboto', sans-serif; font-weight: 300; color: #000;}
+input:-ms-input-placeholder {   font-style:italic ; font-family: 'Roboto', sans-serif; font-weight: 300; color: #000;}
+/*body*/
+
+/*selection*/
+/*home*/
+body ::-moz-selection {
+	background-color: #ff0072;
+	color: #000;
+}
+body ::selection {
+	background-color: #ff0072;
+	color: #FFF;
+}
+body ::-o-selection {
+	background-color: #ff0072;
+	color: #FFF;
+}
+body ::-ms-selection {
+	background-color: #ff0072;
+	color: #FFF;
+}
+body ::-webkit-selection {
+	background-color: #ff0072;
+	color: #FFF;
+}

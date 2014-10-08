@@ -1,0 +1,15 @@
+/*background*/
+.bck_img.branding_image{
+	background-image: url('../../images/branding/bck_branding_web_1024.jpg');
+}
+
+/*menu*/
+/*skroll menu*/
+.branding .menu_sub_container > div a:hover,.branding #current_page #current_link,
+.branding #current_page_skroll ~ div a:hover, .branding #current_page_skroll ~ div a#current_link_skroll{
+	color: #fa2782;
+}
+
+.branding .header_container_skroll a:hover,.branding .menu_sub_container a:hover{
+	color: rgba(255,255,255,0.5);
+}

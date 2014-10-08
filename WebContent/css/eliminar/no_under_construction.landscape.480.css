@@ -1,0 +1,13 @@
+/*title*/
+.title{
+	padding: 30px;
+}
+/*header*/
+.title .header{
+	font-size: 30px;
+	line-height: 35px;
+}
+.title .ruda{
+	font-size: 16px;
+	line-height: 25px; 
+}

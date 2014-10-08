@@ -1,0 +1,229 @@
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+}
+.swiper-wrapper {
+	height: auto !important;
+	position:relative;
+	width:100%;
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+.swiper-free-mode > .swiper-wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.swiper-slide {
+	float: left;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles, here you need to specify container's and slide's
+sizes, pagination, etc.
+================================================================*/
+.swiper-container {
+	/* Specify Swiper's Size: */
+
+	/*width:200px;
+	height: 100px;*/
+}
+.swiper-slide {
+	/* Specify Slides's Size: */
+	
+	/*width: 100%;
+	height: 100%;*/
+}
+.swiper-slide-active {
+	/* Specific active slide styling: */
+	
+}
+.swiper-slide-visible {
+	/* Specific visible slide styling: */	
+
+}
+/* ===============================================================
+Pagination Styles
+================================================================*/
+.swiper-pagination-switch {
+	/* Stylize pagination button: */	
+
+}
+.swiper-active-switch {
+	/* Specific active button style: */	
+	
+}
+.swiper-visible-switch {
+	/* Specific visible button style: */	
+	
+}
+
+/*lesther*/
+.swiper-slide{
+	position: relative;
+	height: auto !important;
+}
+
+
+/**/
+/*default*/
+/*otro*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-align: center;
+}
+.device{
+	position: relative;
+}
+
+
+/*styles*/
+/*body*/
+/*founders*/
+.body > .founders{
+	padding: 20px 0px;
+}
+
+
+/*title*/
+.founders .title{
+	font-size: 35px;
+	margin-bottom: 20px;
+	padding: 0px 20px;
+}
+.founders .title > div{
+	display: inline-block;
+	padding: 10px;
+}
+/*container*/
+.pic_n_description{
+	margin: 10px 0px;
+	text-transform: capitalize;
+}
+/*descriptions*/
+/*widths*/
+.pictures{
+	overflow: hidden;
+}
+.pictures .description_pic{
+	padding-top: 10px;
+	font-size: 20px;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.pictures .pic{
+	width: 126px;
+	height: 125px;
+	margin: 0 auto;
+}
+/*range*/
+.pictures .description_pic .range{
+	font-family: arial;
+	margin-top: 10px;
+	font-size: 12px;
+}
+/*name*/
+.pictures .description_pic .name{
+	font-weight: bold;
+}
+
+/*picture*/
+/*container*/
+/*background*/
+.pic_n_description .pic > div{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	/*background size*/
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+} 
+/*roberto pic*/
+.pic_n_description .pic .roberto_preview{
+	background-image: url('../../images/home/preview_roberto_sm.portrait.png');
+}
+/*lesther pic*/
+.pic_n_description .pic .lesther_preview{
+	background-image: url('../../images/home/preview_lesther_sm.portrait.png');
+}
+/*betoche pic*/
+.pic_n_description .pic .betoche_preview{
+	background-image: url('../../images/home/preview_betoche_sm.portrait.png');
+}
+/*gerald pic*/
+.pic_n_description .pic .gerald_preview{
+	background-image: url('../../images/home/preview_gerald_sm.portrait.png');
+}
+
+
+/*pagination*/
+.pictures .device .arrow-left,.pictures .device .arrow-right{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	height: 20px;
+	z-index: 2;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+/*left*/
+.pictures .device .arrow-left{
+	background: url('../../images/home/left_icon_portrait.png') no-repeat;
+	left: 15px;
+}
+.pictures .device .arrow-right{
+	background: url('../../images/home/right_icon_portrait.png') no-repeat;
+	right: 15px;
+}
