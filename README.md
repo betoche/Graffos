@@ -22,3 +22,12 @@ Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
 
 ```
 [Graffos URL](http://graffos-graffos.rhcloud.com/Graffos/)
+
+
+#####1.3. Google Analitics
+```
+https://www.google.com/analytics/web/?et&authuser=2#report/visitors-overview/a52895926w85485938p88645734/
+
+user: graffos.nicaragua@gmail.com
+password: graffosni
+```
