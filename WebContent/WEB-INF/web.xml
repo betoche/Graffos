@@ -9,4 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SubscriptionServlet</display-name>
+    <servlet-name>SubscriptionServlet</servlet-name>
+    <servlet-class>com.graffos.site.servlet.SubscriptionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubscriptionServlet</servlet-name>
+    <url-pattern>/SubscriptionServlet</url-pattern>
+    <url-pattern>/subscribe</url-pattern>
+  </servlet-mapping>
 </web-app>
