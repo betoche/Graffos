@@ -49,6 +49,7 @@ public class SubscriptionServlet extends HttpServlet {
 		
 		try {
 			if( subscriber.create() ) {
+				response.addHeader("Access-Control-Allow-Origin", "*");
 				PrintWriter out = response.getWriter();
 				out.write( String.valueOf( "id: " + subscriber.getId() ) );
 				out.flush();

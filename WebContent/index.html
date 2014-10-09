@@ -86,6 +86,52 @@
 					</li>
 				</ul>
 				<script type="text/javascript">
+					function createCORSRequest(method, url) {
+						var xhr = new XMLHttpRequest();
+						if ("withCredentials" in xhr) {
+							// XHR for Chrome/Firefox/Opera/Safari.
+							xhr.open(method, url, true);
+						} else if (typeof XDomainRequest != "undefined") {
+							// XDomainRequest for IE.
+							xhr = new XDomainRequest();
+							xhr.open(method, url);
+						} else {
+							// CORS not supported.
+							xhr = null;
+						}
+						return xhr;
+					}
+					
+					// Helper method to parse the title tag from the response.
+					function getTitle(text) {
+						return text.match('<title>(.*)?</title>')[1];
+					}
+					
+					// Make the actual CORS request.
+					function makeCorsRequest( url ) {
+						// All HTML5 Rocks properties support CORS.
+						//var url = 'http://updates.html5rocks.com';
+						
+						var xhr = createCORSRequest('POST', url);
+						if (!xhr) {
+							alert('CORS not supported');
+							return;
+						}
+					
+					// Response handlers.
+						xhr.onload = function() {
+							var text = xhr.responseText;
+							var title = getTitle(text);
+							alert('Response from CORS request to ' + url + ': ' + title);
+						};
+					
+						xhr.onerror = function() {
+							alert('Woops, there was an error making the request.');
+						};
+					
+						xhr.send();
+					}
+					
 					function subscribe() {
 						console.log( 'subscribe function' );
 						var email = document.getElementById("email");
@@ -103,7 +149,6 @@
 							xmlhttp.onreadystatechange=function() {
 								//console.log( "xmlhttp.readyState["+xmlhttp.readyState+"], xmlhttp.status["+xmlhttp.status+"]" + xmlhttp.responseText );
 								if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-									var result = JSON.parse( xmlhttp.responseText );
 									email.value = '';
 									message.style.display="block";
 									message.innerHTML="Thank you for subscribing, we'll keep you informed";
