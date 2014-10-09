@@ -19,4 +19,6 @@ Database Name: graffos
 ssh 53fa99ed5973ca4a5500015b@graffos-graffos.rhcloud.com  
 
 Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/  
+
+[Graffos URL]([Graffos URL](http://graffos-graffos.rhcloud.com/Graffos/)
 ```
