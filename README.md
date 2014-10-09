@@ -32,4 +32,4 @@ user: graffos.nicaragua@gmail.com
 password: graffosni
 ```
 
-#####1.4. Skype Credentials: [graffosni](admin2014)
+#####1.4. Skype Credentials u/p: [graffosni](admin2014)
