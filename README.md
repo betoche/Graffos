@@ -31,3 +31,5 @@ https://www.google.com/analytics/web/?et&authuser=2#report/visitors-overview/a52
 user: graffos.nicaragua@gmail.com
 password: graffosni
 ```
+
+#####1.4. Skype Credentials: [graffosni](admin2014)
