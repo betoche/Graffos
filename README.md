@@ -47,8 +47,8 @@ TODO
          - ~~Subscribe~~  
          -  News CMS  
       </blockquote>
-
-========
+Technical Info
+==============
 ####1. [Openshift](www.openshift.com)  
   
 #####1.1. GitHub  
