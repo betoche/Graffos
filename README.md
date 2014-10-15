@@ -7,13 +7,13 @@ TODO
 ----
 
 *Roberto*
-  - Interfaces Designs
+  __Interfaces Designs__
     * home
     * design
     * branding
     * ui/ux
     * cms
-  + Posts Designs
+  ~~Posts Designs~~
     * design 1
 
 ========  
