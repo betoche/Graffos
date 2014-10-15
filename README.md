@@ -6,15 +6,15 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-*Roberto*
+*Roberto*  
   __Interfaces Designs__  
-    * home
-    * design
-    * branding
-    * ui/ux
-    * cms
+    * home  
+    * design  
+    * branding  
+    * ui/ux  
+    * cms  
   ~~Posts Designs~~  
-    * design 1
+    * design 1  
 
 ========  
 ####1. [Openshift](www.openshift.com)  
