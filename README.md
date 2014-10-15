@@ -8,13 +8,13 @@ TODO
 
 <strong>Roberto</strong>
   * Interfaces Designs
-    + home
-    + design
-    + branding
-    + ui/ux
-    + cms
+    - home
+    - design
+    - branding
+    - ui/ux
+    - cms
   * Posts Designs
-    -- design 1
+    - design 1
 
 ========  
 ####1. [Openshift](www.openshift.com)  
