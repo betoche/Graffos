@@ -7,13 +7,13 @@ TODO
 ----
 
    __Roberto__  
-    <blockquote> *Interfaces Designs*  
+    <blockquote> **Interfaces Designs**  
          - home  
          - design  
          - branding  
          - ui/ux  
          - cms  
-      *Posts Designs*    
+      **Posts Designs**    
          - design 1  
    </blockquote>
 ========  
