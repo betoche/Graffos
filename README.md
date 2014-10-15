@@ -48,12 +48,22 @@ TODO
          -  News CMS  
       </blockquote>
       
-Brainstorm
+Brainstorm  
 ----------
 
 <blockquote><strong>Please feel free to add every crazy idea you have, the most crazy the most it could work!!!</strong></blockquote>  
 
 ----------
+
+- Facebook Campain (alberto)  
+- Reinarsa redesign (Diego)~~  
+- Redca redesign (Gerald)~~  
+- ~~FCyS proposal (no me contesto la Patricia)~~  
+- ~~Publicate partnership~~  
+- Pharmacy/Sales Stock (Payo) 
+- Newsletter  
+- Telmovil (Roberto)  
+- taking up personal opportunities(we all)  
 
 Technical Info
 --------------
