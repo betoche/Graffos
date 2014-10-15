@@ -35,6 +35,18 @@ TODO
          - used tecnologies  
          - contact form  
       </blockquote>
+   __Gerald__  
+      <blockquote> **Integrating**  
+         - LiveChat  
+         - Contact Form  
+         - Automatic Emailing  
+      </blockquote>
+   __Alberto__ 
+      <blockquote> **Integrating** 
+         -  Locale  
+         - ~~Subscribe~~  
+         -  News CMS  
+      </blockquote>
 ========  
 ####1. [Openshift](www.openshift.com)  
   
