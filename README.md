@@ -8,14 +8,14 @@ TODO
 
    __Roberto__  
     <blockquote> **Interfaces Designs**  
-         - home  
-         - design  
-         - branding  
+         - ~~home~~  
+         - ~~design~~  
+         - ~~branding~~  
          - ui/ux  
-         - cms  
-         - works
+         - ~~cms~~  
+         - ~~works~~
          - news  
-         - us  
+         - ~~us~~  
          - used technologies  
          - email design  
          <br/>
