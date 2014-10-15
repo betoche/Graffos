@@ -1,9 +1,9 @@
 ##Graffos  
 
-1. <strong>TODO</strong>  
-  1.1. Roberto  
+1. <h2>TODO</h2>  
+  1.1. <h3>Roberto</h3>  
       <ul>
-        <li>Interface Designs
+        <li><h5>Interface Designs</h5>
           <ul>
             <li>home page</li>
           </ul>
