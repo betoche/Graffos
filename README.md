@@ -2,7 +2,10 @@
 
 1. <strong>TODO</strong>  
   1.1. Roberto  
-      <pre>Texto de Prueba</pre>
+      <dd>Texto de Prueba</dd>
+      <dt>Texto de Prueba</dt>
+      <dl>Texto de Prueba</dl>
+      <li>Texto de Prueba</li>
   1.2. Lesther  
   1.3. Gerald  
   1.4. Alberto  
