@@ -42,12 +42,13 @@ TODO
          - Automatic Emailing  
       </blockquote>
    __Alberto__ 
-      <blockquote> **Integrating** 
+      <blockquote> **Integrating**  
          -  Locale  
          - ~~Subscribe~~  
          -  News CMS  
       </blockquote>
-========  
+
+========
 ####1. [Openshift](www.openshift.com)  
   
 #####1.1. GitHub  
