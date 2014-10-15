@@ -6,13 +6,13 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-*Roberto*  
-  __Interfaces Designs__  
-    * home  
-    * design  
-    * branding  
-    * ui/ux  
-    * cms  
+__Roberto__  
+    **Interfaces Designs**  
+      * home  
+      * design  
+      * branding  
+      * ui/ux  
+      * cms  
   ~~Posts Designs~~  
     * design 1  
 
