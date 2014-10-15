@@ -1,10 +1,10 @@
 ##Graffos  
 
 1. TODO
-  1.1. Roberto
-  1.2. Lesther
-  1.3. Gerald
-  1.4. Alberto
+  1.1. Roberto  
+  1.2. Lesther  
+  1.3. Gerald  
+  1.4. Alberto  
 
 ========  
 ####1. [Openshift](www.openshift.com)  
