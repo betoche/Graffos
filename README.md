@@ -24,7 +24,16 @@ TODO
    </blockquote>
    __Lesther__  
       <blockquote> **Html coding**  
-         
+         - ~~countdown~~  
+         - home  
+         - design  
+         - branding  
+         - ui/ux  
+         - cms  
+         - work  
+         - news  
+         - used tecnologies  
+         - contact form  
       </blockquote>
 ========  
 ####1. [Openshift](www.openshift.com)  
