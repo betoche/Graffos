@@ -1,6 +1,6 @@
 ##Graffos  
 
-1. TODO
+1. <strong>TODO</strong>  
   1.1. Roberto  
   1.2. Lesther  
   1.3. Gerald  
