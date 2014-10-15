@@ -1,6 +1,8 @@
 Graffos Info
 =============
 
+A small, passionate & dedicated team. Below are a handful of the latest examples that showcase the wide array of our work.
+
 TODO
 ----
 
