@@ -1,7 +1,7 @@
 ##Graffos  
 
-1. <h2>TODO</h2>  
-  1.1. <h3>Roberto</h3>  
+<h3>1. TODO</h3>  
+  <h4>1.1. Roberto</h4>  
       <ul>
         <li><h5>Interface Designs</h5>
           <ul>
