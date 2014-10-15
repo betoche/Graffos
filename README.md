@@ -26,11 +26,11 @@ TODO
       <blockquote> **Html coding**  
          - ~~countdown~~  
          - home  
-         - design  
+         - ~~design~~  
          - branding  
          - ui/ux  
          - cms  
-         - work  
+         - ~~work~~  
          - news  
          - used tecnologies  
          - contact form  
@@ -50,6 +50,8 @@ TODO
       
 Brainstorm
 ----------
+
+__Feel free to add every crazy idea you have, the most crazy the most it could work!!!__  
 
 
 
