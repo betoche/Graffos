@@ -13,6 +13,11 @@ TODO
          - branding  
          - ui/ux  
          - cms  
+         - works
+         - news  
+         - us  
+         - used technologies  
+         - email design  
       **Posts Designs**    
          - 9 post designs  
    </blockquote>
