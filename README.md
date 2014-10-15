@@ -65,6 +65,7 @@ Brainstorm
 - Telmovil (Roberto)  
 - taking up personal opportunities(we all)  
 
+<br/>
 --------------
 Technical Info
 --------------
