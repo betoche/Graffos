@@ -51,7 +51,7 @@ TODO
 Brainstorm
 ----------
 
-<blockquote> **Please feel free to add every crazy idea you have, the most crazy the most it could work!!!** </blockquote>  
+<blockquote><strong>Please feel free to add every crazy idea you have, the most crazy the most it could work!!!</strong></blockquote>  
 
 
 
