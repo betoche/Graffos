@@ -6,7 +6,7 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-- Roberto
+<strong>Roberto</strong>
   * Interfaces Designs
     + home
     + design
