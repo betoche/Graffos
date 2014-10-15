@@ -6,18 +6,14 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-<h3>1. TODO</h3>  
-  <h5>1.1. Roberto</h5>  
-      <ul>
-        <li><strong>Interface Designs</strong>
-          <ul>
-            <li>home page</li>
-          </ul>
-        </li>
-      </ul>
-  1.2. Lesther  
-  1.3. Gerald  
-  1.4. Alberto  
+- Roberto
+  * Interfaces Designs
+    + home
+    + design
+    + branding
+    + ui/ux
+    + cms
+  * Posts Designs
 
 ========  
 ####1. [Openshift](www.openshift.com)  
