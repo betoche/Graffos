@@ -14,7 +14,7 @@ TODO
          - ui/ux  
          - cms  
       **Posts Designs**    
-         - design 1  
+         - 9 post designs  
    </blockquote>
 ========  
 ####1. [Openshift](www.openshift.com)  
