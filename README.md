@@ -6,7 +6,7 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-   <blockquote>Robert</blockquote>
+   <blockquote>Robert
     *Interfaces Designs*  
       - home  
       - design  
@@ -15,7 +15,7 @@ TODO
       - cms  
   ~~Posts Designs~~  
     * design 1  
-
+   </blockquote>
 ========  
 ####1. [Openshift](www.openshift.com)  
   
