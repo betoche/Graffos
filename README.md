@@ -6,9 +6,8 @@ A small, passionate & dedicated team. Below are a handful of the latest examples
 TODO
 ----
 
-   --Roberto--  
-    </blockquote>
-      *Interfaces Designs*  
+   __Roberto__  
+    </blockquote> *Interfaces Designs*  
          - home  
          - design  
          - branding  
