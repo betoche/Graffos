@@ -1,5 +1,74 @@
-##Graffos  
-========  
+Graffos Info
+=============
+
+A small, passionate & dedicated team. Below are a handful of the latest examples that showcase the wide array of our work.
+
+TODO
+----
+
+   __Roberto__  
+    <blockquote> **Interfaces Designs**  
+         - ~~home~~  
+         - ~~design~~  
+         - ~~branding~~  
+         - ui/ux  
+         - ~~cms~~  
+         - ~~works~~
+         - news  
+         - ~~us~~  
+         - used technologies  
+         - email design  
+         <br/>
+      **Posts Designs**    
+         - 9 post designs  
+   </blockquote>
+   __Lesther__  
+      <blockquote> **Html coding**  
+         - ~~countdown~~  
+         - home  
+         - ~~design~~  
+         - branding  
+         - ui/ux  
+         - cms  
+         - ~~work~~  
+         - news  
+         - used tecnologies  
+         - contact form  
+      </blockquote>
+   __Gerald__  
+      <blockquote> **Integrating**  
+         - LiveChat  
+         - Contact Form  
+         - Automatic Emailing  
+      </blockquote>
+   __Alberto__ 
+      <blockquote> **Integrating**  
+         -  Locale  
+         - ~~Subscribe~~  
+         -  News CMS  
+      </blockquote>
+      
+Brainstorm  
+----------
+
+<blockquote><strong>Please feel free to add every crazy idea you have, the most crazy the most it could work!!!</strong></blockquote>  
+
+----------
+
+- Facebook Campain (alberto)  
+- Reinarsa redesign (Diego)~~  
+- Redca redesign (Gerald)~~  
+- ~~FCyS proposal (no me contesto la Patricia)~~  
+- ~~Publicate partnership~~  
+- Pharmacy/Sales Stock (Payo) 
+- Newsletter  
+- Telmovil (Roberto)  
+- taking up personal opportunities(we all)  
+
+<br/>
+--------------
+Technical Info
+--------------
 ####1. [Openshift](www.openshift.com)  
   
 #####1.1. GitHub  
@@ -22,3 +91,14 @@ Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
 
 ```
 [Graffos URL](http://graffos-graffos.rhcloud.com/Graffos/)
+
+
+#####1.3. [Google Analitics](https://www.google.com/analytics/web/?et&authuser=2#report/visitors-overview/a52895926w85485938p88645734/)
+```
+https://www.google.com/analytics/web/?et&authuser=2#report/visitors-overview/a52895926w85485938p88645734/
+
+user: graffos.nicaragua@gmail.com
+password: graffosni
+```
+
+#####1.4. Skype Credentials u/p: [graffosni](admin2014)
