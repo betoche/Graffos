@@ -93,7 +93,7 @@
 .copyright_footer{
 	right: auto;
 	left: 155px;
-	bottom: 40px;
+	bottom: 30px;
 }
 .copyright_footer .logo_footer{
 	margin: 0;
@@ -101,6 +101,46 @@
 	height: 47px;
 }
 
+
+/*icon menu*/
+.icon_menu.services:after{
+	background-image: url('../../images/default/menu/services.svg');
+}
+.icon_menu.work:after{
+	background-image: url('../../images/default/menu/works.svg');
+}
+.icon_menu.about:after{
+	background-image: url('../../images/default/menu/aboutus.svg');
+}
+.icon_menu.news:after{
+	background-image: url('../../images/default/menu/news.svg');
+}
+.icon_menu.contact:after{
+	background-image: url('../../images/default/menu/send.svg');
+}
+.icon_menu.home:after{
+	background-image: url('../../images/default/menu/home.svg');
+}
+/*menu mobile*/
+/*active menu*/
+.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
+	background-image: url('../../images/default/menu/menu_icon.svg');
+}
+
+/*icons footer*/
+.content_contact .phone_footer:before{
+	background-image: url('../../images/default/footer/icon_phone.svg');
+}
+.content_contact .mail_footer:before{
+	background-image: url('../../images/default/footer/icon_mail.svg');
+}
+.content_contact .skype_footer:before{
+	background-image: url('../../images/default/footer/icon_send.svg');
+}
+/*logo*/
+.copyright_footer .logo_footer{
+	background-image: url('../../images/default/logos_pet/graffos_logo.svg');
+}
 
 @media only screen and (min-width: 550px){
 	.copyright_footer{

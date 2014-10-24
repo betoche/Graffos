@@ -17,3 +17,7 @@ body{
 	height: 130px;
 	left: -30px;
 }
+
+.text_container .graffos{
+	background-image: url('../../images/counter/graffito-pet_sm.svg');
+}

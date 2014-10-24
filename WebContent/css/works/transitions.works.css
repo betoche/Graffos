@@ -90,13 +90,6 @@
 }
 
 
-.works_image.bck_img:before{
-	/*transition*/
-	-moz-transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
 .works_image{
 	/*transition*/
 	-moz-transition: all 0.5s ease;

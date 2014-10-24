@@ -3,14 +3,6 @@
 	background-image: url('../../images/design/bck_design_landscape_480.jpg');
 }
 
-/*notes*/
-.botton_notes{
-	background-image: url('../../images/design/bck_design_note_landscape_480.jpg');
-}
-.body > .botton_notes{
-	padding: 110px 20px;
-}
-
 .design_text{
 	height: 90px;
 	max-width: 210px;

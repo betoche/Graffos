@@ -74,26 +74,3 @@
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-
-
-/*icon coffee*/
-.coffee_icon{
-	position: relative;
-}
-.coffee_icon:before{
-	content: "";
-	position: absolute;
-	bottom: 100%;
-	display: block;
-	width: 12px;
-	height: 30px;
-	background-image: url('../../images/design/smoke.gif');
-	/*background size*/
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-	left: 0;
-	right: 10px;
-	margin: 0 auto 5px;
-}

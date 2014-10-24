@@ -95,16 +95,3 @@
 	height: 20px;
 	margin-right: 20px;
 }
-.content_contact .phone_footer:before{
-	background-image: url('../../images/default/footer/icon_phone.svg');
-}
-.content_contact .mail_footer:before{
-	background-image: url('../../images/default/footer/icon_mail.svg');
-}
-.content_contact .skype_footer:before{
-	background-image: url('../../images/default/footer/icon_send.svg');
-}
-
-.copyright_footer .logo_footer{
-	background-image: url('../../images/default/logos_pet/graffos_logo.svg');
-}

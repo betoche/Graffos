@@ -4,18 +4,36 @@
 		background-image: url('../../images/works/works_text.svg');
 	}
 
-	/*images*/
-	.bck_img.works_image:before{
-		background-image: url('../../images/works/bck_works_web_hd.jpg');
-	}
-
-	/*scroll*/
-
 	/*component*/
 	.og-grid li.recent_work{
 		background-image: url('../../images/works/component/thumbs/thumbs_recent_work.svg');
 	}
 	.og-grid li.featured_project{
 		background-image: url('../../images/works/component/thumbs/thumbs_featured_project.svg');
+	}
+
+	/*icons*/
+	.works .icon_container .scroll_down,.works .icon_container_small .scroll_down{
+		background-image: url('../../images/works/circle_white.svg');
+	}
+
+	.works .icon_container .scroll_down:after, .works .icon_container_small .scroll_down:after{
+		background-image: url('../../images/works/mouse_icon.svg');
+	}
+	/*idea*/
+	.work_icon{
+		background-image: url('../../images/works/icon_idea.svg');
+	}
+
+	@media only screen and (min-width : 900px) {
+		.work_icon{
+			background-image: url('../../images/works/icon_idea.gif');
+		}
+	}
+	@media only screen and (min-width : 1366px) {
+		/*images*/
+		.bck_img.works_image:before{
+			background-image: url('../../images/works/bck_works_web_hd.jpg');
+		}
 	}
 }

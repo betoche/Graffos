@@ -1,3 +1,8 @@
-.note_design{
-	background-image: url('../../images/design/bck_design_note_web_1024.jpg');
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_web_1024.jpg');
+}
+
+/*red*/
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_web_1024_red.jpg');
 }

@@ -10,6 +10,9 @@
 #defaultpanel,.ui-loader {
 	display: none;
 }
+.intro{
+	padding-bottom: 0px;
+}
 
 
 /*fixed div*/
@@ -26,7 +29,7 @@
 }
 .fixed{
 	width: 100%;
-	max-width: 1366px;
+	/*max-width: 1366px;*/
 	left: 0;
 	right: 0;
 	top: 90px;
@@ -78,18 +81,24 @@
 /*colors*/
 /*default*/
 .socialnetwork a{
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.08);
 }
-.socialnetwork a:hover{
-	background: rgba(0,0,0,0.4);
+.socialnetwork a.facebook_icon:hover{
+	background: rgba(59,89,153,1);
 }
-/*home*/
-.home .socialnetwork a{
-	background: rgba(119,8,121,0.5);
+.socialnetwork a.twitter_icon:hover{
+	background: rgba(41,197,246,1);
 }
-.home .socialnetwork a:hover{
-	background: rgba(119,8,121,1);
+.socialnetwork a.google_icon:hover{
+	background: rgba(215,60,40,1);
 }
+.socialnetwork a.instagram_icon:hover{
+	background: rgba(251,182,21,1);
+}
+.socialnetwork a.linkedin_icon:hover{
+	background: rgba(0,130,200,1);
+}
+
 
 
 
@@ -114,6 +123,10 @@
 
 
 /*menu*/
+/*.header_sub{
+	max-width: 1366px;
+	margin: 0 auto
+}*/
 .icon_menu.services:after{
 	background-image: url('../../images/default/menu/services.svg');
 }
@@ -138,13 +151,6 @@
 	-webkit-border-radius: 200%;
 	-moz-border-radius: 200%;
 	border-radius: 200%;
-}
-
-
-/*others*/
-/*animations*/
-.blink_t{
-	display: inline-block;
 }
 
 

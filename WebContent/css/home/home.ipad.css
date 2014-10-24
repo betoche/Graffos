@@ -1,0 +1,133 @@
+.body > .home_image{
+/*	padding-left: 0;
+	padding-right: 0;*/
+}
+.body > .home_image .middle_cell > *{
+/*	max-width: 740px;
+	margin: 0 auto;*/
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*bck*/
+.home_text{
+	max-width: 400px;
+	height: 370px;
+}
+
+.bck_img.home_image:before{
+	background-image: url('../../images/home/bck_home_ipads.jpg');
+}
+
+/*fonts about slide*/
+.body > .slide_text,.body > .slide_design, .about_home{
+	font-size: 18px;
+	line-height: 26px;
+}
+
+/*about*/
+.body > .about_home{
+	margin: 0 auto;
+	max-width: 740px;
+	padding: 60px 20px 120px;
+}
+.title_about_home{
+	width: 150px;
+	height: 86px;
+}
+
+/*title parallelogram*/
+/*team slide title, home*/
+.title_team > div,.title_graffos > div{
+	max-width: 740px;
+}
+.team_img_container,.graffos_img_container{
+	width: 250px;
+}
+.title_team .team_img{
+	width: 165px;
+}
+/*home text*/
+.title_graffos{
+	top: -50px;
+}
+.title_graffos .graffos_img{
+	width: 130px;
+}
+.triangle_graffos,.title_graffos > div:after{
+	height: 100px;
+}
+
+
+/*slide*/
+.slide_text .swiper-slide > div{
+	max-width: 740px;
+	margin: 0 auto;
+}
+.body > .slide_text{
+	padding: 120px 0px 80px;
+}
+
+/*smarthphone team slide*/
+.swiper-slide .pic{
+	width: 200px;
+	height: 200px;
+}
+/*name*/
+.swiper-slide .name{
+	font-size: 20px;
+}
+.swiper-slide .range{
+	font-style: italic;
+	font-size: 14px;
+}
+/*icons social*/
+.swiper-slide .social_profile{
+	margin: 20px auto;
+	text-align: center;
+}
+/*team pics*/
+.profile .pic{
+	width: 210px;
+	height: 210px;
+}
+
+/*svg images*/
+/*intro text*/
+.home_text{
+	background-image: url('../../images/home/home_text.svg');
+}
+/*title graffos*/
+.title_graffos .graffos_img{
+	background-image: url('../../images/home/graffos_text_intro.svg')
+}
+
+/*about home*/
+.title_about_home {
+	background-image: url('../../images/home/about_us_text.svg');
+}
+
+/*title team*/
+.title_team .team_img{
+	background-image: url('../../images/home/team_text.svg');
+}
+
+
+/*social*/
+.profile .social_profile .fb_profile{
+	background-image: url('../../images/home/fb_team.svg');
+}
+.profile .social_profile .insta_profile{
+	background-image: url('../../images/home/ins_team.svg');
+}
+.profile .social_profile .in_profile{
+	background-image: url('../../images/home/in_team.svg');
+}
+.profile .social_profile .gplus_profile{
+	background-image: url('../../images/home/g_team.svg');
+}
+.profile .social_profile .skype_profile{
+	background-image: url('../../images/home/sk_team.svg');
+}

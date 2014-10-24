@@ -43,7 +43,7 @@
 .header_container_skroll{
 	position: fixed;
 	width: 100%;
-	max-width: 1366px;
+	/*max-width: 1366px;*/
 	backface-visibility: hidden;  /* W3C */
 	-webkit-backface-visibility: hidden; /* Safari & Chrome */
 	-moz-backface-visibility: hidden; /* Firefox */

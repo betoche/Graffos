@@ -15,6 +15,10 @@
 	.icon_menu.contact:after{
 		background-image: url('../../images/default/menu/send.svg');
 	}
+	.icon_menu.home:after{
+		background-image: url('../../images/default/menu/home.svg');
+	}
+
 
 	/*menu mobile*/
 	/*active menu*/
@@ -63,8 +67,6 @@
 		display: none;
 	}
 	.socialnetwork a:after{
-		width: 22px;
-		height: 19px;
 		content: "";
 		margin: 0 auto;
 		display: block;

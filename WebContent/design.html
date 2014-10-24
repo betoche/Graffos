@@ -14,7 +14,7 @@
 
 
 		<!-- jquery librery -->
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js" id="loaded-jquery"></script>
 		<!-- preloader -->
 		<link rel="stylesheet" type="text/css" href="css/default/preloader.css" />
 		<script src="js/preloader.js"></script>
@@ -32,6 +32,8 @@
 		<link rel="stylesheet" href="css/design/design.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
 		<!-- slide -->
 		<link rel="stylesheet" href="css/default/slide_default.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
 
 		
 		<!-- smartphone (landscape 360)-->
@@ -39,39 +41,56 @@
 		<link rel="stylesheet" href="css/subpages/smartphones_sub.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
 		<!-- design -->
 		<link rel="stylesheet" href="css/design/design.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
 
 		<!-- smartphone (landscape 480)-->
 		<link rel="stylesheet" href="css/all_pages/smartphones.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
 		<!-- design -->
 		<link rel="stylesheet" href="css/design/design.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
 
 		<!-- ipad -->
 		<link rel="stylesheet" href="css/all_pages/smartphones.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
 		<!-- design -->
 		<link rel="stylesheet" href="css/design/design.ipad.css" type="text/css" media="only screen and (min-width : 481px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
+
 
 		<!-- web 900-->
 		<link rel="stylesheet" href="css/all_pages/web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
 		<link rel="stylesheet" href="css/subpages/web_sub_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
 		<!-- design -->
 		<link rel="stylesheet" href="css/design/design.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
 		
 		<!-- web 1024-->
 		<link rel="stylesheet" href="css/all_pages/web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<link rel="stylesheet" href="css/subpages/web_sub_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<!-- design -->
 		<link rel="stylesheet" href="css/design/design.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<!-- transitions -->
 		<link rel="stylesheet" href="css/default/transitions.default.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<link rel="stylesheet" href="css/subpages/transitions.subpage.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<link rel="stylesheet" href="css/design/transitions.design.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/transitions.notes.css" type="text/css" media="only screen and (min-width : 901px)"/>
 
 		<!-- web 1366-->
 		<link rel="stylesheet" href="css/design/design.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
 
 
 		<!-- web hd-->
 		<link rel="stylesheet" href="css/all_pages/web_hd.css" type="text/css"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_hd.css" type="text/css"/>
 		<link rel="stylesheet" href="css/subpages/web_sub_hd.css" type="text/css"/>
 		<link rel="stylesheet" href="css/design/design.hd.css" type="text/css"/>
 		<!--[if lte IE 8]>
@@ -120,10 +139,10 @@
 			<!-- header -->
 			<div class="header_container" data-0="" data-1="">
 				<div id="header" class="header_sub">
-					<div class="logo_container"><a href="index.html" class="logo"></a></div>
+					<div class="logo_container"><a href="index.html" class="logo logo_b"></a></div>
 					<!-- button -->
 					<div class="button_container">
-						<a href="#defaultpanel" class="button_menu"></a>
+						<a href="#defaultpanel" class="button_menu button_menu_b"></a>
 					</div>
 					<div class="menu_sub_container">
 						<div id="current_page">
@@ -154,7 +173,7 @@
 							<div class="feet_g"></div>
 						</div>
 					</div>
-					<div id="header" class="header_sub_skroll">
+					<div class="header_sub_skroll">
 						<!-- button -->
 						<div class="menu_sub_container_skroll">
 							<div>
@@ -226,7 +245,7 @@
 					<div class="title_slide">Discover our amazing skills:</div>
 					<div class="icon_slide">
 						<div class="device">
-							<div class="swiper-container">
+							<div class="swiper-container slide_container_icons">
 								<div class="swiper-wrapper">
 									<!-- sl 1 -->
 									<div class="swiper-slide">
@@ -348,22 +367,61 @@
 				</div>
 
 				<!-- note design -->
-				<div class="botton_notes shadow_footer">
+				<div class="botton_notes shadow_footer white_bck">
 					<div class="coffee_icon">
 					</div>
-					<div>
+					<div class="contact_text selected" id="contact_text">
+						<div>
 						We'll give you the creative push you need to go
+						</div>
+						<div class="lighting">
+							bigger, better and faster. 
+						</div>
+						<div>
+							Let's have a coffee!
+						</div>
+						<div class="button_container">
+							<a href="javascript:unhide('bottom_form');unhide('contact_text');" class="button blue_bck">
+								Give us a call
+							</a>
+						</div>
 					</div>
-					<div class="lighting">
-						bigger, better and faster. 
-					</div>
-					<div>
-						Let's have a coffee!
-					</div>
-					<div class="button_container">
-						<a href="" class="button blue_bck">
-							Give us a call
-						</a>
+					<div class="bottom_form unselected" id="bottom_form">
+						<form action="" name="contact_bottom">
+							<div class="device">
+								<div class="swiper-container slide_form vertical_slide">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>Hi, What's your name?</div>
+											<input type="text" name="name" id="name" placeholder="fulanito" autocomplete="off" tabindex="-1">
+										</div>
+										<div class="swiper-slide">
+											<div>and your email?</div>
+											<input type="email" name="email" id="email" placeholder="fulanito@youremail.com" tabindex="-1">
+										</div>
+										<div class="swiper-slide">
+											<div>We'd love to hear from you!</div>
+											<textarea name="message" id="message" placeholder="Write us..." tabindex="-1"></textarea>
+										</div>
+										<div class="swiper-slide message_button">
+											<div class="button_contact_container">
+												<div>
+													<div class="button" style="width: 220px;">
+														<span></span>thank you!
+														<input type="submit" tabindex="-1" style="display:none"/>
+													</div>
+													<div class="error_message" style="display:none">email requeried</div>
+													<div class="note_contact">
+														We won't sent you any spam.<br/>We respect your privacy. 
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vertical_pagination"></div>
+							</div>
+						</form>
 					</div>
 				</div>
 
@@ -395,7 +453,7 @@
 									<div class="phone_footer icon_footer"><span>505.78388188 - 81883110</span></div>
 									<div class="mail_footer icon_footer"><a href="mailto:info@graffos.net">info<span class="arial">@</span>graffos.net</a></div>
 									<div class="skype_footer icon_footer">
-										<span>Our Skype:</span> <span class="skype_text">graffosni</span>
+										<span>Our Skype:</span> <a href="skype:graffosni?add" class="skype_text">graffosni</a>
 									</div>
 								</div>
 							</div>
@@ -424,7 +482,7 @@
 			</div>
 			<!-- slide -->
 			<script type="text/javascript">
-			  var mySwiper = new Swiper('.swiper-container',{
+			  var mySwiper = new Swiper('.slide_container_icons',{
 			    pagination: '.pagination',
 			    loop:true,
 			    autoplayDisableOnInteraction:false,
@@ -432,6 +490,16 @@
 			    grabCursor: true,
 			    paginationClickable: true
 			  })
+			  var mySwiper = new Swiper('.slide_form',{
+					loop:false,
+					autoplayDisableOnInteraction:true,
+					grabCursor: true,
+					paginationClickable: true,
+					mode : 'vertical',
+					pagination: '.vertical_pagination',
+					keyboardControl: true,
+					mousewheelControl: true
+				})
 			</script>
 	</body>
 </html>

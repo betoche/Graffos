@@ -25,3 +25,8 @@
 .works #current_page_skroll ~ div a:hover{
 	color: #c4d92e;
 }
+
+/*icon animated*/
+.work_icon{
+	background-image: url('../../images/works/icon_idea.gif');
+}

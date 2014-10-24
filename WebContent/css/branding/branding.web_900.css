@@ -5,7 +5,6 @@
 /*text*/
 .branding_text{
 	height: 205px;
-	background-image: url('../../images/branding/branding_text.svg');
 }
 
 /*container intro*/
@@ -32,7 +31,4 @@
 }
 .branding .rocket_icon_container{
 	margin: 0 auto 30px;
-}
-.branding .rocket_icon_container .icon_rocket{
-	background-image: url('../../images/branding/cohete_icon.svg');
 }

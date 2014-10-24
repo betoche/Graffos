@@ -1,3 +1,22 @@
-.note_design{
-	background-image: url('../../images/design/bck_design_note_ipad.jpg');
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_ipad.jpg');
+}
+
+/*red*/
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_ipad_red.jpg');
+}
+
+/*icon contact*/
+.botton_notes.red_note .bottom_form .button span{
+	background-image: url('../../images/notes/check_w_icon.svg');
+}
+.botton_notes.red_note .bottom_form .error_message:before{
+	background-image: url('../../images/notes/alert_w_icon.svg');
+}
+.botton_notes .bottom_form .button span{
+	background-image: url('../../images/notes/check_icon.svg');
+}
+.botton_notes .bottom_form .error_message:before{
+	background-image: url('../../images/notes/alert_icon.svg');
 }

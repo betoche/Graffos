@@ -25,6 +25,7 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .intro{
+	padding-bottom: 38px;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -69,18 +70,7 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-}
-/*background*/
-/*home*/
-.home .socialnetwork{
-	background: #572b70;
-}
-.socialnetwork{
 	background: #1B1B1B;
-}
-/*cms*/
-.cms .socialnetwork{
-	background: #d4291f;
 }
 .socialnetwork a{
 	width: 25%;
@@ -310,10 +300,6 @@
 /*contact*/
 .content_contact a,.phone_footer{
 	color: #05b3b2;
-}
-.skype_text{
-	font-weight: bold;
-	font-size: 16px;
 }
 
 /*copyright*/

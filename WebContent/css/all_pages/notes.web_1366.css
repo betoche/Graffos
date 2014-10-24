@@ -1,15 +1,8 @@
-.note_design{
-	background-image: url('../../images/design/bck_design_note_web_1366.jpg');
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_web_1366.jpg');
 }
 
-@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
-	/*coffee section*/
-	.design .note_design{
-		background-image: url('../../images/design/bck_design_note_hd.jpg');
-		background-position: center right;
-	}
-	/*coffee*/
-	.coffee_icon{
-		background-image: url('../../images/design/coffee_icon.svg');
-	}
+/*red*/
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_web_1366_red.jpg');
 }

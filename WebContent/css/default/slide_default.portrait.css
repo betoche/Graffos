@@ -126,7 +126,11 @@ Pagination Styles
 	text-align: center;
 	width: 100%;
 }
+.white_bck .swiper-pagination-switch {
+	border: 1px solid #04b3b3;
+}
 .swiper-pagination-switch {
+	border: 1px solid #fff;
 	display: inline-block;
 	width: 8px;
 	height: 8px;
@@ -135,10 +139,25 @@ Pagination Styles
 	border-radius: 200%;
 	margin: 0 7px;
 	cursor: pointer;
-	border: 1px solid #fff;
-	background: #04b3b3;
 }
 .swiper-active-switch {
 	border: 1px solid #fff;
 	background: #fff;
+}
+.white_bck .swiper-active-switch {
+	border: 1px solid #04b3b3;
+	background: #04b3b3;
+}
+/*vertical*/
+.vertical_pagination{
+	position: absolute;
+	z-index: 20;
+	right: 20px;
+	top: 0px;
+}
+.vertical_pagination .swiper-pagination-switch{
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin: 7px auto;
 }

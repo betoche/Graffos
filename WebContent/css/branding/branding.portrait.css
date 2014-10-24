@@ -9,6 +9,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: #fff;
+	background-attachment: fixed;
 }
 .bck_img.branding_image:before{
 	background: #590076;

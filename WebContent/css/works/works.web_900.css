@@ -2,7 +2,6 @@
 .works_text{
 	height: 110px;
 	max-width: 350px;
-	background-image: url('../../images/works/works_text.svg');
 }
 .works .description {
 	font-size: 18px;

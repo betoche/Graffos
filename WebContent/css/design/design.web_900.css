@@ -8,22 +8,13 @@
 	line-height: 24px;
 }
 
-.botton_notes{
-	background-image: url('../../images/design/bck_design_note_web_900.jpg');
-}
-.botton_notes div{
-	line-height: 24px;
-	font-size: 16px;
-}
 
 /*text*/
 .design_text{
 	height: 140px;
 	max-width: 350px;
 }
-.design_text{
-	background-image: url('../../images/design/design_text.svg');
-}
+
 
 /*slide*/
 .title_slide{

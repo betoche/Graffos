@@ -14,7 +14,7 @@
 
 
 		<!-- jquery librery -->
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js" id="loaded-jquery"></script>
 		<!-- preloader -->
 		<link rel="stylesheet" type="text/css" href="css/default/preloader.css" />
 		<script src="js/preloader.js"></script>
@@ -33,8 +33,9 @@
 		<!-- gallery -->
 		<link rel="stylesheet" href="css/component/component.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
 		<!-- notes -->
-		<link rel="stylesheet" href="css/subpages/notes.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
-
+		<link rel="stylesheet" href="css/all_pages/notes.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+		<!-- slide -->
+		<link rel="stylesheet" href="css/default/slide_default.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
 		
 		<!-- smartphone (landscape 360)-->
 		<link rel="stylesheet" href="css/all_pages/smartphones.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
@@ -43,11 +44,15 @@
 		<link rel="stylesheet" href="css/works/works.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
 		<!-- gallery -->
 		<link rel="stylesheet" href="css/component/component.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
 
 		<!-- smartphone (landscape 480)-->
 		<link rel="stylesheet" href="css/all_pages/smartphones.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
 		<!-- works -->
 		<link rel="stylesheet" href="css/works/works.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
 
 		<!-- ipad -->
 		<link rel="stylesheet" href="css/all_pages/smartphones.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
@@ -55,6 +60,8 @@
 		<link rel="stylesheet" href="css/works/works.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
 		<!-- gallery -->
 		<link rel="stylesheet" href="css/component/component.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
 
 		<!-- web 900-->
 		<link rel="stylesheet" href="css/all_pages/web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
@@ -63,6 +70,8 @@
 		<link rel="stylesheet" href="css/works/works.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
 		<!-- component -->
 		<link rel="stylesheet" href="css/component/component.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
 		
 		<!-- web 1024-->
 		<link rel="stylesheet" href="css/all_pages/web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
@@ -71,18 +80,26 @@
 		<link rel="stylesheet" href="css/component/component.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<!-- gallery -->
 		<link rel="stylesheet" href="css/works/works.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<!-- transitions -->
 		<link rel="stylesheet" href="css/default/transitions.default.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<link rel="stylesheet" href="css/subpages/transitions.subpage.css" type="text/css" media="only screen and (min-width : 901px)"/>
 		<link rel="stylesheet" href="css/works/transitions.works.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/transitions.notes.css" type="text/css" media="only screen and (min-width : 901px)"/>
 
 		<!-- web 1366-->
 		<link rel="stylesheet" href="css/works/works.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
 		<link rel="stylesheet" href="css/component/component.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
 
 
 		<!-- web hd-->
 		<link rel="stylesheet" href="css/all_pages/web_hd.css" type="text/css"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_hd.css" type="text/css"/>
 		<link rel="stylesheet" href="css/subpages/web_sub_hd.css" type="text/css"/>
 		<link rel="stylesheet" href="css/works/works.hd.css" type="text/css"/>
 		<!--[if lte IE 8]>
@@ -96,7 +113,7 @@
 		<!-- transitions  -->
 		<script type="text/javascript" src="js/content_loaded_transitions.js"></script>
 
-		<script type="text/javascript" src="js/dynamic.works.js"></script>
+		<script type="text/javascript" src="js/dynamic.home.js"></script>
 		<!-- show/hide -->
 		<script type="text/javascript" src="js/show_hide.js"></script>
 
@@ -114,35 +131,6 @@
 
 
 
-		<!-- for dragging/swiping/pinching, include hammer.js -->
-		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
-		<!-- for scaling UI buttons (for wide websites on small screens), include FlameViewportScale -->
-		<script type="text/javascript" src="js/FlameViewportScale.js"></script>
-		<!-- include Tos "R"Us -->
-		<script type="text/javascript" src="js/jquery.tosrus.min.all.js"></script>
-		<link type="text/css" media="all" rel="stylesheet" href="css/default/gallery.css" />
-
-		<!-- fire the plugin onDocumentReady -->
-		<script type="text/javascript">
-			jQuery(function( $ ) {
-
-				$('#nica_challenge a').tosrus({
-					infinite       : true,
-					drag       : true,
-				 	effect     : "fade",
-					pagination	: {
-						add		: true,
-						type	: 'thumbnails'
-					},
-					keys	: {
-						prev	: 37,
-						next	: 39,
-						close	: 27
-					}
-				});
-
-			});
-		</script>
 	</head>
 
 	<body class="works" id="skrollr-body">
@@ -290,7 +278,7 @@
 					<ul id="og-grid" class="og-grid">
 						<li class="recent_work">
 						</li>
-						<li id="nica_challenge" class="nica_challenge">
+						<li class="nica_challenge full_gallery">
 							<a href="http://lorempixel.com/1200/675/cats/8/?img.jpg" data-largesrc="images/works/component/gall_nica_challenge.jpg" data-title="Nica Challenge" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
 								<span class="container_component_hover">
 									<span class="container_component_title">
@@ -301,21 +289,25 @@
 									</span>
 								</span>
 							</a>
-							<div style="display:none">
-								<a href="http://lorempixel.com/1200/675/cats/6/?img.jpg">
-								</a>
-								<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg">
-								</a>
-								<a href="http://lorempixel.com/1200/675/cats/8/?img.jpg">
-								</a>
-							</div>
 						</li>
-						<li id="eldon_villas" class="eldon_villas">
-							<a href="http://lorempixel.com/1200/675/cats/6/?img.jpg" data-largesrc="images/works/component/gall_eldon_villas.jpg" data-title="Eldon Villas" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+						<li class="graffos_cards">
+							<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg" data-largesrc="images/works/component/gall_graffos_cards.jpg" data-title="Graffos Cards" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
 								<span class="container_component_hover">
 									<span class="container_component_title">
 										<span class="table_cell_component">
-											<span class="title_component">Eldon Villas</span>
+											<span class="title_component">Graffos Cards</span>
+											<span class="note_component">view project</span>
+										</span>
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="menuejecutivo">
+							<a href="http://lorempixel.com/1200/675/cats/6/?img.jpg" data-largesrc="images/works/component/gall_menuejecutivo.jpg" data-title="Menu Ejecutivo" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+								<span class="container_component_hover">
+									<span class="container_component_title">
+										<span class="table_cell_component">
+											<span class="title_component">Menu Ejecutivo</span>
 											<span class="note_component">view project</span>
 										</span>
 									</span>
@@ -334,24 +326,24 @@
 								</span>
 							</a>
 						</li>
-						<li id="ibericasa" class="ibericasa">
-							<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/works/component/gall_ibericasa.jpg" data-title="ibericasa" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+						<li class="xfactor">
+							<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/works/component/gall_xfactor.jpg" data-title="XFactor" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
 								<span class="container_component_hover">
 									<span class="container_component_title">
 										<span class="table_cell_component">
-											<span class="title_component">ibericasa</span>
+											<span class="title_component">XFactor</span>
 											<span class="note_component">view project</span>
 										</span>
 									</span>
 								</span>
 							</a>
 						</li>
-						<li class="ciaobella">
-							<a href="http://lorempixel.com/1200/675/cats/6/?img.jpg" data-largesrc="images/works/component/gall_ciaobella.jpg" data-title="Ciao Bell@" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+						<li class="fundacion_mujer">
+							<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg" data-largesrc="images/works/component/gall_fundacion_mujer.jpg" data-title="Fundación Mujer" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
 								<span class="container_component_hover">
 									<span class="container_component_title">
 										<span class="table_cell_component">
-											<span class="title_component">Ciao Bell@</span>
+											<span class="title_component">Fundación Mujer</span>
 											<span class="note_component">view project</span>
 										</span>
 									</span>
@@ -370,12 +362,36 @@
 								</span>
 							</a>
 						</li>
-						<li class="graffos_cards">
-							<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg" data-largesrc="images/works/component/gall_graffos_cards.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+						<li class="dantec">
+							<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg" data-largesrc="images/works/component/gall_dantec.jpg" data-title="Dantec" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
 								<span class="container_component_hover">
 									<span class="container_component_title">
 										<span class="table_cell_component">
-											<span class="title_component">Dandelion horseradish</span>
+											<span class="title_component">Dantec</span>
+											<span class="note_component">view project</span>
+										</span>
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="ciaobella">
+							<a href="http://lorempixel.com/1200/675/cats/6/?img.jpg" data-largesrc="images/works/component/gall_ciaobella.jpg" data-title="Ciao Bell@" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+								<span class="container_component_hover">
+									<span class="container_component_title">
+										<span class="table_cell_component">
+											<span class="title_component">Ciao Bell@</span>
+											<span class="note_component">view project</span>
+										</span>
+									</span>
+								</span>
+							</a>
+						</li>
+						<li class="heliosone">
+							<a href="http://lorempixel.com/1200/675/cats/7/?img.jpg" data-largesrc="images/works/component/gall_heliosone.jpg" data-title="Helios One" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+								<span class="container_component_hover">
+									<span class="container_component_title">
+										<span class="table_cell_component">
+											<span class="title_component">Helios One</span>
 											<span class="note_component">view project</span>
 										</span>
 									</span>
@@ -394,22 +410,61 @@
 				</div>
 
 				<!-- note design -->
-				<div class="note_design shadow_footer">
+				<div class="botton_notes shadow_footer white_bck top_position">
 					<div class="coffee_icon">
 					</div>
-					<div>
+					<div class="contact_text selected" id="contact_text">
+						<div>
 						We'll give you the creative push you need to go
+						</div>
+						<div class="lighting">
+							bigger, better and faster. 
+						</div>
+						<div>
+							Let's have a coffee!
+						</div>
+						<div class="button_container">
+							<a href="javascript:unhide('bottom_form');unhide('contact_text');" class="button blue_bck">
+								Give us a call
+							</a>
+						</div>
 					</div>
-					<div class="lighting">
-						bigger, better and faster. 
-					</div>
-					<div>
-						Let's have a coffee!
-					</div>
-					<div class="button_container">
-						<a href="" class="button blue_bck">
-							Give us a call
-						</a>
+					<div class="bottom_form unselected" id="bottom_form">
+						<form action="" name="contact_bottom">
+							<div class="device">
+								<div class="swiper-container slide_form vertical_slide">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>Hi, What's your name?</div>
+											<input type="text" name="name" id="name" placeholder="fulanito" autocomplete="off" tabindex="-1">
+										</div>
+										<div class="swiper-slide">
+											<div>and your email?</div>
+											<input type="email" name="email" id="email" placeholder="fulanito@youremail.com" tabindex="-1">
+										</div>
+										<div class="swiper-slide">
+											<div>We'd love to hear from you!</div>
+											<textarea name="message" id="message" placeholder="Write us..." tabindex="-1"></textarea>
+										</div>
+										<div class="swiper-slide message_button">
+											<div class="button_contact_container">
+												<div>
+													<div class="button" style="width: 220px;">
+														<span></span>thank you!
+														<input type="submit" tabindex="-1" style="display:none"/>
+													</div>
+													<div class="error_message" style="display:none">email requeried</div>
+													<div class="note_contact">
+														We won't sent you any spam.<br/>We respect your privacy. 
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="vertical_pagination"></div>
+							</div>
+						</form>
 					</div>
 				</div>
 				
@@ -441,7 +496,7 @@
 									<div class="phone_footer icon_footer"><span>505.78388188 - 81883110</span></div>
 									<div class="mail_footer icon_footer"><a href="mailto:info@graffos.net">info<span class="arial">@</span>graffos.net</a></div>
 									<div class="skype_footer icon_footer">
-										<span>Our Skype:</span> <span class="skype_text">graffosni</span>
+										<span>Our Skype:</span> <a href="skype:graffosni?add" class="skype_text">graffosni</a>
 									</div>
 								</div>
 							</div>
@@ -468,5 +523,18 @@
 					<a href="#" class="linkedin_icon"><img src="images/default/socialnetwork/in_icon.png" alt="Linkedin"></a>
 				</div>
 			</div>
+			<script src="js/idangerous.swiper-2.1.min.js"></script>
+			<script type="text/javascript">
+				var mySwiper = new Swiper('.slide_form',{
+					loop:false,
+					autoplayDisableOnInteraction:true,
+					grabCursor: true,
+					paginationClickable: true,
+					mode : 'vertical',
+					pagination: '.vertical_pagination',
+					keyboardControl: true,
+					mousewheelControl: true
+				})
+			</script>
 	</body>
 </html>

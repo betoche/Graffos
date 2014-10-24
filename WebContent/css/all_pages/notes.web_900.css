@@ -1,3 +1,11 @@
-.note_design{
-	background-image: url('../../images/design/bck_design_note_web_900.jpg');
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_web_900.jpg');
+}
+.botton_notes div{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_web_900_red.jpg');
 }

@@ -76,17 +76,7 @@
 	.stickers{
 		background-image: url('../../images/design/stickers.svg');
 	}
-
-
-	/*coffee section*/
-	.botton_notes{
-		background-image: url('../../images/design/bck_design_note_hd.jpg');
-		background-position: center right;
-	}
-	/*coffee*/
-	.coffee_icon{
-		background-image: url('../../images/design/coffee_icon.svg');
-	}
+	
 
 	/*text desing*/
 	/*text*/
@@ -102,7 +92,7 @@
 	}
 
 	/*principal  images*/
-	@media only screen and (min-width: 240px) {
+	@media only screen and (min-width: 1366px) {
 		.bck_img.design:before{
 			background-image: url('../../images/design/bck_design_hd.jpg');
 		}

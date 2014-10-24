@@ -78,25 +78,6 @@
 }
 
 
-/*icon*/
-.coffee_icon{
-	margin: 0 auto;
-	width: 30px;
-	height: 42px;
-	background-image: url('../../images/design/coffee_icon.png');
-	/*background size*/
-	-webkit-background-size: 30px 42px;
-	-moz-background-size: 30px 42px;
-	-o-background-size: 30px 42px;
-	background-size: 30px 42px;
-	background-repeat: no-repeat;
-	margin-bottom: 20px;
-}
-/*button*/
-.button_container{
-	margin-top: 20px;
-}
-
 /*container slide*/
 .design .slide_design{
 	padding: 20px 0px;
@@ -221,35 +202,4 @@
 }
 .swiper-slide .icon_slide_container{
 	width: 50%;
-}
-
-
-/*notes bottom*/
-.botton_notes{
-	position: relative;
-	z-index: 2;
-}
-.body > .botton_notes{
-	padding: 80px 20px;
-}
-.botton_notes{
-	text-align: center;
-	background-color: #fff;
-	background-image: url('../../images/design/bck_design_note_portrait.jpg');
-	/*background size*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-.botton_notes div{
-	line-height: 20px;
-	color: #342f3e;
-}
-.botton_notes .lighting{
-	text-transform: uppercase;
-	color: #04b3b2;
 }

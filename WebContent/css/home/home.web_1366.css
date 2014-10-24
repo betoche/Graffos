@@ -1,42 +1,26 @@
-/*body*/
-/*welcome*/
-.hello > div > div{
-	width: 60%;
+/*.body > .home_image .middle_cell > *{
+	max-width: 890px;
 }
-.hello .description{
-	font-size: 26px;
-	line-height: 29px;
+*/
+.bck_img.home_image:before{
+	background-image: url('../../images/home/bck_home_1366.jpg');
 }
-/*description*/
-.hello .title.pacifico{
-	font-size: 63px;
-	line-height: 70px;
+
+.team_web .profile{
+	width: 220px;
+	display: inline-block;
 }
-.title.pacifico{
-	font-size: 63px;
-	line-height: 70px;
+
+.profile .pic{
+	width: 180px;
+	height: 180px;
+}
+.body > .about_home,.slide_text .swiper-slide > div,.title_team > div,.title_graffos > div{
+	max-width: 890px;
 }
 
 
-/*our mission*/
-.mision > div{
-	max-width: 1069px;
-	margin: 0 auto;
-}
-
-/*images*/
-/*welcome*/
-/*background*/
-.bck_img.bck_graffito:before{
-	top: -100px;
-	max-width: 75%;
-}
-/*about*/
-.body .about_container{
-	background-image: url('../../images/home/bck_about_web1366.jpg');
-}
-
-/*founders*/
-.bck_founders{
-	background-image: url('../../images/home/bck_founders_web1366.jpg');
+/*arrow team*/
+.team_container:before{
+	border-width: 20px 17.5px 0 17.5px;
 }

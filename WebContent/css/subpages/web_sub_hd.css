@@ -3,7 +3,13 @@
 	.header_sub .logo{
 		background-image: url('../../images/default/logos_pet/graffos_logo.svg');
 	}
+	.header_sub .logo.logo_b{
+		background-image: url('../../images/default/logos_pet/graffos_logo_b.svg');
+	}
 	.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
 		background-image: url('../../images/default/menu/menu_icon.svg');
+	}
+	.header_sub .button_container .button_menu.button_menu_b{
+		background-image: url('../../images/default/menu/menu_icon_b.svg');
 	}
 }

@@ -2,3 +2,6 @@
 .header_sub .logo{
 	background-image: url('../../images/default/logos_pet/graffos_logo.svg');
 }
+.header_sub .logo.logo_b{
+	background-image: url('../../images/default/logos_pet/graffos_logo_b.svg');
+}

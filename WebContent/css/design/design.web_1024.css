@@ -2,9 +2,6 @@
 .bck_img.design:before{
 	background-image: url('../../images/design/bck_design_web_1024.jpg');
 }
-.botton_notes{
-	background-image: url('../../images/design/bck_design_note_web_1024.jpg');
-}
 
 .icon_container{
 	position: fixed;

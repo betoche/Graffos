@@ -1,0 +1,46 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	
+
+	/*intro*/
+	.home_text{
+		background-image: url('../../images/home/home_text.svg');
+	}
+	/*title graffos*/
+	.title_graffos .graffos_img{
+		background-image: url('../../images/home/graffos_text_intro.svg')
+	}
+
+	/*about home*/
+	.title_about_home {
+		background-image: url('../../images/home/about_us_text.svg');
+	}
+
+	/*title team*/
+	.title_team .team_img{
+		background-image: url('../../images/home/team_text.svg');
+	}
+
+	/*social*/
+	.profile .social_profile .fb_profile{
+	background-image: url('../../images/home/fb_team.svg');
+	}
+	.profile .social_profile .insta_profile{
+		background-image: url('../../images/home/ins_team.svg');
+	}
+	.profile .social_profile .in_profile{
+		background-image: url('../../images/home/in_team.svg');
+	}
+	.profile .social_profile .gplus_profile{
+		background-image: url('../../images/home/g_team.svg');
+	}
+	.profile .social_profile .skype_profile{
+		background-image: url('../../images/home/sk_team.svg');
+	}
+
+	/*principal  images*/
+	@media only screen and (min-width: 1366px) {
+		.bck_img.home_image:before{
+			background-image: url('../../images/home/bck_home_hd.jpg');
+		}
+	}
+}

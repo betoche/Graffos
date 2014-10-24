@@ -73,6 +73,11 @@ div.ui-mobile-viewport {
     top: 50%;
     left: 50%;
     border:0;
+    backface-visibility: hidden;  /* W3C */
+    -webkit-backface-visibility: hidden; /* Safari & Chrome */
+    -moz-backface-visibility: hidden; /* Firefox */
+    -ms-backface-visibility: hidden; /* Internet Explorer */
+    -o-backface-visibility: hidden; /* Opera */
 }
 .ui-loader-default {
     background: none;
@@ -166,6 +171,11 @@ div.ui-mobile-viewport {
     position: fixed;
     bottom: -1px; /* Fixes gap on Chrome for Android */
     padding-bottom: 1px;
+    backface-visibility: hidden;  /* W3C */
+    -webkit-backface-visibility: hidden; /* Safari & Chrome */
+    -moz-backface-visibility: hidden; /* Firefox */
+    -ms-backface-visibility: hidden; /* Internet Explorer */
+    -o-backface-visibility: hidden; /* Opera */
 }
 .ui-panel-display-reveal {
     z-index: 1;
@@ -395,6 +405,7 @@ div.ui-mobile-viewport {
     background: #252525;
     color: #fff;
     text-transform: capitalize;
+    overflow: hidden;
 }
 .ui-panel a,.ui-panel .left_bullet,.ui-panel .icon_menu,.backmenu {
     cursor: pointer;

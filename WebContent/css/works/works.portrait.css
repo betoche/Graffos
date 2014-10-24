@@ -124,14 +124,14 @@
 .og-grid li.nica_challenge > a{
 	background-image: url('../../images/works/component/thumbs/thumbs_nica_challenge.jpg');
 }
-.og-grid li.eldon_villas > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_eldon_villas.jpg');
+.og-grid li.menuejecutivo > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_menuejecutivo.jpg');
 }
 .og-grid li.loop_swoop > a{
 	background-image: url('../../images/works/component/thumbs/thumbs_loop_swoop.jpg');
 }
-.og-grid li.ibericasa > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_ibericasa.jpg');
+.og-grid li.xfactor > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_xfactor.jpg');
 }
 .og-grid li.sca > a{
 	background-image: url('../../images/works/component/thumbs/thumbs_sca.jpg');
@@ -141,6 +141,15 @@
 }
 .og-grid li.ciaobella > a{
 	background-image: url('../../images/works/component/thumbs/thumbs_ciaobella.jpg');
+}
+.og-grid li.fundacion_mujer > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_fundacion_mujer.jpg');
+}
+.og-grid li.dantec > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_dantec.jpg');
+}
+.og-grid li.heliosone > a{
+	background-image: url('../../images/works/component/thumbs/thumbs_heliosone.jpg');
 }
 /*recent work & featured project*/
 .og-grid li.recent_work{
@@ -188,3 +197,19 @@
 }
 
 /*bottom text*/
+.botton_notes:after{
+	content: ". . .";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	height: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #04D0D0;
+	font-family: 'times new roman';
+	font-size: 40px;
+	max-width: 100px;
+}

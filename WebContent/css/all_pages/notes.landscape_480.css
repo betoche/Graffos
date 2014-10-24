@@ -1,0 +1,17 @@
+/*notes*/
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_landscape_480.jpg');
+}
+.body > .botton_notes{
+	padding: 110px 20px;
+}
+
+/*notes*/
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_landscape_480_red.jpg');
+}
+
+/*contact notes*/
+.botton_notes .bottom_form{
+	top: 180px;
+}

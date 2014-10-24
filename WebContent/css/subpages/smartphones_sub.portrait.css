@@ -34,6 +34,9 @@
 	background-size: 100%;
 	background-position: center center;
 }
+.header_sub .button_container .button_menu.button_menu_b{
+	background-image: url('../../images/default/menu/menu_icon_b.png');
+}
 .exit_menu .button_menu:before{
 	content: "";
 	position: absolute;
@@ -50,6 +53,9 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+.header_sub .logo.logo_b{
+	background-image: url('../../images/default/logos_pet/graffos_logo_b.png');
 }
 
 /*hidding web menu*/

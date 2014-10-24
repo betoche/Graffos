@@ -64,11 +64,11 @@ ul.countdown li p {
 	background-repeat: no-repeat;
 	position: relative;
 	margin: 0 auto;
-	background-image: url('../../images/counter//graffito-pet.png');
+	background-image: url('../../images/counter/graffito-pet.png');
 }
 .button_section{
 	font-size: 15px;
-	padding: 30px;
+	padding: 30px 30px 50px;
 	font-weight: 300;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -119,7 +119,7 @@ input.button:hover{
 	text-align: center;
 	text-transform: lowercase;
 	color: #000;
-	padding: 30px 0px 0px;
+	padding: 50px 0px 0px;
 	font-size: 12px;
 	font-weight: 300;
 }
@@ -140,4 +140,16 @@ input.button:hover{
 	background: rgba(255,255,255,0);
 	margin: auto;
 	z-index: -1;
+}
+
+#subscribe_message{
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	font-size: 12px;
+	position: absolute;
+	margin: 15px auto 0px;
+	font-style: italic;
+	left: 0;
+	right: 0;
 }

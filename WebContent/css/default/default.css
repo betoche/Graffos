@@ -1,4 +1,46 @@
 /* default */
+body ::-moz-selection {
+	background-color: #f90053;
+	color: #fff;
+}
+body ::selection {
+	background-color: #f90053;
+	color: #FFF;
+}
+body ::-o-selection {
+	background-color: #f90053;
+	color: #FFF;
+}
+body ::-ms-selection {
+	background-color: #f90053;
+	color: #FFF;
+}
+body ::-webkit-selection {
+	background-color: #f90053;
+	color: #FFF;
+}
+/*red*/
+body .red_note ::-moz-selection {
+	background-color: #FE4385;
+	color: #fff;
+}
+body .red_note ::selection {
+	background-color: #FE4385;
+	color: #FFF;
+}
+body .red_note ::-o-selection {
+	background-color: #FE4385;
+	color: #FFF;
+}
+body .red_note ::-ms-selection {
+	background-color: #FE4385;
+	color: #FFF;
+}
+body .red_note ::-webkit-selection {
+	background-color: #FE4385;
+	color: #FFF;
+}
+
 *{
 	-webkit-font-smoothing: antialiased;
 }
@@ -37,10 +79,10 @@ a{
 	color:#fff;
 	text-decoration:none;
 }
-a,img:active,input{
+a,img:active,input,textarea{
 	outline:0;
 }
-input[type*="text"],input[type*="textarea"],input[type*="date"],input[type*="text"]{
+input[type*="text"],input[type*="textarea"],input[type*="date"],input[type*="text"],input[type*="email"],textarea{
 	border:none;
 	padding: 6px 8px;
 	-webkit-border-radius: 3px;
@@ -60,70 +102,11 @@ input{
 }
 /*body*/
 
-/*inline divs*/
-/*without margin*/
-.inline_div > div{
-	display: inline-block;
-	margin-right: -3px;
-}
-/*with margins*/
-.inline{
-	display: inline-block;
-}
-.inline_m_div > div{
-	display: inline-block;
-}
-
 /*colors*/
-/*degrades*/
-/*purple*/
-.purple_degrade_bk{
-	background: #440e62;
-	background: -moz-radial-gradient(center, ellipse cover,  #85057B 0%, #440e62 65%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#85057B), color-stop(65%,#440e62));
-	background: -webkit-radial-gradient(center, ellipse cover,  #85057B 0%,#440e62 65%);
-	background: -o-radial-gradient(center, ellipse cover,  #85057B 0%,#440e62 65%);
-	background: -ms-radial-gradient(center, ellipse cover,  #85057B 0%,#440e62 65%);
-	background: radial-gradient(ellipse at center,  #85057B 0%,#440e62 65%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85057B', endColorstr='#440e62',GradientType=1 );
-	/*color*/
-	color: #fff;
-}
-/*orange*/
-.orange_degrade_bk{
-	background: rgb(242,101,34);
-	background: -moz-linear-gradient(left,  rgba(242,101,34,1) 0%, rgba(237,28,36,1) 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(242,101,34,1)), color-stop(100%,rgba(237,28,36,1)));
-	background: -webkit-linear-gradient(left,  rgba(242,101,34,1) 0%,rgba(237,28,36,1) 100%);
-	background: -o-linear-gradient(left,  rgba(242,101,34,1) 0%,rgba(237,28,36,1) 100%);
-	background: -ms-linear-gradient(left,  rgba(242,101,34,1) 0%,rgba(237,28,36,1) 100%);
-	background: linear-gradient(to right,  rgba(242,101,34,1) 0%,rgba(237,28,36,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26522', endColorstr='#ed1c24',GradientType=1 );
-	color: #fff;
-}
-
-/*opacity background*/
-/*yellow 80%*/
-.yellow_bk_80{
-	background: rgba(255,242,0,0.8);
-}
-/*black 60%*/
-.black_bk_60{
-	background: rgba(0,0,0,0.6);
-	color: #fff;
-}
 
 /*solid*/
 /*purple*/
-.purple_bk{
-	background: #440e62;
-	/*color*/
-	color: #fff;
-}
-.black_bk{
-	background: #000;
-}
-.white_bk{
+.white_bck{
 	background: #fff;
 }
 .gray_bck{
@@ -135,15 +118,6 @@ input{
 	color: #fff;
 }
 /*specific colors*/
-.blue_c, a.blue_c{
-	color: #1cbbb4 !important;
-}
-.yellow_c, a.yellow_c{
-	color: #fff200 !important;
-}
-.black_c, a.black_c{
-	color: #000 !important;
-}
 /*background images*/
 .bck_img{
 	position: relative;
@@ -183,97 +157,15 @@ input{
 
 
 /*heights*/
-.h10{
-	height: 10%;
-}
-.h20{
-	height: 20%;
-}
-.h30{
-	height: 30%;
-}
-.h40{
-	height: 40%;
-}
-.h50{
-	height: 50%;
-}
-.h60{
-	height: 60%;
-}
-.h70{
-	height: 70%;
-}
-.h80{
-	height: 80%;
-}
-.h80{
-	height: 80%;
-}
-.h90{
-	height: 90%;
-}
 .h100{
 	height: 100%;
 }
 /*widths*/
-.w10{
-	width: 10%;
-}
-.w20{
-	width: 20%;
-}
-.w30{
-	width: 30%;
-}
-.w40{
-	width: 40%;
-}
-.w50{
-	width: 50%;
-}
-.w60{
-	width: 60%;
-}
-.w70{
-	width: 70%;
-}
-.w80{
-	width: 80%;
-}
-.w80{
-	width: 80%;
-}
-.w90{
-	width: 90%;
-}
 .w100{
 	width: 100%;
 }
 
-/*aligns*/
-.align_left{
-	text-align: left;
-}
-.align_right{
-	text-align: right;
-}
-.align_center{
-	text-align: center;
-}
-/*valign*/
-.valign_middle{
-	vertical-align: middle;
-}
-.valign_middle_div > div{
-	vertical-align: middle;
-}
-
 /*font weight */
-.bolder{
-	font-weight: bold;
-}
-
 .cut,.cuts > *{
 	font-family: arial;
 	white-space: nowrap;

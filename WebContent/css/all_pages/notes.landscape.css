@@ -1,0 +1,11 @@
+/*notes*/
+.botton_notes{
+	background-image: url('../../images/notes/bck_w_note_landscape.jpg');
+	font-size: 16px;
+}
+
+/*red*/
+.botton_notes.red_note{
+	background-image: url('../../images/notes/bck_w_note_landscape_red.jpg');
+	font-size: 16px;
+}
