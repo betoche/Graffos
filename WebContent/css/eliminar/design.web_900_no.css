@@ -1,8 +1,0 @@
-/*design*/
-/*description*/
-.design .description > span {
-	font-size: 20px;
-}
-.design .description > span > span{
-	line-height: 30px;
-}

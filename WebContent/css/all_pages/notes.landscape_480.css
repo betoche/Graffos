@@ -15,3 +15,8 @@
 .botton_notes .bottom_form{
 	top: 180px;
 }
+
+.botton_notes .swiper-slide .button_contact_container .button{
+	width: 180px;
+	padding: 10px 30px;
+}

@@ -69,6 +69,7 @@
 	color: #da1c5c
 }
 .contact_text{
+	min-height: 170px;
 	/*transition*/
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -80,9 +81,9 @@
 /*contact notes*/
 .botton_notes .bottom_form{
 	max-width: 360px;
-	max-height: 160px;
+	max-height: 170px;
 	position: absolute;
-	top: 150px;
+	top: 170px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -102,7 +103,7 @@
 }
 /*input style*/
 .botton_notes .bottom_form div{
-	font-size: 18px;
+	font-size: 16px;
 }
 .red_note  .swiper-slide div{
 	color: #fff;
@@ -165,8 +166,8 @@
 }
 .bottom_form input[type*="text"],.bottom_form input[type*="email"]{
 	background: none;
-	width: 70%;
-	min-width: 220px;
+	width: 100%;
+	min-width: 170px;
 }
 .bottom_form textarea{
 	width: 100%;
@@ -175,7 +176,7 @@
 /*vertical slide*/
 /*default*/
 .botton_notes .device{
-	height: 150px;
+	height: 165px;
 }
 .botton_notes .vertical_slide .swiper-slide,
 .botton_notes .vertical_slide .swiper-wrapper{
@@ -217,6 +218,10 @@
 	width: 100%;
 }
 /*button*/
+.botton_notes .swiper-slide .button_contact_container .button{
+	width: 140px;
+	padding: 10px 5px;
+}
 .botton_notes .bottom_form .button{
 	/*transition*/
 	-moz-transition: all 0.3s ease;
@@ -228,7 +233,6 @@
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: capitalize;
-	width: 100px;
 	/*box-sizing*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */

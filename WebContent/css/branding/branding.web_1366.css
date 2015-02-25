@@ -6,3 +6,20 @@
 .diagonal_line{
 	width: 90%;
 }
+
+.web_steps .steps_text{
+	width: 290px;
+}
+.web_steps .steps_text.step_2{
+	padding: 0;	
+}
+.steps_text{
+	padding: 30px;
+}
+.body > .web_steps{
+	padding: 40px 0px 80px;
+	margin-bottom: 20px;
+}
+.step_2 .description_step{
+	max-width: 220px;
+}

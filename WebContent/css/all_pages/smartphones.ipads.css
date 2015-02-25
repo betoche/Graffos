@@ -49,59 +49,6 @@
 }
 
 
-/*footer*/
-.footer_container{
-	padding: 10px 0px 20px;
-	max-width: none;
-}
-.footer .links_section_container{
-	display: inline-block;
-}
-.sections_container > div{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	display: inline-block;
-	/*box-sizing*/
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-}
-.sections_container > .links_section_container{
-	padding-right: 40px;
-	border-right: 1px solid rgba(255,255,255,0.3);
-}
-.sections_container > .contact_section{
-	padding-left: 40px;
-}
-/*links*/
-.footer .links_section div a{
-	color: rgba(255,255,255,0.6);
-}
-.links_section > *{
-	margin: 5px 0px;
-}
-.links_section a{
-	display: block;
-}
-.links_section div a{
-	margin: 5px 0px;
-	padding-left: 20px;
-	font-size: 12px;
-}
-
-/*copyright*/
-.copyright_footer{
-	right: auto;
-	left: 155px;
-	bottom: 30px;
-}
-.copyright_footer .logo_footer{
-	margin: 0;
-	width: 110px;
-	height: 47px;
-}
-
-
 /*icon menu*/
 .icon_menu.services:after{
 	background-image: url('../../images/default/menu/services.svg');
@@ -140,21 +87,4 @@
 /*logo*/
 .copyright_footer .logo_footer{
 	background-image: url('../../images/default/logos_pet/graffos_logo.svg');
-}
-
-@media only screen and (min-width: 550px){
-	.copyright_footer{
-		text-align: center;
-		left: auto;
-		right: 20px;
-		bottom: 20px;
-	}
-	.footer_container{
-		padding: 10px 20px 20px;
-	}
-	.copyright_footer .logo_footer{
-		margin: 0;
-		width: 130px;
-		height: 55px;
-	}
 }

@@ -63,15 +63,62 @@
 
 
 /*copyright*/
+.copyright_footer{
+	text-align: center;
+	left: auto;
+	right: 20px;
+	bottom: 20px;
+	display: block;
+}
+.footer_container{
+	padding: 10px 20px 20px;
+}
+
+
+
+
+/*footer*/
+.footer_container{
+	padding: 10px 0px 20px;
+	max-width: none;
+}
+.footer .links_section_container{
+	display: inline-block;
+}
+.sections_container > div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+/*links*/
+.links_section > *{
+	margin: 5px 0px;
+}
+.links_section a{
+	text-transform: capitalize;
+	display: block;
+	padding: 2px 0px;
+}
+
+
+
 .copyright_footer .logo_footer{
 	margin: 0px auto 5px;
 	width: 160px;
 	height: 68px;
 }
 .links_section div a{
+	color: rgba(255,255,255,0.6);
+	margin: 5px 0px;
+	padding-left: 20px;
 	font-size: 14px;
 }
 .sections_container > .links_section_container{
+	border-right: 1px solid rgba(255,255,255,0.3);
 	padding-right: 60px;
 }
 .sections_container > .contact_section{

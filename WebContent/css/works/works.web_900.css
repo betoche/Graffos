@@ -21,3 +21,8 @@
 .container_text_work{
 	padding: 70px 20px;
 }
+
+/*slide gallery*/
+.slide_gallery,.slide_gallery_mobile{
+	padding: 30px 0px 60px;
+}

@@ -27,8 +27,16 @@
 }
 /*icon*/
 .branding .rocket{
-	padding: 70px 20px 150px;
+	padding: 70px 20px 70px;
+}
+.body > .steps_p{
+	padding: 70px 20px 30px;
 }
 .branding .rocket_icon_container{
 	margin: 0 auto 30px;
+}
+
+/*slide gallery*/
+.slide_gallery,.slide_gallery_mobile{
+	padding: 70px 0px 60px;
 }

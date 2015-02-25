@@ -1,0 +1,16 @@
+@media only screen and (min-width : 400px){
+	.slide_gallery_mobile_s{
+		display: none;
+	}
+	.slide_gallery_mobile{
+		display: block;
+	}
+	/*text*/
+	.gallery_container .swiper-slide .project_name{
+		font-size: 1.5em;
+		padding-bottom: 20px;
+	}
+	.gallery_container .swiper-slide .project_category{
+		padding-bottom: 20px;
+	}
+}

@@ -13,3 +13,57 @@
 .branding .header_container_skroll a:hover,.branding .menu_sub_container a:hover{
 	color: rgba(255,255,255,0.5);
 }
+
+
+/*steps*/
+.slide_steps{
+	display: none;
+}
+.web_steps{
+	display: block;
+	text-align: center;
+	font-size: 0;
+	position: relative;
+}
+
+.body > .web_steps{
+	padding: 20px 0px 50px;
+}
+.web_steps .steps_text{
+	/*padding: 20px 0px;*/
+	font-size: 16px;
+	display: inline-block;
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	vertical-align: middle;
+	width: 260px;
+}
+.web_steps .steps_text.step_2 .icon_step{
+	width: 200px;
+	height: 200px;
+}
+.icon_step{
+	width: 150px;
+	height: 150px;
+}
+.steps_text{
+	padding: 20px;
+}
+.description_step{
+	width: auto;
+	max-width: none;
+}
+.web_steps:after{
+	content: "";
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0px;
+	border-bottom: 1px solid #C9C9C9;
+	max-width: 100px;
+	margin: auto;
+}

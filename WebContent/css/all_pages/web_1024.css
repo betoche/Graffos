@@ -37,6 +37,9 @@
 	margin: 0 auto;
 	height: 0px;
 }
+.fixed.nav-down{
+	bottom: auto;
+}
 /*buttons*/
 .socialnetwork a{
 	display: block;

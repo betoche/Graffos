@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+    <head class="no-skrollr">
+ 		<title>Graffos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
+        <!-- meta ie compatibility -->
+        <!-- <meta charset="utf-8"> -->
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <!-- detecting devices/removing zoom -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+
+		<!-- jquery librery -->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js" id="loaded-jquery"></script>
+		<!-- preloader -->
+		<link rel="stylesheet" type="text/css" href="css/default/preloader.css" />
+		<script src="js/preloader.js"></script>
+		
+		
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/default/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/default/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/default/menu_mobile.css" media="only screen and (max-width : 900px)"/>
+		<!-- screens -->
+		<!-- Smartphones (portrait) -->
+		<link rel="stylesheet" href="css/all_pages/smartphones.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+		<link rel="stylesheet" href="css/subpages/smartphones_sub.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+		
+		<!-- smartphone (landscape 360)-->
+		<link rel="stylesheet" href="css/all_pages/smartphones.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
+		<link rel="stylesheet" href="css/subpages/smartphones_sub.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.landscape.css" type="text/css" media="only screen and (min-width : 320px)"/>
+
+		<!-- smartphone (landscape 480)-->
+		<link rel="stylesheet" href="css/all_pages/smartphones.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.landscape_480.css" type="text/css" media="only screen and (min-width : 361px)"/>
+
+		<!-- ipad -->
+		<link rel="stylesheet" href="css/all_pages/smartphones.ipads.css" type="text/css" media="only screen and (min-width : 481px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.ipad.css" type="text/css" media="only screen and (min-width : 481px)"/>
+
+		<!-- web 900-->
+		<link rel="stylesheet" href="css/all_pages/web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+		<link rel="stylesheet" href="css/subpages/web_sub_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.web_900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+		
+		<!-- web 1024-->
+		<link rel="stylesheet" href="css/all_pages/web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<link rel="stylesheet" href="css/subpages/web_sub_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- branding -->
+		<link rel="stylesheet" href="css/contact/contact.web_1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<!-- transitions -->
+		<link rel="stylesheet" href="css/default/transitions.default.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<link rel="stylesheet" href="css/subpages/transitions.subpage.css" type="text/css" media="only screen and (min-width : 901px)"/>
+		<link rel="stylesheet" href="css/contact/transitions.contact.css" type="text/css" media="only screen and (min-width : 901px)"/>
+
+		<!-- web 1366-->
+		<link rel="stylesheet" href="css/contact/contact.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+		<!-- component -->
+		<link rel="stylesheet" href="css/component/component.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+
+
+		<!-- web hd-->
+		<link rel="stylesheet" href="css/all_pages/web_hd.css" type="text/css"/>
+		<link rel="stylesheet" href="css/subpages/web_sub_hd.css" type="text/css"/>
+		<link rel="stylesheet" href="css/contact/contact.hd.css" type="text/css"/>
+		<!-- notes -->
+		<link rel="stylesheet" href="css/all_pages/notes.web_hd.css" type="text/css"/>
+
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="css/web_ie.css" type="text/css" media="screen"/>
+		<![endif]-->
+
+		<!-- js -->
+		<!-- moderniz -->
+		<script src="js/modernizr.custom.js"></script>
+
+		<!-- transitions  -->
+		<script type="text/javascript" src="js/content_loaded_transitions.js"></script>
+
+		<script type="text/javascript" src="js/dynamic.home.js"></script>
+		<!-- show/hide -->
+		<script type="text/javascript" src="js/show_hide.js"></script>
+		<!-- scroll down -->
+		<script type="text/javascript" src="js/scroll_up.js"></script>
+
+		<!-- google analytics -->
+		<script>
+		  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  // ga('create', 'UA-52895926-1', 'auto');
+		  // ga('send', 'pageview');
+
+		</script>
+
+		
+	</head>
+
+	<body class="contact" id="skrollr-body">
+		<!-- preloader -->
+		<div id="preloader">
+			<div class="container_preloader">
+				<div class="spinner">
+					<div class="dot1"></div>
+					<div class="dot2"></div>
+				</div>
+				<div class="grafito_preloader">
+				</div>
+				<div class="loading_text">Loading...</div>
+			</div>
+		</div>
+		
+		<!-- header -->
+		<div class="header_container" data-0="" data-1="">
+			<div id="header" class="header_sub">
+				<div class="logo_container"><a href="index.html" class="logo"></a></div>
+				<!-- button -->
+				<div class="button_container">
+					<a href="#defaultpanel" class="button_menu"></a>
+				</div>
+				<div class="menu_sub_container">
+					<!-- <div>
+						<span>services</span>
+						<div class="content_submenu">
+							<div class="links_submenu">
+								<a href="design.html">design</a>
+								<a href="branding.html">Branding</a>
+								<a href="">UI/UX</a>
+								<a href="">CMS</a>
+							</div>
+						</div>
+					</div> -->
+					<a href="design.html">design</a>
+					<a href="branding.html">Branding</a>
+					<a href="works.html">works</a>
+					<a href="contact.html" id="current_page">Contact us</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- menu scroll -->
+		<div class="scroll_down nav-down menu_scroll" data-0="" data-200="">
+			<div>
+				<a href="design.html" class="services">design</a>
+				<a href="branding.html" class="about">branding</a>
+				<a href="works.html" class="work">works</a>
+				<a href="contact.html" class="contact" id="current_link_mobile">Contact us</a>
+			</div>
+		</div>
+
+		<!-- talk skrolling -->
+		<div class="header_container_skroll" data-0="" data-200="">
+			<div>
+				<div class="pet">
+					<div>
+						<div class="body_g"></div>
+						<div class="feet_g"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- mobile menu  -->
+		<div data-role="panel" id="defaultpanel" data-theme="b" data-display="overlay" data-position="right" data-position-fixed="true" data-swipe-close="true" data-dismissible="true">
+
+			<div class="panel-content">
+				<div class="exit_menu">
+					<a href="index.html" class="icon_menu home"></a><a href="#" class="button_menu" data-rel="close"></a>
+				</div>
+				<div class="container_links">
+					<!-- <span class="services icon_menu more_links" onclick="javascript:unhide('services');">services</span> -->
+					<a href="design.html" class="services icon_menu">design</a>
+					<a href="branding.html" class="about icon_menu">branding</a>
+					<a href="works.html" class="work icon_menu">works</a>
+					<a href="contact.html" class="contact icon_menu" id="current_link_mobile">Contact us</a>
+					<!-- <div class="subcategories_mobile unselected ui-panel-animate" id="services">
+						<a href="design.html" class="left_bullet">design</a>
+						<a href="branding.html" class="left_bullet">Branding</a>
+						<a href="" class="left_bullet">UI/UX</a>
+						<a href="" class="left_bullet">CMS</a>
+						<span class="backmenu" onclick="javascript:unhide('services');">back</span>
+					</div> -->
+				</div>
+			</div><!-- /content wrapper for padding -->
+		</div><!-- /defaultpanel -->
+
+
+		<!-- body -->
+		<div class="body intro h100">
+
+			<!-- introduction -->
+			<div class="middle_container h100 w100 bck_img contact_image"  data-0="height: 100%" data-51="height: 65%">
+				<div class="middle_cell">
+					<div class="container_intro">
+						<div class="title">
+							<div class="contact_text trans opacity"  id="trans">
+							</div>
+						</div>
+						<div class="description trans opacity delay2">
+							<div>Our design studio lives in sunny Coventry, so why not phone, email or visit?</div> 
+							<div>We'd love to see you (and we have plenty of biscuits!)</div>
+						</div>
+						<div class="text_bottom_intro">
+							<div class="line_bottom"><span class="line_left trans delay3 lines_c"></span></div>
+							<div class="text_bottom">We'D Love Your Feedback</div>
+							<div class="line_bottom"><span class="line_right trans delay3 lines_c"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- intro text -->
+			<div class="text_contact">
+				<div>
+					<div class="icon_mail"></div>
+					<div>
+						Need assistance? Have a suggestion? Let us know.
+					</div>
+					<div>
+						You can e-mail us for any questions regarding our services. We’d love to help.
+					</div>
+				</div>
+				<!-- inputs -->
+				<div class="input_contact">
+					<form action="">
+						<div>
+							<input type="text" placeholder="Name*" id="name">
+						</div>
+						<div>
+							<input type="email" placeholder="Email*" id="email">
+						</div>
+						<div class="textarea_body">
+							<textarea name="body" id="body" cols="30" rows="10" placeholder="Your Message"></textarea>
+						</div>
+						<div class="button_container">
+							<div class="button">
+								<!-- si se envio bien poner clase thanks y descomentar -->
+								<!-- <span></span>thank you! -->
+								<input type="submit" tabindex="-1"/>
+							</div>
+						</div>
+					</form>
+					<!-- si hay algun error -->
+					<!-- <div class="error_message">email requeried</div> -->
+				</div>
+				<div class="last_info">
+					<div>505.78388188 - 505.81883110</div>
+					<div><a href="mailto:info@graffos.net">info@graffos.net</a></div>
+				</div>
+				<div class="country">
+					<div class="logo"></div>
+					<div>Managua Nicaragua</div>
+				</div>
+			</div>
+
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+
+	        <script src="js/map_style.js">
+	        </script>
+	        <div class="map_container">
+				<div class="agradecimiento">Thank for visit us</div>
+				<div class="map_bottom" id="map">
+				</div>
+	        </div>
+		</div>
+
+		<!-- fixed divs -->
+		<div class="fixed arial nav-down scroll_down">
+			<div class="scrolling_circle ss-pika circle">
+				<div class="keep">keep</div>
+				<div class="scrolling">scrolling</div>
+				<div class="down_icon"></div>
+			</div>
+			<div class="socialnetwork">
+				<a href="#" class="facebook_icon"><img src="images/default/socialnetwork/fb_icon.png" alt="Facebook"></a>
+				<a href="#" class="twitter_icon"><img src="images/default/socialnetwork/tw_icon.png" alt="Twitter"></a>
+				<a href="#" class="instagram_icon"><img src="images/default/socialnetwork/intg_icon.png" alt="Instagram"></a>
+				<a href="#" class="linkedin_icon"><img src="images/default/socialnetwork/in_icon.png" alt="Linkedin"></a>
+			</div>
+		</div>
+
+	</body>
+</html>

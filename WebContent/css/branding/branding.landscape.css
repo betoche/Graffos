@@ -6,3 +6,17 @@
 .branding_text{
 	height: 150px;
 }
+
+/*gallery*/
+.gallery_container .swiper-slide.menuejecutivo:before{
+	background-image: url('../../images/works/slide_gallery/menuejecutivo_m.jpg');
+}
+.gallery_container .swiper-slide.greenspa:before{
+	background-image: url('../../images/works/slide_gallery/green_m.jpg');
+}
+.gallery_container .swiper-slide.dantec:before{
+	background-image: url('../../images/works/slide_gallery/dantec_m.jpg');
+}
+.gallery_container .swiper-slide.heliosone:before{
+	background-image: url('../../images/works/slide_gallery/helios_m.jpg');
+}

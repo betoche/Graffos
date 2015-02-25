@@ -1,0 +1,21 @@
+/*background*/
+.bck_img.contact_image:before{
+	background-image: url('../../images/contact/bck_contact_1024.jpg');
+}
+
+/*menu*/
+.contact #current_page{
+	color: rgba(255,255,255,1);
+}
+.contact .menu_sub_container a:hover,.contact .header_container_skroll a:hover{
+	color: rgba(0,201,244,1);
+}
+.contact .menu_sub_container > *:hover > span{
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+}
+/*skroll menu*/
+.contact #current_page_skroll ~ div a:hover{
+	color: rgba(255,255,255,1);
+}

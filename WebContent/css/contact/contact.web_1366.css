@@ -1,0 +1,4 @@
+/*background*/
+.bck_img.contact_image:before{
+	background-image: url('../../images/contact/bck_contact_1366.jpg');
+}

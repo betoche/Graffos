@@ -1,0 +1,40 @@
+/*background*/
+.bck_img.contact_image:before{
+	background-image: url('../../images/contact/bck_contact_ipad.jpg');
+}
+/*text*/
+.contact_text{
+	height: 87px;
+	max-width: 300px;
+	background-image: url('../../images/contact/contact_text.svg');
+}
+
+.contact .text_contact{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+/*bottom text intro*/
+.text_bottom_intro .line_bottom{
+	width: 25%;
+}
+.text_bottom_intro .text_bottom{
+	width: 50%;
+}
+/*map*/
+.map_container .agradecimiento{
+	font-size: 30px;
+}
+
+/*svg*/
+.country .logo{
+	background-image: url('../../images/default/logos_pet/graffos_logo_b.svg');
+}
+/*alert*/
+.error_message:before{
+	background-image: url('../../images/notes/alert_icon.svg');
+}
+/*thanks*/
+.input_contact .button span{
+	background-image: url('../../images/notes/check_w_icon.svg');
+}

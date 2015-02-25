@@ -1,0 +1,19 @@
+.gallery_container .swiper-slide > div{
+	height: 250px;
+}
+
+
+/*text*/
+.gallery_container .swiper-slide .project_name{
+	font-size: 1.8em;
+	padding-bottom: 25px;
+}
+.gallery_container .swiper-slide .project_category{
+	padding-bottom: 25px;
+}
+.project_view .zoom{
+	background-image: url('../../images/works/slide_gallery/zoom_icon.svg');
+}
+.project_view .link{
+	background-image: url('../../images/works/slide_gallery/link_icon.svg');
+}

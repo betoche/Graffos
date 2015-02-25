@@ -57,6 +57,9 @@
 .header_sub .logo.logo_b{
 	background-image: url('../../images/default/logos_pet/graffos_logo_b.png');
 }
+.header_sub .logo.logo_d{
+	background-image: url('../../images/default/logos_pet/graffos_logo_d.png');
+}
 
 /*hidding web menu*/
 .header_sub > .menu_sub_container{

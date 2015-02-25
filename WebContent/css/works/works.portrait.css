@@ -121,42 +121,35 @@
 }
 
 /*gallery*/
-.og-grid li.nica_challenge > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_nica_challenge.jpg');
+.gallery_container .swiper-slide.menuejecutivo:before{
+	background-image: url('../../images/works/slide_gallery/menuejecutivo_s.jpg');
 }
-.og-grid li.menuejecutivo > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_menuejecutivo.jpg');
+.gallery_container .swiper-slide.greenspa:before{
+	background-image: url('../../images/works/slide_gallery/green_s.jpg');
 }
-.og-grid li.loop_swoop > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_loop_swoop.jpg');
+.gallery_container .swiper-slide.dantec:before{
+	background-image: url('../../images/works/slide_gallery/dantec_s.jpg');
 }
-.og-grid li.xfactor > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_xfactor.jpg');
+.gallery_container .swiper-slide.heliosone:before{
+	background-image: url('../../images/works/slide_gallery/helios_s.jpg');
 }
-.og-grid li.sca > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_sca.jpg');
+.gallery_container .swiper-slide.nica_challenge:before{
+	background-image: url('../../images/works/slide_gallery/nicachallenge_s.jpg');
 }
-.og-grid li.graffos_cards > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_graffos_cards.jpg');
+.gallery_container .swiper-slide.graffos_cards:before{
+	background-image: url('../../images/works/slide_gallery/graffos_cards_s.jpg');
 }
-.og-grid li.ciaobella > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_ciaobella.jpg');
+.gallery_container .swiper-slide.loop_swoop:before{
+	background-image: url('../../images/works/slide_gallery/loopswoop_s.jpg');
 }
-.og-grid li.fundacion_mujer > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_fundacion_mujer.jpg');
+.gallery_container .swiper-slide.xfactor:before{
+	background-image: url('../../images/works/slide_gallery/xfactor_s.jpg');
 }
-.og-grid li.dantec > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_dantec.jpg');
+.gallery_container .swiper-slide.fundacion_mujer:before{
+	background-image: url('../../images/works/slide_gallery/fundacion_mujer_s.jpg');
 }
-.og-grid li.heliosone > a{
-	background-image: url('../../images/works/component/thumbs/thumbs_heliosone.jpg');
-}
-/*recent work & featured project*/
-.og-grid li.recent_work{
-	background-image: url('../../images/works/component/thumbs/thumbs_recent_work.jpg');
-}
-.og-grid li.featured_project{
-	background-image: url('../../images/works/component/thumbs/thumbs_featured_project.jpg');
+.gallery_container .swiper-slide.ciaobella:before{
+	background-image: url('../../images/works/slide_gallery/ciaobella_s.jpg');
 }
 
 
@@ -167,7 +160,7 @@
 	position: relative;
 	text-align: center;
 	line-height: 22px;
-	color: #7D7D7D;
+	/*color: #7D7D7D;*/
 }
 .container_text_work:after{
 	content: "";
@@ -212,4 +205,6 @@
 	font-family: 'times new roman';
 	font-size: 40px;
 	max-width: 100px;
+	line-height: 0;
+	display: block;
 }

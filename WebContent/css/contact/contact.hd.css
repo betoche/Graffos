@@ -1,0 +1,26 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+
+	/*text image*/
+	.contact_text {
+		background-image: url('../../images/contact/contact_text.svg');
+	}
+
+	/*svg*/
+	.country .logo{
+		background-image: url('../../images/default/logos_pet/graffos_logo_b.svg');
+	}
+	/*alert*/
+	.error_message:before{
+		background-image: url('../../images/notes/alert_icon.svg');
+	}
+	/*thanks*/
+	.input_contact .button span{
+		background-image: url('../../images/notes/check_w_icon.svg');
+	}
+	/*background*/
+	@media only screen and (min-width: 1366px) {
+		.bck_img.contact_image:before{
+			background-image: url('../../images/contact/bck_contact_1366.jpg');
+		}
+	}
+}

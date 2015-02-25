@@ -4,6 +4,40 @@
 		background-image: url('../../images/branding/cohete_icon.svg');
 	}
 
+	/*steps*/
+	/*identify*/
+	.identify .title_step span{
+		background-image: url('../../images/branding/1.svg');
+	}
+	/*define*/
+	.define .title_step span{
+		background-image: url('../../images/branding/2.svg');
+	}
+	/*plane*/
+	.deilver .title_step span{
+		background-image: url('../../images/branding/3.svg');
+	}
+	/*lupa*/
+	.identify .icon_step{
+		background-image: url('../../images/branding/identify_Lupa.svg');
+	}
+	/*mouse*/
+	.define .icon_step{
+		background-image: url('../../images/branding/mouse.svg');
+	}
+	/*plane*/
+	.deilver .icon_step{
+		background-image: url('../../images/branding/paper_plane.svg');
+	}
+	/*component*/
+	.og-grid li.case_studios{
+		background-image: url('../../images/branding/component/thumbs/cases.svg');
+	}
+	.og-grid li.see_more{
+		background-image: url('../../images/branding/component/thumbs/see_more.svg');
+	}
+
+
 	/*cohete gif*/
 	@media only screen and (min-width: 901px) {
 		.branding .rocket_icon_container .icon_rocket{

@@ -107,6 +107,9 @@
 		<script type="text/javascript" src="js/dynamic.home.js"></script>
 		<!-- show/hide -->
 		<script type="text/javascript" src="js/show_hide.js"></script>
+		
+		<!-- scroll down -->
+		<script type="text/javascript" src="js/scroll_up.js"></script>
 
 		<!-- google analytics -->
 		<script>
@@ -136,443 +139,434 @@
 			</div>
 		</div>
 		
-			<!-- header -->
-			<div class="header_container" data-0="" data-1="">
-				<div id="header" class="header_sub">
-					<div class="logo_container"><a href="index.html" class="logo"></a></div>
-					<!-- button -->
-					<div class="button_container">
-						<a href="#defaultpanel" class="button_menu"></a>
-					</div>
-					<div class="menu_sub_container">
-						<div>
-							<span>services</span>
-							<div class="content_submenu">
-								<div class="links_submenu">
-									<a href="design.html">design</a>
-									<a href="branding.html">Branding</a>
-									<a href="">UI/UX</a>
-									<a href="">CMS</a>
-								</div>
+		<!-- header -->
+		<div class="header_container" data-0="" data-1="">
+			<div id="header" class="header_sub">
+				<div class="logo_container"><a href="index.html" class="logo"></a></div>
+				<!-- button -->
+				<div class="button_container">
+					<a href="#defaultpanel" class="button_menu"></a>
+				</div>
+				<div class="menu_sub_container">
+					<!-- <div>
+						<span>services</span>
+						<div class="content_submenu">
+							<div class="links_submenu">
+								<a href="design.html">design</a>
+								<a href="branding.html">Branding</a>
+								<a href="">UI/UX</a>
+								<a href="">CMS</a>
 							</div>
 						</div>
-						<a href="works.html">works</a>
-						<a href="">Us</a>
-						<a href="">News</a>
-						<a href="">Contact us</a>
+					</div> -->
+					<a href="design.html">design</a>
+					<a href="branding.html">Branding</a>
+					<a href="works.html">works</a>
+					<a href="contact.html">Contact us</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- menu scroll -->
+		<div class="scroll_down nav-down menu_scroll" id="ola" data-0="" data-200="">
+			<div>
+				<a href="design.html" class="services">design</a>
+				<a href="branding.html" class="about">branding</a>
+				<a href="works.html" class="work">works</a>
+				<a href="contact.html" class="contact" id="current_link_mobile">Contact us</a>
+			</div>
+		</div>
+
+		<!-- header skrolling -->
+		<div class="header_container_skroll" data-0="" data-200="">
+			<div>
+				<div class="pet">
+					<div>
+						<div class="body_g"></div>
+						<div class="feet_g"></div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<!-- header skrolling -->
-			<div class="header_container_skroll" data-0="" data-200="">
-				<div>
-					<div class="pet">
-						<div>
-							<div class="body_g"></div>
-							<div class="feet_g"></div>
+		<!-- mobile menu  -->
+		<div data-role="panel" id="defaultpanel" data-theme="b" data-display="overlay" data-position="right" data-position-fixed="true" data-swipe-close="true" data-dismissible="true">
+
+			<div class="panel-content">
+				<div class="exit_menu">
+					<a href="index.html" class="icon_menu home"></a><a href="#" class="button_menu" data-rel="close"></a>
+				</div>
+				<div class="container_links">
+					<!-- <span class="services icon_menu more_links" onclick="javascript:unhide('services');">services</span> -->
+					<a href="design.html" class="services icon_menu" id="current_link_mobile">design</a>
+					<a href="branding.html" class="about icon_menu">branding</a>
+					<a href="works.html" class="work icon_menu">works</a>
+					<a href="contact.html" class="contact icon_menu">Contact us</a>
+					<!-- <div class="subcategories_mobile unselected ui-panel-animate" id="services">
+						<a href="design.html" class="left_bullet">design</a>
+						<a href="branding.html" class="left_bullet">Branding</a>
+						<a href="" class="left_bullet">UI/UX</a>
+						<a href="" class="left_bullet">CMS</a>
+						<span class="backmenu" onclick="javascript:unhide('services');">back</span>
+					</div> -->
+				</div>
+			</div><!-- /content wrapper for padding -->
+		</div><!-- /defaultpanel -->
+
+
+		<!-- body -->
+		<div class="body intro h100">
+
+			<!-- introduction -->
+			<div class="middle_container h100 w100 bck_img home_image"  data-0="height: 100%" data-51="height: 65%">
+				<div class="middle_cell">
+					<div class="title trans opacity " id="trans">
+						<div class="home_text"></div>
+					</div>
+				</div>
+				<div class="triangle"></div>
+			</div>
+
+			<!-- about -->
+			<div class="container_weare">
+				<div class="title_graffos" data-0="" data-100="">
+					<div>
+						<div class="graffos_img_container">
+							<div class="graffos_img"></div>
+							<div class="triangle_graffos"></div>
 						</div>
 					</div>
-					<div class="header_sub_skroll">
-						<!-- button -->
-						<div class="menu_sub_container_skroll">
-							<div>
-								<span class="services icon_menu"></span>
-								<div class="content_submenu_skroll" data-title="Services">
-									<div class="links_submenu_skroll">
-										<a href="design.html" id="current_link_skroll">design</a>
-										<a href="branding.html">Branding</a>
-										<a href="">UI/UX</a>
-										<a href="">CMS</a>
+				</div>
+			</div>
+			<div class="about_home">
+				<div class="title_about_home">
+				</div>
+				<div>
+					Based in <span>Managua, Nicaragua</span> we are a dedicated team of passionate designers, thinkers, problem solvers and technologists with a variety of complementary skills and interests but a shared love of UX and a desire to push the field forward and make the web better.
+				</div>
+			</div>
+
+
+			<!-- slide design -->
+			<div class="slide_text blue_bck front_section2">
+				<!-- icons -->
+				<div class="icon_container_triangle"  data-0="" data-500="">
+					<div class="triangle_blue"></div>
+					<div class="triangle_red"></div>
+					<div class="triangle_yellow"></div>
+				</div>
+				<div class="icon_slide">
+					<div class="device">
+						<div class="swiper-container slide_text_container">
+							<div class="swiper-wrapper">
+								<!-- sl 1 -->
+								<div class="swiper-slide">
+									<div class="text_slide">
+										We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
+									</div>
+								</div>
+								<!-- sl 2 -->
+								<div class="swiper-slide">
+									<div class="text_slide">
+										We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
+									</div>
+								</div>
+								<!-- sl 3 -->
+								<div class="swiper-slide">
+									<div class="text_slide">
+										We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
 									</div>
 								</div>
 							</div>
-							<a href="works.html" data-title="Works" class="work icon_menu"></a>
-							<a href="" data-title="Us" class="about icon_menu"></a>
-							<a href="" data-title="News" class="news icon_menu"></a>
-							<a href="" data-title="Contact US" class="contact  icon_menu"></a>
+						</div>
+						<div class="pagination"></div>
+					</div>
+				</div>
+				<div class="title_team"  data-0="" data-700="">
+					<div>
+						<div class="team_img_container">
+							<div class="team_img"></div>
+							<div class="triangle_title"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<!-- mobile menu  -->
-			<div data-role="panel" id="defaultpanel" data-theme="b" data-display="overlay" data-position="right" data-position-fixed="true" data-swipe-close="true" data-dismissible="true">
 
-				<div class="panel-content">
-					<div class="exit_menu">
-						<a href="index.html" class="icon_menu home"></a><a href="#" class="button_menu" data-rel="close"></a>
-					</div>
-					<div class="container_links">
-						<span class="services icon_menu more_links" onclick="javascript:unhide('services');">services</span>
-						<a href="works.html" class="work icon_menu">works</a>
-						<a href="" class="about icon_menu">About us</a>
-						<a href="" class="news icon_menu">News</a>
-						<a href="" class="contact icon_menu">Contact us</a>
-						<div class="subcategories_mobile unselected ui-panel-animate" id="services">
-							<a href="design.html" class="left_bullet">design</a>
-							<a href="branding.html" class="left_bullet">Branding</a>
-							<a href="" class="left_bullet">UI/UX</a>
-							<a href="" class="left_bullet">CMS</a>
-							<span class="backmenu" onclick="javascript:unhide('services');">back</span>
-						</div>
-					</div>
-				</div><!-- /content wrapper for padding -->
-			</div><!-- /defaultpanel -->
+			<!-- slide design -->
 
-
-			<!-- body -->
-			<div class="body intro h100">
-
-				<!-- introduction -->
-				<div class="middle_container h100 w100 bck_img home_image"  data-0="height: 100%" data-51="height: 65%">
-					<div class="middle_cell">
-						<div class="title trans opacity " id="trans">
-							<div class="home_text"></div>
-						</div>
-					</div>
-					<div class="triangle"></div>
+			<div class="slide_design team_container front_section white_bck">
+				<!-- title -->
+				<div class="team_title">
 				</div>
-
-				<!-- about -->
-				<div class="container_weare">
-					<div class="title_graffos" data-0="" data-100="">
-						<div>
-							<div class="graffos_img_container">
-								<div class="graffos_img"></div>
-								<div class="triangle_graffos"></div>
+				<!-- slide -->
+				<div class="icon_slide team_mobile">
+					<div class="device">
+						<div class="swiper-container team_slide">
+							<div class="swiper-wrapper">
+								<!-- sl 1 -->
+								<div class="profile swiper-slide roberto">
+									<div class="pic"></div>
+									<div class="name">
+										<a href="mailto:roberto@graffos.com">Roberto<b>Hernandez</b></a>
+									</div>
+									<div class="range">Co-Founder &amp; Creative Director</div>
+									<div class="social_profile">
+										<a href="https://www.facebook.com/ronkone" class="fb_profile" target="_blank"></a>
+										<a href="" class="insta_profile" target="_blank"></a>
+										<a href="skype:robertohernandezi?add" class="skype_profile"></a>
+										<a href="https://plus.google.com/u/0/113062350065881961136/posts" class="gplus_profile" target="_blank"></a>
+										<a href="www.linkedin.com/pub/roberto-hernandez/65/1a2/741/es" class="in_profile" target="_blank"></a>
+									</div>
+								</div>
+								<!-- sl 2 -->
+								<div class="profile swiper-slide lesther">
+									<div class="pic"></div>
+									<div class="name">
+										<a href="mailto:lesther@graffos.com">Lesther<b>Morales</b></a>
+									</div>
+									<div class="range">Co-Founder &amp;</div>
+									<div class="social_profile">
+										<a href="https://www.facebook.com/lesther.morales.10" class="fb_profile" target="_blank"></a>
+										<a href="skype:lesther.morales?add" class="skype_profile"></a>
+										<a href="https://plus.google.com/u/0/103971587524446770156/posts" class="gplus_profile" target="_blank"></a>
+										<a href="www.linkedin.com/in/lesthermorales/" class="in_profile" target="_blank"></a>
+									</div>
+								</div>
+								<!-- sl 3 -->
+								<div class="profile swiper-slide alberto">
+									<div class="pic"></div>
+									<div class="name">
+										<a href="mailto:alberto@graffos.com">Alberto<b>Larios</b></a>
+									</div>
+									<div class="range">Co-Founder &amp; IT</div>
+									<div class="social_profile">
+										<a href="https://www.facebook.com/betoche12" class="fb_profile" target="_blank"></a>
+										<a href="skype:betoche_1?add" class="skype_profile"></a>
+										<a href="https://plus.google.com/u/0/102825586567527563556/posts" class="gplus_profile" target="_blank"></a>
+										<a href="www.linkedin.com/in/albertolarios/es" class="in_profile" target="_blank"></a>
+									</div>
+								</div>
+								<!-- sl 4 -->
+								<div class="profile swiper-slide gerald">
+									<div class="pic"></div>
+									<div class="name">
+										<a href="mailto:gerald@graffos.com">Gerald<b>Morales</b></a>
+									</div>
+									<div class="range">Co-Founder &amp; Tech Leader</div>
+									<div class="social_profile">
+										<a href="https://www.facebook.com/gerald.moraleshudiel" class="fb_profile" target="_blank"></a>
+										<a href="skype:gerald_mhudiel?add" class="skype_profile"></a>
+										<a href="www.linkedin.com/pub/gerald-roberto-morales-hudiel/52/a9a/449" class="in_profile" target="_blank"></a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="about_home">
-					<div class="title_about_home">
+				<div class="team_web">
+					<!-- sl 1 -->
+					<div class="profile roberto">
+						<div class="pic"></div>
+						<div class="name">
+							<a href="mailto:roberto@graffos.com"><span>Roberto</span><b>Hernandez</b></a>
+						</div>
+						<div class="range">Co-Founder &amp; Creative Director</div>
+						<div class="social_profile">
+							<a href="https://www.facebook.com/ronkone" class="fb_profile" target="_blank"></a>
+							<a href="" class="insta_profile" target="_blank"></a>
+							<a href="skype:robertohernandezi?add" class="skype_profile"></a>
+							<a href="https://plus.google.com/u/0/113062350065881961136/posts" class="gplus_profile" target="_blank"></a>
+							<a href="www.linkedin.com/pub/roberto-hernandez/65/1a2/741/es" class="in_profile" target="_blank"></a>
+						</div>
+					</div>
+					<!-- sl 2 -->
+					<div class="profile lesther">
+						<div class="pic"></div>
+						<div class="name">
+							<a href="mailto:lesther@graffos.com"><span>Lesther</span><b>Morales</b></a>
+						</div>
+						<div class="range">Co-Founder &amp;</div>
+						<div class="social_profile">
+							<a href="https://www.facebook.com/lesther.morales.10" class="fb_profile" target="_blank"></a>
+							<a href="skype:lesther.morales?add" class="skype_profile"></a>
+							<a href="https://plus.google.com/u/0/103971587524446770156/posts" class="gplus_profile" target="_blank"></a>
+							<a href="www.linkedin.com/in/lesthermorales/" class="in_profile" target="_blank"></a>
+						</div>
+					</div>
+					<!-- sl 3 -->
+					<div class="profile alberto">
+						<div class="pic"></div>
+						<div class="name">
+							<a href="mailto:alberto@graffos.com"><span>Alberto</span><b>Larios</b></a>
+						</div>
+						<div class="range">Co-Founder &amp; IT</div>
+						<div class="social_profile">
+							<a href="https://www.facebook.com/betoche12" class="fb_profile" target="_blank"></a>
+							<a href="skype:betoche_1?add" class="skype_profile"></a>
+							<a href="https://plus.google.com/u/0/102825586567527563556/posts" class="gplus_profile" target="_blank"></a>
+							<a href="www.linkedin.com/in/albertolarios/es" class="in_profile" target="_blank"></a>
+						</div>
+					</div>
+					<!-- sl 4 -->
+					<div class="profile gerald">
+						<div class="pic"></div>
+						<div class="name">
+							<a href="mailto:gerald@graffos.com"><span>Gerald</span><b>Morales</b></a>
+						</div>
+						<div class="range">Co-Founder &amp; Tech Leader</div>
+						<div class="social_profile">
+							<a href="https://www.facebook.com/gerald.moraleshudiel" class="fb_profile" target="_blank"></a>
+							<a href="skype:gerald_mhudiel?add" class="skype_profile"></a>
+							<a href="www.linkedin.com/pub/gerald-roberto-morales-hudiel/52/a9a/449" class="in_profile" target="_blank"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- note design -->
+			<div class="botton_notes shadow_footer red_note">
+				<div class="coffee_icon">
+				</div>
+				<div class="contact_text selected" id="contact_text">
+					<div>
+					We'll give you the creative push you need to go
+					</div>
+					<div class="lighting">
+						bigger, better and faster. 
 					</div>
 					<div>
-						Based in <span>Managua, Nicaragua</span> we are a dedicated team of passionate designers, thinkers, problem solvers and technologists with a variety of complementary skills and interests but a shared love of UX and a desire to push the field forward and make the web better.
+						Let's have a coffee!
+					</div>
+					<div class="button_container">
+						<a href="javascript:unhide('bottom_form');unhide('contact_text');" class="button white_bck">
+							Give us a call
+						</a>
 					</div>
 				</div>
-
-
-				<!-- slide design -->
-				<div class="slide_text blue_bck">
-					<!-- icons -->
-					<div class="icon_container_triangle"  data-0="" data-500="">
-						<div class="triangle_blue"></div>
-						<div class="triangle_red"></div>
-						<div class="triangle_yellow"></div>
-					</div>
-					<div class="icon_slide">
+				<div class="bottom_form unselected" id="bottom_form">
+					<form action="" name="contact_bottom">
 						<div class="device">
-							<div class="swiper-container slide_text_container">
+							<div class="swiper-container slide_form vertical_slide">
 								<div class="swiper-wrapper">
-									<!-- sl 1 -->
 									<div class="swiper-slide">
-										<div class="text_slide">
-											We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
-										</div>
+										<div>Hi, What's your name?</div>
+										<input type="text" name="name" id="name" placeholder="fulanito" autocomplete="off" tabindex="-1">
 									</div>
-									<!-- sl 2 -->
 									<div class="swiper-slide">
-										<div class="text_slide">
-											We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
-										</div>
+										<div>and your email?</div>
+										<input type="email" name="email" id="email" placeholder="fulanito@youremail.com" tabindex="-1">
 									</div>
-									<!-- sl 3 -->
 									<div class="swiper-slide">
-										<div class="text_slide">
-											We are structured to collaborate closely with our clients. Through activities like <b>hands-on design studios and product immersion</b>, we learn your business and undercover new opportunities.
-										</div>
+										<div>We'd love to hear from you!</div>
+										<textarea name="message" id="message" placeholder="Write us..." tabindex="-1"></textarea>
 									</div>
-								</div>
-							</div>
-							<div class="pagination"></div>
-						</div>
-					</div>
-					<div class="title_team"  data-0="" data-700="">
-						<div>
-							<div class="team_img_container">
-								<div class="team_img"></div>
-								<div class="triangle_title"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<!-- slide design -->
-
-				<div class="slide_design team_container">
-					<!-- title -->
-					<div class="team_title">
-					</div>
-					<!-- slide -->
-					<div class="icon_slide team_mobile">
-						<div class="device">
-							<div class="swiper-container team_slide">
-								<div class="swiper-wrapper">
-									<!-- sl 1 -->
-									<div class="profile swiper-slide roberto">
-										<div class="pic"></div>
-										<div class="name">
-											<a href="mailto:roberto@graffos.com">Roberto<b>Hernandez</b></a>
-										</div>
-										<div class="range">Co-Founder &amp; Creative Director</div>
-										<div class="social_profile">
-											<a href="https://www.facebook.com/ronkone" class="fb_profile" target="_blank"></a>
-											<a href="" class="insta_profile" target="_blank"></a>
-											<a href="skype:robertohernandezi?add" class="skype_profile"></a>
-											<a href="https://plus.google.com/u/0/113062350065881961136/posts" class="gplus_profile" target="_blank"></a>
-											<a href="www.linkedin.com/pub/roberto-hernandez/65/1a2/741/es" class="in_profile" target="_blank"></a>
-										</div>
-									</div>
-									<!-- sl 2 -->
-									<div class="profile swiper-slide lesther">
-										<div class="pic"></div>
-										<div class="name">
-											<a href="mailto:lesther@graffos.com">Lesther<b>Morales</b></a>
-										</div>
-										<div class="range">Co-Founder &amp;</div>
-										<div class="social_profile">
-											<a href="https://www.facebook.com/lesther.morales.10" class="fb_profile" target="_blank"></a>
-											<a href="skype:lesther.morales?add" class="skype_profile"></a>
-											<a href="https://plus.google.com/u/0/103971587524446770156/posts" class="gplus_profile" target="_blank"></a>
-											<a href="www.linkedin.com/in/lesthermorales/" class="in_profile" target="_blank"></a>
-										</div>
-									</div>
-									<!-- sl 3 -->
-									<div class="profile swiper-slide alberto">
-										<div class="pic"></div>
-										<div class="name">
-											<a href="mailto:alberto@graffos.com">Alberto<b>Larios</b></a>
-										</div>
-										<div class="range">Co-Founder &amp; IT</div>
-										<div class="social_profile">
-											<a href="https://www.facebook.com/betoche12" class="fb_profile" target="_blank"></a>
-											<a href="skype:betoche_1?add" class="skype_profile"></a>
-											<a href="https://plus.google.com/u/0/102825586567527563556/posts" class="gplus_profile" target="_blank"></a>
-											<a href="www.linkedin.com/in/albertolarios/es" class="in_profile" target="_blank"></a>
-										</div>
-									</div>
-									<!-- sl 4 -->
-									<div class="profile swiper-slide gerald">
-										<div class="pic"></div>
-										<div class="name">
-											<a href="mailto:gerald@graffos.com">Gerald<b>Morales</b></a>
-										</div>
-										<div class="range">Co-Founder &amp; Tech Leader</div>
-										<div class="social_profile">
-											<a href="https://www.facebook.com/gerald.moraleshudiel" class="fb_profile" target="_blank"></a>
-											<a href="skype:gerald_mhudiel?add" class="skype_profile"></a>
-											<a href="www.linkedin.com/pub/gerald-roberto-morales-hudiel/52/a9a/449" class="in_profile" target="_blank"></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="team_web">
-						<!-- sl 1 -->
-						<div class="profile roberto">
-							<div class="pic"></div>
-							<div class="name">
-								<a href="mailto:roberto@graffos.com"><span>Roberto</span><b>Hernandez</b></a>
-							</div>
-							<div class="range">Co-Founder &amp; Creative Director</div>
-							<div class="social_profile">
-								<a href="https://www.facebook.com/ronkone" class="fb_profile" target="_blank"></a>
-								<a href="" class="insta_profile" target="_blank"></a>
-								<a href="skype:robertohernandezi?add" class="skype_profile"></a>
-								<a href="https://plus.google.com/u/0/113062350065881961136/posts" class="gplus_profile" target="_blank"></a>
-								<a href="www.linkedin.com/pub/roberto-hernandez/65/1a2/741/es" class="in_profile" target="_blank"></a>
-							</div>
-						</div>
-						<!-- sl 2 -->
-						<div class="profile lesther">
-							<div class="pic"></div>
-							<div class="name">
-								<a href="mailto:lesther@graffos.com"><span>Lesther</span><b>Morales</b></a>
-							</div>
-							<div class="range">Co-Founder &amp;</div>
-							<div class="social_profile">
-								<a href="https://www.facebook.com/lesther.morales.10" class="fb_profile" target="_blank"></a>
-								<a href="skype:lesther.morales?add" class="skype_profile"></a>
-								<a href="https://plus.google.com/u/0/103971587524446770156/posts" class="gplus_profile" target="_blank"></a>
-								<a href="www.linkedin.com/in/lesthermorales/" class="in_profile" target="_blank"></a>
-							</div>
-						</div>
-						<!-- sl 3 -->
-						<div class="profile alberto">
-							<div class="pic"></div>
-							<div class="name">
-								<a href="mailto:alberto@graffos.com"><span>Alberto</span><b>Larios</b></a>
-							</div>
-							<div class="range">Co-Founder &amp; IT</div>
-							<div class="social_profile">
-								<a href="https://www.facebook.com/betoche12" class="fb_profile" target="_blank"></a>
-								<a href="skype:betoche_1?add" class="skype_profile"></a>
-								<a href="https://plus.google.com/u/0/102825586567527563556/posts" class="gplus_profile" target="_blank"></a>
-								<a href="www.linkedin.com/in/albertolarios/es" class="in_profile" target="_blank"></a>
-							</div>
-						</div>
-						<!-- sl 4 -->
-						<div class="profile gerald">
-							<div class="pic"></div>
-							<div class="name">
-								<a href="mailto:gerald@graffos.com"><span>Gerald</span><b>Morales</b></a>
-							</div>
-							<div class="range">Co-Founder &amp; Tech Leader</div>
-							<div class="social_profile">
-								<a href="https://www.facebook.com/gerald.moraleshudiel" class="fb_profile" target="_blank"></a>
-								<a href="skype:gerald_mhudiel?add" class="skype_profile"></a>
-								<a href="www.linkedin.com/pub/gerald-roberto-morales-hudiel/52/a9a/449" class="in_profile" target="_blank"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- note design -->
-				<div class="botton_notes shadow_footer red_note">
-					<div class="coffee_icon">
-					</div>
-					<div class="contact_text selected" id="contact_text">
-						<div>
-						We'll give you the creative push you need to go
-						</div>
-						<div class="lighting">
-							bigger, better and faster. 
-						</div>
-						<div>
-							Let's have a coffee!
-						</div>
-						<div class="button_container">
-							<a href="javascript:unhide('bottom_form');unhide('contact_text');" class="button white_bck">
-								Give us a call
-							</a>
-						</div>
-					</div>
-					<div class="bottom_form unselected" id="bottom_form">
-						<form action="" name="contact_bottom">
-							<div class="device">
-								<div class="swiper-container slide_form vertical_slide">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<div>Hi, What's your name?</div>
-											<input type="text" name="name" id="name" placeholder="fulanito" autocomplete="off" tabindex="-1">
-										</div>
-										<div class="swiper-slide">
-											<div>and your email?</div>
-											<input type="email" name="email" id="email" placeholder="fulanito@youremail.com" tabindex="-1">
-										</div>
-										<div class="swiper-slide">
-											<div>We'd love to hear from you!</div>
-											<textarea name="message" id="message" placeholder="Write us..." tabindex="-1"></textarea>
-										</div>
-										<div class="swiper-slide message_button">
-											<div class="button_contact_container">
-												<div>
-													<div class="button" style="width: 220px;">
-														<span></span>thank you!
-														<input type="submit" tabindex="-1" style="display:none"/>
-													</div>
-													<div class="error_message" style="display:none">email requeried</div>
-													<div class="note_contact">
-														We won't sent you any spam.<br/>We respect your privacy. 
-													</div>
+									<div class="swiper-slide message_button">
+										<div class="button_contact_container">
+											<div>
+												<div class="button">
+													<span></span>thank you!
+													<input type="submit" tabindex="-1" style="display:none"/>
+												</div>
+												<div class="error_message" style="display:none">email requeried</div>
+												<div class="note_contact">
+													We won't sent you any spam.<br/>We respect your privacy. 
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="vertical_pagination"></div>
 							</div>
-						</form>
-					</div>
+							<div class="vertical_pagination"></div>
+						</div>
+					</form>
 				</div>
+			</div>
 
-				<!-- footer -->
-				<div class="footer last_div" data-0="" data-300-end="">
-					<div class="footer_container">
-						<div class="sections_container">
-							<div class="links_section_container">
-								<div class="title_footer">sections</div>
-								<div class="links_section">
+			<!-- footer -->
+			<div class="footer last_div" data-0="" data-300-end="">
+				<div class="footer_container">
+					<div class="sections_container">
+						<div class="links_section_container">
+							<div class="title_footer">sections</div>
+							<div class="links_section">
+								<!-- <div>
+									<span>Services</span>
 									<div>
-										<span>Services</span>
-										<div>
-											<a href="design.html">Design</a>
-											<a href="branding.html">Branding</a>
-											<a href="">UI/UX</a>
-											<a href="">CMS</a>
-										</div>
+										<a href="design.html">Design</a>
+										<a href="branding.html">Branding</a>
+										<a href="">UI/UX</a>
+										<a href="">CMS</a>
 									</div>
-									<a href="works.html">Works</a>
-									<a href="">News</a>
-									<a href="">US</a>
-								</div>
+								</div> -->
+								<a href="design.html">design</a>
+								<a href="branding.html">branding</a>
+								<a href="works.html">Works</a>
+								<a href="contact.html">Contact</a>
 							</div>
-							<div class="contact_section">
-								<div class="title_footer">contact</div>
-								<div class="content_contact">
-									<div class="address">Managua, Nicaragua</div>
-									<div class="phone_footer icon_footer"><span>505.78388188 - 81883110</span></div>
-									<div class="mail_footer icon_footer"><a href="mailto:info@graffos.net">info<span class="arial">@</span>graffos.net</a></div>
-									<div class="skype_footer icon_footer">
-										<span>Our Skype:</span> <a href="skype:graffosni?add" class="skype_text">graffosni</a>
-									</div>
+						</div>
+						<div class="contact_section">
+							<div class="title_footer">contact</div>
+							<div class="content_contact">
+								<div class="address">Managua, Nicaragua</div>
+								<div class="phone_footer icon_footer"><span>505.78388188 - 81883110</span></div>
+								<div class="mail_footer icon_footer"><a href="mailto:info@graffos.net">info<span class="arial">@</span>graffos.net</a></div>
+								<div class="skype_footer icon_footer">
+									<span>Our Skype:</span> <a href="skype:graffosni?add" class="skype_text">graffosni</a>
 								</div>
 							</div>
 						</div>
-						<div class="copyright_footer">
-							<div class="logo_footer"></div>
-							<div class="copyright_text"><span class="arial">&#169;</span> Copyright <span>2014</span></div>
-						</div>
+					</div>
+					<div class="copyright_footer">
+						<div class="logo_footer"></div>
+						<div class="copyright_text"><span class="arial">&#169;</span> Copyright <span>2014</span></div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<!-- fixed divs -->
-			<div class="fixed arial">
-				<div class="scrolling_circle ss-pika circle">
-					<div class="keep">keep</div>
-					<div class="scrolling">scrolling</div>
-					<div class="down_icon"></div>
-				</div>
-				<div class="socialnetwork">
-					<a href="#" class="facebook_icon"><img src="images/default/socialnetwork/fb_icon.png" alt="Facebook"></a>
-					<a href="#" class="twitter_icon"><img src="images/default/socialnetwork/tw_icon.png" alt="Twitter"></a>
-					<a href="#" class="instagram_icon"><img src="images/default/socialnetwork/intg_icon.png" alt="Instagram"></a>
-					<a href="#" class="linkedin_icon"><img src="images/default/socialnetwork/in_icon.png" alt="Linkedin"></a>
-				</div>
+		<!-- fixed divs -->
+		<div class="fixed arial nav-down scroll_down">
+			<div class="scrolling_circle ss-pika circle">
+				<div class="keep">keep</div>
+				<div class="scrolling">scrolling</div>
+				<div class="down_icon"></div>
 			</div>
-			<!-- slide -->
-			<script src="js/idangerous.swiper-2.1.min.js"></script>
-			<script type="text/javascript">
-				var mySwiper = new Swiper('.slide_text_container',{
-					pagination: '.pagination',
-					loop:true,
-					autoplayDisableOnInteraction:false,
-					autoplay:5000,
-					grabCursor: true,
-					paginationClickable: true
-				})
-				var mySwiper = new Swiper('.team_slide',{
-					loop:true,
-					autoplayDisableOnInteraction:false,
-					autoplay: 7000,
-					grabCursor: true,
-					paginationClickable: true
-				})
-				var mySwiper = new Swiper('.slide_form',{
-					loop:false,
-					autoplayDisableOnInteraction:true,
-					grabCursor: true,
-					paginationClickable: true,
-					mode : 'vertical',
-					pagination: '.vertical_pagination',
-					keyboardControl: true,
-					mousewheelControl: true
-				})
-			</script>
+			<div class="socialnetwork">
+				<a href="#" class="facebook_icon"><img src="images/default/socialnetwork/fb_icon.png" alt="Facebook"></a>
+				<a href="#" class="twitter_icon"><img src="images/default/socialnetwork/tw_icon.png" alt="Twitter"></a>
+				<a href="#" class="instagram_icon"><img src="images/default/socialnetwork/intg_icon.png" alt="Instagram"></a>
+				<a href="#" class="linkedin_icon"><img src="images/default/socialnetwork/in_icon.png" alt="Linkedin"></a>
+			</div>
+		</div>
+		<!-- slide -->
+		<script src="js/idangerous.swiper-2.1.min.js"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.slide_text_container',{
+				pagination: '.pagination',
+				loop:true,
+				autoplayDisableOnInteraction:false,
+				autoplay:5000,
+				grabCursor: true,
+				paginationClickable: true
+			})
+			var mySwiper = new Swiper('.team_slide',{
+				loop:true,
+				autoplayDisableOnInteraction:false,
+				autoplay: 7000,
+				grabCursor: true,
+				paginationClickable: true
+			})
+			var mySwiper = new Swiper('.slide_form',{
+				loop:false,
+				autoplayDisableOnInteraction:true,
+				grabCursor: true,
+				paginationClickable: true,
+				mode : 'vertical',
+				pagination: '.vertical_pagination',
+				keyboardControl: true,
+				mousewheelControl: true
+			})
+		</script>
 	</body>
 </html>

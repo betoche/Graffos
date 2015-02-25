@@ -1,0 +1,49 @@
+.contact_image{
+	/*transition*/
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+/*background*/
+.bck_img.contact_image:before{
+	background-attachment: fixed;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/*lines*/
+.lines_c{
+	-webkit-animation-name: lines_c;
+	-moz-animation-name: lines_c;
+	-o-animation-name: lines_c;
+	animation-name: lines_c;
+	-webkit-animation-duration: 1s !important;
+	-moz-animation-duration: 1s !important;
+	-o-animation-duration: 1s !important;
+	animation-duration: 1s !important;
+}
+@-webkit-keyframes lines_c {
+	0%{ width: 0;}
+}
+@-moz-keyframes lines_c {
+	0%{ width: 0;}
+}
+@-o-keyframes lines_c {
+	0%{ width: 0;}
+}
+@keyframes lines_c {
+	0%{ width: 0;}
+}
+@-ms-keyframes lines_c {
+	0%{ width: 0;}
+}
+.delay3{
+	-webkit-animation-delay: 1.8s !important;
+	-moz-animation-delay: 1.8s !important;
+	-o-animation-delay: 1.8s !important;
+	animation-delay: 1.8s !important;
+}

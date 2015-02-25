@@ -6,6 +6,9 @@
 	.header_sub .logo.logo_b{
 		background-image: url('../../images/default/logos_pet/graffos_logo_b.svg');
 	}
+	.header_sub .logo.logo_d{
+		background-image: url('../../images/default/logos_pet/graffos_logo_d.svg');
+	}
 	.header_sub .button_container .button_menu,.exit_menu .button_menu:before{
 		background-image: url('../../images/default/menu/menu_icon.svg');
 	}

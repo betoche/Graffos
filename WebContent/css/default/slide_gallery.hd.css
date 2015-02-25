@@ -1,0 +1,9 @@
+@media (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
+	/*icons*/
+	.project_view .zoom{
+		background-image: url('../../images/works/slide_gallery/zoom_icon.svg');
+	}
+	.project_view .link{
+		background-image: url('../../images/works/slide_gallery/link_icon.svg');
+	}
+}

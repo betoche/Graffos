@@ -1,0 +1,34 @@
+.slide_gallery,.slide_gallery_mobile{
+	padding: 70px 0px 70px;
+}
+.slide_gallery{
+	display: block;
+}
+.slide_gallery_mobile{
+	display: none;
+}
+.gallery_container .swiper-slide > div{
+	height: 330px;
+}
+/*text*/
+.gallery_container .swiper-slide .project_name{
+	font-size: 2em;
+	padding-bottom: 30px;
+}
+.gallery_container .swiper-slide .project_category{
+	padding-bottom: 30px;
+}
+/*zoom link*/
+.project_view a{
+	width: 40px;
+	height: 40px;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.project_view a:hover{
+	border-color: #04D0D0; 
+	background-color: #04D0D0;
+}

@@ -1,0 +1,18 @@
+/*background*/
+.bck_img.contact_image:before{
+	background-image: url('../../images/contact/bck_contact_landscape_480.jpg');
+}
+/*text*/
+.contact_text{
+	max-width: 230px;
+	height: 70px;
+}
+
+/*bottom text intro*/
+.text_bottom_intro .line_bottom{
+	width: 30px;
+}
+.text_bottom_intro .text_bottom{
+	width: auto;
+	max-width: 220px;
+}
