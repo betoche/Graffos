@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+ 		<title>Graffos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- meta ie compatibility -->
+        <!-- <meta charset="utf-8"> -->
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <!-- detecting devices/removing zoom -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"/>
+		<!-- <link rel="stylesheet" type="text/css" href="css/preloader.css" /> -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/counter/count_default.css" />
+		
+		<!-- screens -->
+		<!-- Smartphones (portrait 240 - 320) -->
+		<link rel="stylesheet" href="css/counter/count_smartphones.portrait.css" type="text/css" media="only screen and (min-width : 240px)"/>
+
+		<!-- smartphone (landscape 360 - 321)-->
+		<link rel="stylesheet" href="css/counter/count_smartphones.landscape.css" type="text/css" media="only screen and (min-width : 321px)"/>
+
+		<!-- smartphone (480 - 361) -->
+		<link rel="stylesheet" href="css/counter/count_smartphones.landscape.480.css" type="text/css" media="only screen and (min-width : 361px)"/>
+
+		<!-- ipad (481 - 700) -->
+		<link rel="stylesheet" href="css/counter/count_ipad.css" type="text/css" media="only screen and (min-width : 481px)"/>
+
+		<!-- web (900 - 701) -->
+		<link rel="stylesheet" href="css/counter/count_web.900.css" type="text/css" media="only screen and (min-width : 701px)"/>
+
+		<!-- web (1024 - 901) -->
+		<link rel="stylesheet" href="css/counter/count_web.1024.css" type="text/css" media="only screen and (min-width : 901px)"/>
+
+		<!-- web (1366 - 1024) -->
+		<link rel="stylesheet" href="css/counter/count_web.1366.css" type="text/css" media="only screen and (min-width : 1025px)"/>
+
+		<!-- hd -->
+		<link rel="stylesheet" href="css/counter/count_web.hd.css" type="text/css"/>
+
+		<!-- hacks -->
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="css/web_ie.css" type="text/css" media="screen"/>
+		<![endif]-->
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+		<!-- js -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+		<script type="text/javascript" src="js/downcount.js"></script>
+
+				<!-- google analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-52895926-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+		<div class="container_countdown">
+			<div>
+				<div class="intro">
+					graffos Will be available in
+				</div>
+				<ul class="countdown">
+					<li>
+						<span class="days">00</span>
+						<p class="days_ref">days</p>
+					</li>
+					<li class="seperator">:</li>
+					<li> <span class="hours">00</span>
+						<p class="hours_ref">hours</p>
+					</li>
+					<li class="seperator">:</li>
+					<li>
+						<span class="minutes">00</span>
+						<p class="minutes_ref">minutes</p>
+					</li>
+					<li class="seperator">:</li>
+					<li>
+						<span class="seconds">00</span>
+						<p class="seconds_ref">seconds</p>
+					</li>
+				</ul>
+				<script type="text/javascript">
+					function createCORSRequest(method, url) {
+						var xhr = new XMLHttpRequest();
+						if ("withCredentials" in xhr) {
+							// XHR for Chrome/Firefox/Opera/Safari.
+							xhr.open(method, url, true);
+						} else if (typeof XDomainRequest != "undefined") {
+							// XDomainRequest for IE.
+							xhr = new XDomainRequest();
+							xhr.open(method, url);
+						} else {
+							// CORS not supported.
+							xhr = null;
+						}
+						return xhr;
+					}
+					
+					// Helper method to parse the title tag from the response.
+					function getTitle(text) {
+						return text.match('<title>(.*)?</title>')[1];
+					}
+					
+					// Make the actual CORS request.
+					function makeCorsRequest( url ) {
+						// All HTML5 Rocks properties support CORS.
+						//var url = 'http://updates.html5rocks.com';
+						
+						var xhr = createCORSRequest('POST', url);
+						if (!xhr) {
+							alert('CORS not supported');
+							return;
+						}
+					
+					// Response handlers.
+						xhr.onload = function() {
+							var text = xhr.responseText;
+							var title = getTitle(text);
+							alert('Response from CORS request to ' + url + ': ' + title);
+						};
+					
+						xhr.onerror = function() {
+							alert('Woops, there was an error making the request.');
+						};
+					
+						xhr.send();
+					}
+					
+					function subscribe() {
+						console.log( 'subscribe function' );
+						var email = document.getElementById("email");
+						var message = document.getElementById( "subscribe_message" );
+						
+						if( email.value ) {
+							var url = "http://graffos-graffos.rhcloud.com/Graffos/subscribe?email="+email.value;
+							
+							var xmlhttp;
+							if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+								xmlhttp=new XMLHttpRequest();
+							} else {// code for IE6, IE5
+								xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+							}
+							xmlhttp.onreadystatechange=function() {
+								//console.log( "xmlhttp.readyState["+xmlhttp.readyState+"], xmlhttp.status["+xmlhttp.status+"]" + xmlhttp.responseText );
+								if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+									email.value = '';
+									message.style.display="block";
+									message.innerHTML="Thank you for subscribing, we'll keep you informed";
+								}else {
+									message.style.display="block";
+									message.innerHTML="Sorry, there's a problem trying to subscribe you, please try again later";
+									try{
+										console.log( "xmlhttp.readyState["+xmlhttp.readyState+"], xmlhttp.status["+xmlhttp.status+"]" + xmlhttp.responseText );
+									}catch(err){
+									}
+								}
+							}
+							console.log( "url["+url+"]" );
+							xmlhttp.open("POST",url,false);
+							xmlhttp.send();
+						} else {
+							message.innerHTML="please type in your email first";
+							message.style.display="block";
+							console.log( 'no email passed' );
+						}
+					}
+				</script>
+				<div class="text_container">
+					<div class="graffos">
+						<div class="pet_body"></div>
+						<div class="pet_feet"></div>
+						<div class="graffos_text">
+							<div>
+								We are <span class="graffos_logo"></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="button_section">
+						<div>
+							Want to know what we offer before launching
+						</div>
+						<form>
+							<input type="email" id="email" name="email" class="email" placeholder="your@emailaddress.com">
+							<input type="button" class="button" onclick="javascript:subscribe();" value="submit">
+							<br/>
+							<span style="display: none;" id="subscribe_message"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script class="source" type="text/javascript">
+			$('.countdown').downCount({
+				date: '02/28/2015 12:00:00',
+				offset: +10
+			});
+		</script>
+	</body>
+</html>
